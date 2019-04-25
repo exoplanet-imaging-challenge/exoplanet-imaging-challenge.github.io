@@ -1,5 +1,5 @@
 # Site settings
-title: Project Pages
+title: Exoplanet imaging challenge
 description: "Community-wide data challenge for high-contrast imaging data processing and the comparison of exoplanet direct detection algorithms"
 url: "https://exoplanet-imaging-challenge.github.io.github.io"
 
@@ -7,16 +7,16 @@ url: "https://exoplanet-imaging-challenge.github.io.github.io"
 
 
 # Secondary Parameters
-baseurl: "/project-pages"
+baseurl: "/exoplanet-imaging-challenge"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/challenge_logo_lowres.png
+logo: /exoplanet-imaging-challenge/img/challenge_logo_lowres.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
-disqus_shortname: project-pages
-g-analytics: UA-75881392-1
+github_username:  exoplanet-imaging-challenge
+project_repository: exoplanet-imaging-challenge.github.io
+#disqus_shortname: project-pages
+g-analytics: UA-84473187-3
 altmetric: true
 
 # Build settings
