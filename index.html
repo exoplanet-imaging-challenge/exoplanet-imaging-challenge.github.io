@@ -2,20 +2,21 @@
 layout: page
 title: Exoplanet Imaging Data Challenge
 subtitle: Community-wide data challenge for high-contrast imaging data processing and the comparison of exoplanet direct detection algorithms
-use-site-title: true
+use-site-title: false
 ---
 
+<br />
+
+<p> Welcome to The Exoplanet Imaging Data Challenge, a community-wide effort to compare algorithms for detecting exoplanets with ground-based high-contrast imaging. The challenge is organized in collaboration with several members of the high-contrast imaging community and has direct support from the Grenoble Alpes Data Institute (Université Grenoble Alpes, France). In the spirit of openness, all the benchmark datasets, metrics and results will be publicly available at the end of the competition.</p>
+
+
 <div class="posts-list">
+  <h1>What's new:</h1>
+
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+	  <h5 class="post-title">{{ post.title }}</h5>
     </a>
 
     <p class="post-meta">
@@ -39,18 +40,18 @@ use-site-title: true
       </div>
     </div>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
+<!--    {% if post.tags.size > 0 %}-->
+<!--    <div class="blog-tags">-->
+<!--      Tags:-->
+<!--      {% if site.link-tags %}-->
+<!--      {% for tag in post.tags %}-->
+<!--      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>-->
+<!--      {% endfor %}-->
+<!--      {% else %}-->
+<!--        {{ post.tags | join: ", " }}-->
+<!--      {% endif %}-->
+<!--    </div>-->
+<!--    {% endif %}-->
 
    </article>
   {% endfor %}

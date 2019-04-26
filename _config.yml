@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Exoplanet Imaging Data Challenge
+title: Exoplanet Imaging Challenge
 
 # Short description of your site
 description: Community-wide data challenge for high-contrast imaging data processing and the comparison of exoplanet direct detection algorithms
@@ -23,12 +23,13 @@ description: Community-wide data challenge for high-contrast imaging data proces
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  Objectives: "context"
+  Sub-challenges: "subchallenges"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+    - Datasets: "datasets"
+    - Metrics: "metrics"
+    - Extras repository: "https://github.com/carlgogo/exoimaging_challenge_extras"
+  Team: "team"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -42,21 +43,20 @@ avatar: "/img/challenge_logo.003_lowres.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
+navbar-col: "#152258"
+navbar-text-col: "#ffffff" # "#404040"
+navbar-children-col: "#152258"
+page-col: "#ffffff"
 link-col: "#008AFF"
-hover-col: "#0085A1"
+hover-col: "#188dfb" # "#0085A1"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
-# instead of colour
-
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
+# instead of colour (not really working)
+#navbar-img: "/img/path.jpg"
+#footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
@@ -149,7 +149,7 @@ staticman:
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 20
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title

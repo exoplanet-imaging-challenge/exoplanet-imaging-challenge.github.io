@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Metrics and scoreboard</title>
+
+  <meta name="author" content="Carlos Alberto Gomez Gonzalez" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Exoplanet Imaging Challenge - Community-wide data challenge for high-contrast imaging data processing and the comparison of exoplanet direct detection algorithms" href="/feed.xml" />
+
+  
+
+  
+
+  
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-84473187-3', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Metrics and scoreboard" />
+  
+
+   
+  <meta property="og:description" content="This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. ##...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://0.0.0.0:4000/metrics/" />
+  <link rel="canonical" href="http://0.0.0.0:4000/metrics/" />
+  
+
+  
+  <meta property="og:image" content="http://0.0.0.0:4000/img/challenge_logo.003_lowres.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Metrics and scoreboard" />
+  
+
+  
+  <meta name="twitter:description" content="This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. ##...">
+  
+
+  
+  <meta name="twitter:image" content="http://0.0.0.0:4000/img/challenge_logo.003_lowres.png" />
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://0.0.0.0:4000">Exoplanet Imaging Challenge</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/context">Objectives</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/subchallenges">Sub-challenges</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/datasets">Datasets</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/metrics">Metrics</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="https://github.com/carlgogo/exoimaging_challenge_extras">Extras repository</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/team">Team</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://0.0.0.0:4000">
+	      <img class="avatar-img" src="/img/challenge_logo.003_lowres.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <br />
+<br />
+
+<!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Metrics and scoreboard</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p>This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives.</p>
+
+<h2 id="phases">Phases</h2>
+
+<p>This challenge will consist of two consecutive phases (while the sub-challenges run in parallel), each one with its own type of submission and metrics. On the table below, you can find a summary of the metrics used for each phase:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">Sub-challenge 1: ADI</th>
+      <th style="text-align: center">Sub-challenge 2: ADI+mSDI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><strong>Phase</strong></td>
+      <td style="text-align: center"><em>Metric</em></td>
+      <td style="text-align: center"><em>Metric</em></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>1</strong></td>
+      <td style="text-align: center">F1, TPR and FDR</td>
+      <td style="text-align: center">F1, TPR and FDR</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>2</strong></td>
+      <td style="text-align: center">ROC space</td>
+      <td style="text-align: center">ROC space</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Phase 1</strong>: In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, consists of a list of detection maps (nine for the first sub-challenge and ten for the second), a detection threshold (the accepted threshold at which a detection is claimed) and the FHWM values for each dataset. For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must include the following files: gpi_detmap_1.fits, gpi_detmap_2.fits, gpi_detmap_3.fits, gpi_detmap_4.fits, gpi_detmap_5.fits, sphere_ifs_detmap_1, sphere_ifs_detmap_2, sphere_ifs_detmap_3, sphere_ifs_detmap_4, sphere_ifs_detmap_5, gpi_fwhm_1.fits, gpi_fwhm_2.fits, gpi_fwhm_3.fits, gpi_fwhm_4.fits, gpi_fwhm_5.fits, sphere_ifs_fwhm_1, sphere_ifs_fwhm_2, sphere_ifs_fwhm_3, sphere_ifs_fwhm_4, sphere_ifs_fwhm_5, detection_threshold.fits.</p>
+
+<p>By thresholding each detection map and counting the true and false positives, we define several metrics:</p>
+
+<ul>
+  <li>the true positive rate (TPR) also known as sensitivity or recall: <code class="highlighter-rouge">TPR = TPs / Ninj</code>,</li>
+  <li>the false discovery/detection rate (FDR): <code class="highlighter-rouge">FDR = FPs / Ndet</code>,</li>
+  <li>the precision or positive predictive value (PPV): <code class="highlighter-rouge">PPV = TPs / Ndet</code>,</li>
+  <li>the F1-score or harmonic mean of TPR and the precision: <code class="highlighter-rouge">F1 = 2 * PPV * TPR / (PPV + TPR)</code>.</li>
+</ul>
+
+<p>where <code class="highlighter-rouge">TPs</code> is the number of true positives/detections, <code class="highlighter-rouge">FPs</code> is the total number of false positives or Type I error, <code class="highlighter-rouge">Ndet</code> is the total number of detections (<code class="highlighter-rouge">TPs + FPs</code>) and <code class="highlighter-rouge">Ninj</code> is the total number of injections (accros all the datasets of a given sub-challenge). The <code class="highlighter-rouge">TPs</code>, <code class="highlighter-rouge">FPs</code> and <code class="highlighter-rouge">Ndet</code> are counted for a given participant/algorithm over all the datasets of a given sub-challenge. This blob counting procedure is implemented in the <a href="https://github.com/vortex-exoplanet/VIP">Vortex Image Processing package</a>, specifically in the <code class="highlighter-rouge">compute_binary_map</code> function found <a href="https://github.com/vortex-exoplanet/VIP/blob/master/vip_hci/metrics/roc.py">here</a>. Read below about the Data Challenge starting kit, which contains detailed explanations about the blob counting procedure.</p>
+
+<p>Two <strong>scoreboards</strong> will be computed, one for the sub-challenge on ADI data (3D cubes) and one for the sub-challenge on ADI+mSDI cubes (4D cubes). The F1-score serves well our goal of assessing the performance of detection algorithms as binary classifiers, therefore we will use it to rank the entries on each scoreboard.</p>
+
+<blockquote>
+  <p>Note: Each submission must correspond to the results of applying the same algorithm to all the datasets. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard).</p>
+</blockquote>
+
+<p>The contrast (brightness) value for injecting each synthetic companion will be estimated wrt a baseline algorithm. First, the S/N of a population of injected companions will be measured on residual final frames (processed with the baseline algorithm). Then, the interval of fluxes as a function of the separation from the star will be defined by checking which contrast corresponds to S/Ns in given interval (e.g. 1 to 4). This procedure is implemented <a href="https://github.com/carlgogo/exoimaging_challenge_extras/blob/master/flux_estimation.py">here</a>.</p>
+
+<p><strong>Phase 2</strong>: The community is converging on the usage of receiver operating characteristic (ROC) curves for the performance assessment of high-contrast imaging post-processing algorithms (see <a href="https://arxiv.org/abs/1711.01215">Jensen Clem et al. 2017</a>). In Fig. 3 is displayed a compilation of some ROC curves from the high-contrast imaging literature.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><img src="https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig3.001.png" alt="data" width="600px" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Figure 3. <em>ROC curves in the high-contrast imaging literature. Top-left from <a href="https://arxiv.org/abs/1602.08381">Gomez Gonzalez et al. 2016</a>, top-right from <a href="https://arxiv.org/abs/1705.05477">Ruffio et al. 2017</a>, bottom-left from <a href="https://arxiv.org/abs/1712.02841">Gomez Gonzalez et al. 2018</a> and bottom-right from <a href="https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1">Pueyo 2018</a></em>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In this phase, we will focus on the computation of ROC curves for comparing the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. This expensive procedure will be performed locally, therefore the source code of the algorithm (implemented on an open source language such as Python or R), an executable file or a Docker image will be required from the participants. Additionally, the participant must submit the detection thresholds for the thresholding and blob counting procedure.</p>
+
+<blockquote>
+  <p>Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.</p>
+</blockquote>
+
+<h2 id="starting-kit">Starting kit</h2>
+
+<p>The implementations of the planet injection, source counting and ROC curve generation algorithms are included in the open source <a href="https://github.com/vortex-exoplanet/VIP">Vortex Image Processing package</a> for the sake of transparency and fairness. Other code related to the data challenge is available at the <a href="https://github.com/carlgogo/exoimaging_challenge_extras">Data Challenge Extras repository</a>. Here we also share a Python script (<code class="highlighter-rouge">DC1_codalab_starting_kit.py</code>) that illustrates how to create the outputs to be submitted for participating in the data challenge.</p>
+
+<p>The extras repository also contains a data challenge starting kit, in the form of a Jupyter notebook (<code class="highlighter-rouge">DC1_starting_kit.ipynb</code>), which explains in detail the source counting procedure on detection maps (to get the true and false positives). The starting kit can also be executed on the cloud thanks to <a href="https://mybinder.org/v2/gh/carlgogo/exoimaging_challenge_extras/master">Binder</a>. This implementation shall serve as a reference for future studies on image processing algorithms for direct imaging of exoplanets.</p>
+
+<h2 id="codalab">Codalab</h2>
+
+<p>Instead of re-inventing the wheel (designing a framework for implementing the data challenge), we chose to run this challenge on <a href="http://codalab.org/">Codalab</a>, a framework for accelerating reproducible computational research. The participants will enter the competition by creating their own account on Codalab and following the link of the challenge. The scoreboards will be updated automatically after each submission to the Codalab interface. The challenge interface will offer the option to include a short description of the algorithm you used for a each submission, please don’t forget to fill in this information (specially if the algorithm uses RDI). Participants may submit as many times as they want. The scoring routines that compute the metrics can be found on the <a href="https://github.com/carlgogo/exoimaging_challenge_extras">Data Challenge Extras repository</a>.</p>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="mailto:carlosgg33@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://github.com/exoplanet-imaging-challenge" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Carlos Alberto Gomez Gonzalez
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+      &nbsp;&bull;&nbsp;
+      <a href="http://0.0.0.0:4000">exoplanet-imaging-challenge.github.io</a>
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+  
+  </body>
+</html>
