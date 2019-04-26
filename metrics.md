@@ -15,9 +15,15 @@ This challenge will consist of two consecutive phases (while the sub-challenges 
 |**1**      |F1, TPR and FDR        |F1, TPR and FDR
 |**2**      |ROC space              |ROC space   
 
-**Phase 1**: In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, consists of a list of detection maps (nine for the first sub-challenge and ten for the second), a detection threshold (the accepted threshold at which a detection is claimed) and the FHWM values for each dataset. For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must include the following files: gpi_detmap_1.fits, gpi_detmap_2.fits, gpi_detmap_3.fits, gpi_detmap_4.fits, gpi_detmap_5.fits, sphere_ifs_detmap_1, sphere_ifs_detmap_2, sphere_ifs_detmap_3, sphere_ifs_detmap_4, sphere_ifs_detmap_5, gpi_fwhm_1.fits, gpi_fwhm_2.fits, gpi_fwhm_3.fits, gpi_fwhm_4.fits, gpi_fwhm_5.fits, sphere_ifs_fwhm_1, sphere_ifs_fwhm_2, sphere_ifs_fwhm_3, sphere_ifs_fwhm_4, sphere_ifs_fwhm_5, detection_threshold.fits. 
+**Phase 1**: In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, consists of a list of detection maps (nine for the first sub-challenge and ten for the second), a detection threshold (the accepted threshold at which a detection is claimed) and the FHWM values for each dataset. For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must include the following files: 
 
-By thresholding each detection map and counting the true and false positives, we define several metrics:
+* ``gpi_detmap_1.fits``, ..., ``gpi_detmap_5.fits``, 
+* ``gpi_fwhm_1.fits``, ..., ``gpi_fwhm_5.fits``, 
+* ``sphere_ifs_detmap_1.fits``, ..., ``sphere_ifs_detmap_5.fits``, 
+* ``sphere_ifs_fwhm_1.fits``, ..., ``sphere_ifs_fwhm_5.fits``, 
+* ``detection_threshold.fits``. 
+
+By thresholding each detection map (using the provided ``value_threshold`` for claiming a detection) and counting the true and false positives, we define several metrics:
 
 * the true positive rate (TPR) also known as sensitivity or recall: ``TPR = TPs / Ninj``,
 * the false discovery/detection rate (FDR): ``FDR = FPs / Ndet``,
@@ -28,7 +34,9 @@ where ``TPs`` is the number of true positives/detections, ``FPs`` is the total n
 
 Two **scoreboards** will be computed, one for the sub-challenge on ADI data (3D cubes) and one for the sub-challenge on ADI+mSDI cubes (4D cubes). The F1-score serves well our goal of assessing the performance of detection algorithms as binary classifiers, therefore we will use it to rank the entries on each scoreboard.
 
-> Note: Each submission must correspond to the results of applying the same algorithm to all the datasets. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard).
+
+{: .box-note}
+**Note:** Each submission must correspond to the results of applying the same algorithm to all the datasets. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard).
 
 The contrast (brightness) value for injecting each synthetic companion will be estimated wrt a baseline algorithm. First, the S/N of a population of injected companions will be measured on residual final frames (processed with the baseline algorithm). Then, the interval of fluxes as a function of the separation from the star will be defined by checking which contrast corresponds to S/Ns in given interval (e.g. 1 to 4). This procedure is implemented [here](https://github.com/carlgogo/exoimaging_challenge_extras/blob/master/flux_estimation.py).
 
@@ -40,7 +48,8 @@ The contrast (brightness) value for injecting each synthetic companion will be e
 
 In this phase, we will focus on the computation of ROC curves for comparing the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. This expensive procedure will be performed locally, therefore the source code of the algorithm (implemented on an open source language such as Python or R), an executable file or a Docker image will be required from the participants. Additionally, the participant must submit the detection thresholds for the thresholding and blob counting procedure.
 
-> Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.   
+{: .box-warning}
+**Important:** only the participants who agree to submit their code will be included in the second phase of this data challenge.  
 
 ## Starting kit
 
