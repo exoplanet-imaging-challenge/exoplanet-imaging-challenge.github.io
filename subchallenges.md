@@ -16,7 +16,8 @@ This first competition will consider two sub-challenges focused on the two most 
 | --- |
 | Figure 1. *Dimensionality of the cubes used in this challenge, depending on the observing technique: the left panel shows a single ADI data cube and the right panel shows an ADI + multi-channel SDI data cube*. |
 
-While Referential Differential Imaging (**RDI**) is not a separate sub-challenge, we welcome submissions that make use of reference datasets or libraries (whether it is the cubes provided within the challenge or external ones). We only require the participant to make clear if they use RDI instead of pure ADI or ADI+mSDI post-processing (please read the sub-section named "Codalab").
+{: .box-note}
+**Note on RDI:** Although Referential Differential Imaging (**RDI**) does not constitute a separate sub-challenge, we welcome submissions that make use of reference datasets or libraries (whether it is the cubes provided within the challenge or external ones). We only require the participant to **make clear if RDI** is used instead of pure ADI or ADI+mSDI post-processing (this is explained on the "metrics" sub-section on the top navigation bar).
 
 In Fig. 2 we show an schematic representation of the HCI blob detection pipeline. In the context of this data challenge, we will not use datasets with known companions. Instead, in order to measure the detection capability of different algorithms, we will inject synthetic planets or companions. Each challenge cube contains from *none to five synthetic point-sources*, injected using a standard process without accounting for smearing or variable photometry). For spectrally dispersed data we will use three template spectra when injecting the fake companions. 
 
