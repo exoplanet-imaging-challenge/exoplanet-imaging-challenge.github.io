@@ -28,7 +28,7 @@ navbar-links:
   Resources:
     - Datasets: "datasets"
     - Metrics: "metrics"
-    - Extras repository: "https://github.com/carlgogo/exoimaging_challenge_extras"
+    - Starting kit and extras: "startingkit"
   Team: "team"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -45,7 +45,8 @@ avatar: "/img/challenge_logo.003_lowres.png"
 
 navbar-col: "#152258"
 navbar-text-col: "#ffffff" # "#404040"
-navbar-children-col: "#152258"
+navbar-children-col: "#F5F5F5"
+navbar-children-text-col: "#777777"
 page-col: "#ffffff"
 link-col: "#008AFF"
 hover-col: "#188dfb" # "#0085A1"
