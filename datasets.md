@@ -17,7 +17,7 @@ For the sub-challenge on ADI post-processing, each dataset will be composed of:
  * ``instrument_pxscale_id.fits`` (float value, the pixel scale value in arc/px),
  * ``instrument_psf_id.fits`` (2d array, the associated PSF template), 
  
-where id is a positive integer and instrument is one of the following: ``nirc2``, ``lmircam`` or ``sphere_irdis``. For the second sub-challenge, on spectrally dispersed data (instruments: ``sphere_ifs`` or ``gpi``), a 4D cube will be provided along with a vector of wavelengths (``instrument_wls_id.fits``). 
+where ``id`` is a positive integer and instrument is one of the following: ``nirc2``, ``lmircam`` or ``sphere_irdis``. For the second sub-challenge, on spectrally dispersed data (instruments: ``sphere_ifs`` or ``gpi``), a 4D cube will be provided along with a vector of wavelengths (``instrument_wls_id.fits``). 
 
 The cubes will be cropped to focus on the innermost 20 lambda/D. The challenge files are saved as [FITS](https://en.wikipedia.org/wiki/FITS) files, a format with long tradition in astronomy. FITS files can be easily opened in any programming language or environment (Python, Matlab, IDL, R, C, etc). The most convenient software for quick visualization of the cubes is the SAOImageDS9 viewer which can be downloaded [here](http://ds9.si.edu/site/Download.html). If you are into Python and you use Jupyterlab, then consider using the [HCIplot](https://github.com/carlgogo/hciplot/) open source library for visualizing the cubes. 
 
