@@ -23,8 +23,8 @@ description: Community-wide data challenge for high-contrast imaging data proces
 
 # List of links in the navigation bar
 navbar-links:
-  Objectives: "context"
   Description:
+    - Objectives: "context"
     - Sub-challenges: "subchallenges"
     - Datasets: "datasets"
     - Submissions: "submission"

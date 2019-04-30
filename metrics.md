@@ -3,6 +3,8 @@ layout: page
 title: Metrics and scoreboard
 ---
 
+This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. 
+
 On the table below, you can find a summary of the metrics used for each phase:
 
 |           |Sub-challenge 1: ADI   |Sub-challenge 2: ADI+mSDI
@@ -18,7 +20,7 @@ On the table below, you can find a summary of the metrics used for each phase:
 * the precision or positive predictive value (PPV): ``PPV = TPs / Ndet``,
 * the F1-score or harmonic mean of TPR and the precision: ``F1 = 2 * PPV * TPR / (PPV + TPR)``.
 
-where ``TPs`` is the number of true positives/detections, ``FPs`` is the total number of false positives or Type I error, ``Ndet`` is the total number of detections (``TPs + FPs``) and ``Ninj`` is the total number of injections (accros all the datasets of a given sub-challenge). The ``TPs``, ``FPs`` and ``Ndet`` are counted for a given participant/algorithm over all the datasets of a given sub-challenge. This blob counting procedure is implemented in the [Vortex Image Processing package](https://github.com/vortex-exoplanet/VIP), specifically in the ``compute_binary_map`` function found [here](https://github.com/vortex-exoplanet/VIP/blob/master/vip_hci/metrics/roc.py). Read below about the Data Challenge starting kit, which contains detailed explanations about the blob counting procedure. 
+where ``TPs`` is the number of true positives/detections, ``FPs`` is the total number of false positives or Type I error, ``Ndet`` is the total number of detections (``TPs + FPs``) and ``Ninj`` is the total number of injections (accros all the datasets of a given sub-challenge). The ``TPs``, ``FPs`` and ``Ndet`` are counted for a given participant/algorithm over all the datasets of a given sub-challenge. This blob counting procedure is implemented in the [Vortex Image Processing package](https://github.com/vortex-exoplanet/VIP), specifically in the ``vip_hci.metrics.compute_binary_map()`` function (https://github.com/vortex-exoplanet/VIP/blob/master/vip_hci/metrics/roc.py). Read below about the [Challenge starting kit Notebook](https://github.com/carlgogo/exoimaging_challenge_extras/blob/master/DC1_starting_kit__with_output.ipynb), which contains detailed explanations about the blob counting procedure. 
 
 Two **scoreboards** will be computed, one for the sub-challenge on ADI data (3D cubes) and one for the sub-challenge on ADI+mSDI cubes (4D cubes). The F1-score serves well our goal of assessing the performance of detection algorithms as binary classifiers, therefore we will use it to rank the entries on each scoreboard.
 
