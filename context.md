@@ -11,11 +11,15 @@ The two remaining components of high-contrast imaging are the data acquisition t
 
 # Objectives 
 
-A multitude of image processing algorithms and pipelines for processing high contrast imaging data have been developed in the past thirteen years. [Pueyo (2018)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1) offers an ample discussion on the exoplanet detection algorithms proposed in the literature. The goal of this challenge is not only to compare, in a fair and robust way, existing post-processing algorithms but to spur the design of new techniques, spark new collaborations and ideas, and share knowledge. Ultimately, this will allow the community to maximize the scientific return of existing and future near-infrared HCI instruments.
+A multitude of image processing algorithms and pipelines for processing high contrast imaging data have been developed in the past thirteen years. [Pueyo (2018)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1) offers an ample discussion on the exoplanet detection algorithms proposed in the literature. The goal of this challenge is not only to compare, in a fair and robust way, existing post-processing algorithms but to spur the design of new techniques, spark new collaborations and ideas, and share knowledge. 
+
+With the aim of creating a manageable competition, we will focus exclusively on the detection of point-like sources (exoplanets). Other tasks, such as the characterization of companions, the detection of extended sources, reference star differential imaging and the usage of metadata/telemetry, will be the subject of future editions of the challenge. 
+
+{: .box-note}
+**Note:** You don't need to be an astronomer or expert in high-contrast imaging to participate! We welcome the participation of non-domain experts. On this website you will find extensive documentation about the challenge and how to participate. We expect domain experts will use their tools, for outsiders we have prepared a starting kit in the resources section.
 
 Computer science and machine learning fields have a long tradition conducting data challenges and competitions. Repositories of benchmark (curated) datasets are an integral part of the field of machine learning. We want to integrate these practices to the field of high-contrast imaging. In the future, the process of testing new algorithms will be much straightforward and robust, once the community adopts the standard metrics (with their open-source implementations) and the benchmark library resulting from this challenge.  
 
-We plan to launch the data challenge mid April 2019, as soon as we finish ironing out the last details. In particular, we are considering the organization of a workshop on image processing for exoplanet direct imaging that could at the same time host a hackathon session for the participants of the data challenge. Please contact the organizers if you have questions, suggestions or are willing to provide support of any kind. 
 
 
 
