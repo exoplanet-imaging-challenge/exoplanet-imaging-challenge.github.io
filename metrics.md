@@ -13,7 +13,7 @@ On the table below, you can find a summary of the metrics used for each phase:
 |**1**      |F1, TPR and FDR        |F1, TPR and FDR
 |**2**      |ROC space              |ROC space   
 
-**Phase 1**: By thresholding each detection map (using the provided ``value_threshold`` for claiming a detection) and counting the true and false positives, we define several metrics:
+**Stage 1**: By thresholding each detection map (using the provided ``value_threshold`` for claiming a detection) and counting the true and false positives, we define several metrics:
 
 * the true positive rate (TPR) also known as sensitivity or recall: ``TPR = TPs / Ninj``,
 * the false discovery/detection rate (FDR): ``FDR = FPs / Ndet``,
@@ -26,7 +26,7 @@ Two **scoreboards** will be computed, one for the sub-challenge on ADI data (3D 
 
 The contrast (brightness) value for injecting each synthetic companion will be estimated wrt a baseline algorithm. First, the S/N of a population of injected companions will be measured on residual final frames (processed with the baseline algorithm). Then, the interval of fluxes as a function of the separation from the star will be defined by checking which contrast corresponds to S/Ns in given interval (e.g. 1 to 4). This procedure is implemented [here](https://github.com/carlgogo/exoimaging_challenge_extras/blob/master/flux_estimation.py).
 
-**Phase 2**: The community is converging on the usage of receiver operating characteristic (ROC) curves for the performance assessment of high-contrast imaging post-processing algorithms (see [Jensen Clem et al. 2017](https://arxiv.org/abs/1711.01215)). In Fig. 3 is displayed a compilation of some ROC curves from the high-contrast imaging literature. 
+**Stage 2**: The community is converging on the usage of receiver operating characteristic (ROC) curves for the performance assessment of high-contrast imaging post-processing algorithms (see [Jensen Clem et al. 2017](https://arxiv.org/abs/1711.01215)). In Fig. 3 is displayed a compilation of some ROC curves from the high-contrast imaging literature. 
 
 | ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig3.001.png){:width="600px"} |
 |---|
@@ -37,7 +37,9 @@ In this phase, we will focus on the computation of ROC curves for comparing the 
 
 ## Codalab
 
-Instead of re-inventing the wheel (designing a framework for implementing the data challenge), we chose to run this challenge on [Codalab](http://codalab.org/), a framework for accelerating reproducible computational research. The participants will enter the competition by creating their own account on Codalab and following the link of the challenge. The scoreboards will be updated automatically after each submission to the Codalab interface. The challenge interface will offer the option to include a short description of the algorithm you used for a each submission, please don't forget to fill in this information (specially if the algorithm uses RDI). Participants may submit as many times as they want. The scoring routines that compute the metrics can be found on the [Data Challenge Extras repository](https://github.com/carlgogo/exoimaging_challenge_extras).
+Instead of re-inventing the wheel (designing a service to host the data challenge submissions ingestion program), we chose to run this challenge on [Codalab](http://codalab.org/), a framework for accelerating reproducible computational research. The participants will enter the competition by creating their own account on Codalab and following the link to the challenge. 
+
+Codalab displays four tabs: Learns the details, phases, participate and results. Please note our two sub-challenges correspond to phases in Codalab. Both sub-challenges (phases in Codalab's jargon) will be open until the end of the competition. Each sub-challenge will have a separate scoreboard, which will be updated automatically with every new submission to the Codalab interface. The challenge interface will offer the option to include a short description of the algorithm you used for a each submission, please don't forget to fill in this information (specially if the algorithm uses RDI or some sort of black magic). Participants may submit as many times as they want. The scoring routines that compute the metrics can be found on the [Data Challenge Extras repository](https://github.com/carlgogo/exoimaging_challenge_extras).
 
 
 

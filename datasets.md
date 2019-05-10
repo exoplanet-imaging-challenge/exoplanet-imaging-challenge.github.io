@@ -3,7 +3,7 @@ layout: page
 title: Datasets
 ---
 
-A group of datasets has being compiled for the purpose of this challenge. The datasets come from a few different instruments: SPHERE (both IRDIS and IFS), GPI, NIRC2 and LMIRCam. This is to ensure the challenge library contains a diverse set of datasets coming from instruments with different characteristics: slow/high speed cameras, broadband/filtered sequences, small/large total rotation, presence of a coronagraph, etc. 
+The datasets used in this data challenge were kindly provided by scientists from several high-contrast imaging instruments, and are the result of many years of work of different teams around the globe. The datasets come from these instruments: SPHERE (both IRDIS and IFS), GPI, NIRC2 and LMIRCam. With this we ensure the data used in this competition is diverse in terms of their characteristics and the observation modalities: slow/high speed cameras, broadband/filtered sequences, total range of rotation, presence of a coronagraph, etc. 
 
 In order to reduce the need of domain knowledge (e.g. the expertize related to high-contrast imaing or to a specific instrument), the datasets were calibrated/pre-processed using the standard pipelines of each instrument. Then we applied a few pre-processing procedures on each cube to make sure that the library is homogeneous. The characteristics of each dataset and the pre-processing procedures applied to them are recorded on a public [Google spreadsheet](https://docs.google.com/spreadsheets/d/1Zx7tTGNBMhCXpAa5KIoufdvMrxtjfA3q2gX03APMkaM/edit?usp=sharing). 
 
