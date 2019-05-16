@@ -3,6 +3,9 @@ layout: page
 title: Metrics and scoreboard
 ---
 
+{: .box-note}
+**Codalab competition:** The competition is hosted on Codalab, please follow this [link](https://competitions.codalab.org/competitions/22836).
+
 This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. 
 
 On the table below, you can find a summary of the metrics used for each phase:
