@@ -3,7 +3,8 @@ layout: page
 title: Datasets
 ---
 
-The Zenodo repository containing the challenge datasets can be found [here](https://zenodo.org/record/2815298).
+{: .box-note}
+**Zenodo repository:** The Zenodo repository containing the challenge datasets can be found [here](https://zenodo.org/record/2815298).
 
 The datasets used in this data challenge were kindly provided by scientists from several high-contrast imaging instruments, and are the result of many years of work of different teams around the globe. The datasets come from these instruments: SPHERE (both IRDIS and IFS), GPI, NIRC2 and LMIRCam. With this we ensure the data used in this competition is diverse in terms of their characteristics and the observation modalities: slow/high speed cameras, broadband/filtered sequences, total range of rotation, presence of a coronagraph, etc. 
 
