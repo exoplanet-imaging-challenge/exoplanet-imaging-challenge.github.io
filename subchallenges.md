@@ -14,7 +14,7 @@ This first competition will consider two sub-challenges focused on the two most 
 
 | ![IFS_frame](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/ifs_frame.gif){:width="400px"} |
 | --- |
-| Figure 1. *A single IFS frame showing the behaviour of the speckles as a function of the wavelength (the label on the animation is an index, not the wavelength)*. |
+| Figure 1. *A single IFS frame showing the behaviour of the speckles as a function of the wavelength (the label on the animation corresponds to an index instead of the wavelength itself)*. |
 
 Multi-spectral imaging is usually combined with ADI in modern instruments. In this case, the datasets are composed of a 4d cube of images (see Fig. 2), a vector of parallactic angles, a vector of wavelenghts and a PSF (this is detailed in the ``datasets`` section of this website). 
 
