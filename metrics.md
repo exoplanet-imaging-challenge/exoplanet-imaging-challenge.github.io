@@ -8,11 +8,11 @@ title: Metrics and scoreboard
 
 This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. 
 
-On the table below, you can find a summary of the metrics used for each phase:
+On the table below, you can find a summary of the metrics used for each stage:
 
 |           |Sub-challenge 1: ADI   |Sub-challenge 2: ADI+mSDI
 |:--:       |:--:                   |:--:
-|**Phase**  |*Metric*               |*Metric*                    
+|**Stage**  |*Metric*               |*Metric*                    
 |**1**      |F1, TPR and FDR        |F1, TPR and FDR
 |**2**      |ROC space              |ROC space   
 
@@ -35,7 +35,7 @@ The contrast (brightness) value for injecting each synthetic companion will be e
 |---|
 | Figure 3. *ROC curves in the high-contrast imaging literature. Top-left from [Gomez Gonzalez et al. 2016](https://arxiv.org/abs/1602.08381), top-right from [Ruffio et al. 2017](https://arxiv.org/abs/1705.05477), bottom-left from [Gomez Gonzalez et al. 2018](https://arxiv.org/abs/1712.02841) and bottom-right from [Pueyo 2018](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)*. |
 
-In this phase, we will focus on the computation of ROC curves for comparing the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. This expensive procedure will be performed locally using the source code of the algorithm submitted by each participant.
+In this stage, we will focus on the computation of ROC curves for comparing the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. This expensive procedure will be performed locally using the source code of the algorithm submitted by each participant.
 
 
 ## Codalab
