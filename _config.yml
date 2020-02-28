@@ -29,9 +29,11 @@ navbar-links:
     - Datasets: "datasets"
     - Submissions: "submission"
     - Metrics: "metrics"
+    - Publication: "publi"
   Resources:
     - Starting kit and extras: "startingkit"
     - Results of test phase: "preresults"
+    - NEAR campaign data: "near"
   Team: "team"
   F.A.Q: "faq"
 
@@ -77,7 +79,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "carlosgg33@gmail.com"
+  email: "exoimg.datachallenge@gmail.com"
 #  facebook: daattali
   github: exoplanet-imaging-challenge
 #  twitter: daattali
