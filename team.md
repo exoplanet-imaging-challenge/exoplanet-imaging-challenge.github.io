@@ -7,7 +7,7 @@ title: Organization team
 
 If you have any questions about the data challenge or encounter any issue, please contact us: <exoimg.datachallenge@gmail.com>
 
-## Data challenge reation team
+## Data challenge creation team
 
 * Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> *(challenge design and coordination: website creation, data gathering, metrics definition, backend implementation on Codalab, logic implementation and extras repository)*
 * Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
