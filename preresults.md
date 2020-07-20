@@ -28,12 +28,11 @@ The observing conditions were not stable so the image cube shows large temporal 
 In order to define the detection limit around which the synthetic planetary signals are injected, we ran a *classic annular PCA* from the [VIP toolbox](https://vip.readthedocs.io/en/latest/#). The resulting detection map is shown in Fig. 2 and the F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
 
  ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="250px"} 
+ 
  ---
+ 
  **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. 
 
-<p align="center">
-  <img src="img/Baseline_result.png" />
-</p>
 
 ### 3. Results from participants
 
