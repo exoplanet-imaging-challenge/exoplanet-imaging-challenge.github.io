@@ -12,7 +12,7 @@ We publish here the results from the ADI sub-challenge (*subchallenge_1/*) on th
 *We warmly thanks the participants who have submitted their results for this first test-phase* (note that the results submitted during the test-phase remain valid for the final phase 1).
 
 
-## Data VLT/SPHERE-IRDIS narrow-band
+### 1. Data VLT/SPHERE-IRDIS narrow-band
 We chose this dataset among the data for the data challenge, ([presented on this page](https://exoplanet-imaging-challenge.github.io/datasets/)), because this is the most used SPHERE mode for exoplanet detection (e.g. for the SHINE large survey, [Chauvin et al., 2017](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..331C/abstract)). 
 
 The observing conditions were not stable so the image cube shows large temporal variations.
@@ -22,7 +22,7 @@ The observing conditions were not stable so the image cube shows large temporal 
 | **Figure 1.** First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right). |
 
 
-## Baseline result
+### 2. Baseline result
 
 In order to define the detection limit around which the synthetic planetary signals are injected, we ran a *classic annular PCA* from the [VIP toolbox](https://vip.readthedocs.io/en/latest/#). The resulting detection map is shown in Fig. 2 and the F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
 
@@ -31,7 +31,7 @@ In order to define the detection limit around which the synthetic planetary sign
 | **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. |
 
 
-## Results from participants
+### 3. Results from participants
 
 From the submissions on CodaLab, *6* are valid and the results are shown below. 
 
@@ -48,9 +48,9 @@ The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.i
 | **Figure 3.** Detection maps submitted (the colorbar is given from the minimal value to the given threshold): at the participant-provided threshold, true detections are encircled in pale yellow. For each image we plotted the corresponding FPF (red) and TPF (green) as a function of threshold (vertical line is the participant-provided threshold),  and the F1-score is indicated below. |
 
 
-## Discussions
+### 4. Discussions
 
-### Visual inspection
+#### 4.1 Visual inspection
 
 * First, we can notice that similar concepts show very comparable structures in the detection map. For instance, *speckle subtraction techniques* (such as  the baseline, PCA_padova and PCA_mpia) show similar residuals, and *inverse problems based techniques* (such as FMMF and ANDROMEDA) show similar structures due to correlation of the residuals with the planetary signal model. The RSM map looks for a noise-planet regime switch along the temporal axis, leading to high signal-to-noise ratio. The STIM-ca map combines the PCA subtracted data by taking into account the temporal statistics of the residual noise to optimise the signal-to-noise ratio. 
 
@@ -59,12 +59,12 @@ The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.i
 * Third, similarly, some algorithm process the data as close as possible to the star (STIM+), whereas others are starting at larger angular separation (FMMF), depending on the concept behind (angular subtraction etc.)
 
 
-### True Positive Fraction
+#### 4.2 True Positive Fraction
 
 In terms of TPF (green curves), the STIM+ map stands beyond other methods, by always revealing the 5 injected companions even at very high thresholds. 
 Both FMMF and PCA-Padova provide a threshold (dashed vertical line) that detects the 5 injected companions.
 
-### False Positive Fraction
+#### 4.3 False Positive Fraction
 
 In terms of FPF (red curves), the RSM map stands beyond other methods, with no false positives, whatever the threshold. 
 On the contrary the speckle subtraction technique PCA_padova shows a high number of false positives all over the field of view. 
@@ -72,12 +72,12 @@ Notably, FMMF and ANDROMEDA, based on a very similar approach (modeling and trac
 
 *In terms of trade-off, FMMF is the most powerful technique to minimize the FPF while maximizing the TPF in order to detect the 5 injected signals above the participant-provided threshold (hence the larger F1-score).*
 
-### Running time 
+#### 4.4 Running time 
 
-TBC
+On-going
 
 
-## Additional information about the algorithm used
+### 5. Additional information about the algorithms used
 
 * Forward Modeling Matched Filter ([FMMF](https://ui.adsabs.harvard.edu/abs/2017ApJ...842...14R/abstract)): available in the [pyKLIP](https://pyklip.readthedocs.io/en/latest/) package.
 * ANDROMEDA ([ANDRO](https://ui.adsabs.harvard.edu/abs/2015A%26A...582A..89C/abstract)): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package. 
