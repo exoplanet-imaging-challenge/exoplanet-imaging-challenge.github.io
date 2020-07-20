@@ -3,7 +3,7 @@ layout: page
 title: Preliminary results
 ---
 
-### **On this page, we present the results obtained during the test-phase of the data challenge (January 2020)** 
+**On this page, we present the results obtained during the test-phase of the data challenge (January 2020)** 
 
 The feedbacks received from this *test-phase* were useful to improve the data challenge before settling the new deadline for the *phase 1*: **30th of September 2020**. 
 
@@ -26,9 +26,9 @@ The observing conditions were not stable so the image cube shows large temporal 
 
 In order to define the detection limit around which the synthetic planetary signals are injected, we ran a *classic annular PCA* from the [VIP toolbox](https://vip.readthedocs.io/en/latest/#). The resulting detection map is shown in Fig. 2 and the F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
 
-| ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="250px"} |
-|---|
-| **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. |
+ ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="250px"} 
+ ---
+ **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. 
 
 
 ### 3. Results from participants
