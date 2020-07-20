@@ -9,7 +9,7 @@ The feedbacks received from this *test-phase* were useful to improve the data ch
 
 *Among the* **51 participants** *who registered on CodaLab, we received* **9 submissions**. 
 We publish here the results from the ADI sub-challenge (*subchallenge_1/*) on the VLT/SPHERE-IRDIS data taken with the K1 narrow-band filter (*SPHERE_IRDIS_3/*). 
-*We warmly thanks the participants who have submitted their results for this first test phase (note that the results submitted during the test phase are valid for the final phase 1).*
+*We warmly thanks the participants who have submitted their results for this first test-phase* (note that the results submitted during the test-phase remain valid for the final phase 1).
 
 
 ## Data VLT/SPHERE-IRDIS narrow-band
