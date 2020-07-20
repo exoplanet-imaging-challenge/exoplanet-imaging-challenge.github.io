@@ -29,8 +29,6 @@ In order to define the detection limit around which the synthetic planetary sign
 
  ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="250px"} 
  
- ---
- 
  **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. 
 
 
@@ -89,5 +87,5 @@ On-going
 * Principal Component Analysis ([PCA](https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..948A/abstract), [KLIP](https://ui.adsabs.harvard.edu/abs/2012ApJ...755L..28S/abstract))
 
 
-**We hope this page motivates you to participate too !**
+### We hope this page motivates you to participate too !
 
