@@ -18,7 +18,7 @@ We chose this dataset among the data for the data challenge, ([presented on this
 
 The observing conditions were not stable so the image cube shows large temporal variations.
 
-| ![DataSPHEREirdis3](img/Info_inputdata.png){:width="1200px"} |
+| ![DataSPHEREirdis3](img/Info_inputdata.png){:width="1000px"} |
 |---|
 | **Figure 1.** First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right). The intensity is the raw contrast in terms of magnitude. |
 
