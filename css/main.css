@@ -18,8 +18,8 @@ body {
   {% endif %}
 }
 p {
-  line-height: 1.8;
-  margin: 5px -100px 5px 100px;
+  line-height: 1.5;
+  margin: 5px -150px 5px 0px;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
