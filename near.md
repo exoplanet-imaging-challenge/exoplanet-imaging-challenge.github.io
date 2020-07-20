@@ -3,7 +3,7 @@ layout: page
 title: NEAR campaign data
 ---
 
-TEST
+TEST2
 
 The NEAR campaign aims to search for low-mass planets around both components of the binary a Centauri, the closest stellar system to Earth. 
 As such, 100-hour of observations were conducted using a dedicated upgrade of the VLT mid-infrared imager VISIR. 
@@ -23,4 +23,4 @@ Compared to the raw data:
 * frames are aligned, 
 * 500x0.12s frames were combined to 60s time resolution.
 
-For more enquiry about the data or to discuss your results, please contact P. Pathak (<Prashant.Pathak@eso.org>) and M. Kasper (kasper@eso.org)
+For more enquiry about the data or to discuss your results, please contact P. Pathak (<Prashant.Pathak@eso.org>) and M. Kasper (<kasper@eso.org>)
