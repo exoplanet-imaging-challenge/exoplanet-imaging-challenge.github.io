@@ -3,8 +3,6 @@ layout: page
 title: NEAR campaign data
 ---
 
-TEST2
-
 The NEAR campaign aims to search for low-mass planets around both components of the binary a Centauri, the closest stellar system to Earth. 
 As such, 100-hour of observations were conducted using a dedicated upgrade of the VLT mid-infrared imager VISIR. 
 The NEAR campaign is a collaboration between ESO and the Break-through Initiatives. 
