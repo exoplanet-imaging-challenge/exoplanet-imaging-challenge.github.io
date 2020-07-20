@@ -15,7 +15,7 @@ We chose this dataset among the data for the data challenge ([presented on this 
 
 The observing conditions were not stable so the image cube shows large temporal speckle variation.
 
-| ![DataSPHEREirdis3](img/DataChallenge_sphere3.pdf){:width="600px"} |
+| ![DataSPHEREirdis3](){:width="600px"} |
 |---|
 | Figure 1. *First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right) *. |
 
@@ -40,7 +40,7 @@ More information about each algorithm used can be find at the end of this page.
 
 The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.io/metrics/)) is also shwown below each algorithm.
 
-| ![ResultSPHEREirdis3](link){:width="600px"} |
+| ![ResultSPHEREirdis3](exoplanet-imaging-challenge.github.io/img/DataChallenge_sphere3.pdf){:width="600px"} |
 |---|
 | Figure 3. *Detection maps submitted (the colorbar is given from the minimal value to the given threshold): at the participant-provided threshold, true detections are encircled in blue. For each image we plotted the corresponding FPF and TPF as a function of threshold (vertical line is the participant-provided threshold) and the F1-score is indicated below*. |
 
