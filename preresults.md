@@ -30,6 +30,9 @@ In order to define the detection limit around which the synthetic planetary sign
  ---
  **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. 
 
+<p align="center">
+  <img src="img/Baseline_result.png" />
+</p>
 
 ### 3. Results from participants
 
