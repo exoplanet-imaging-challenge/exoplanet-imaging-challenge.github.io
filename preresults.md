@@ -17,7 +17,7 @@ We chose this dataset among the data for the data challenge, ([presented on this
 
 The observing conditions were not stable so the image cube shows large temporal variations.
 
-| ![DataSPHEREirdis3](img/Info_inputdata.png){:width="600px"} |
+| ![DataSPHEREirdis3](img/Info_inputdata.png){:width="1200px"} |
 |---|
 | **Figure 1.** First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right). |
 
@@ -26,7 +26,7 @@ The observing conditions were not stable so the image cube shows large temporal 
 
 In order to define the detection limit around which the synthetic planetary signals are injected, we ran a *classic annular PCA* from the [VIP toolbox](https://vip.readthedocs.io/en/latest/#). The resulting detection map is shown in Fig. 2 and the F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
 
-| ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="400px"} |
+| ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="250px"} |
 |---|
 | **Figure 2.** Post-processed image using a classic annular PCA, as implemented in VIP. |
 
