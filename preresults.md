@@ -76,11 +76,11 @@ TBC
 
 ## Additional information about the algorithm used
 
-* Forward Modeling Matched Filter [FMMF](https://ui.adsabs.harvard.edu/abs/2017ApJ...842...14R/abstract): available in the [pyKLIP](https://pyklip.readthedocs.io/en/latest/) package.
-* ANDROMEDA [ANDRO](https://ui.adsabs.harvard.edu/abs/2015A%26A...582A..89C/abstract): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package. 
-* Regime Switching Model [RSM](https://ui.adsabs.harvard.edu/abs/2020A%26A...633A..95D/abstract): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package.
-* Standardized Trajectory Intensity Mean [STIM](https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.2262P/abstract): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package.
-* Principal Component Analysis [PCA](https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..948A/abstract),[KLIP](https://ui.adsabs.harvard.edu/abs/2012ApJ...755L..28S/abstract)
+* Forward Modeling Matched Filter ([FMMF](https://ui.adsabs.harvard.edu/abs/2017ApJ...842...14R/abstract)): available in the [pyKLIP](https://pyklip.readthedocs.io/en/latest/) package.
+* ANDROMEDA ([ANDRO](https://ui.adsabs.harvard.edu/abs/2015A%26A...582A..89C/abstract)): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package. 
+* Regime Switching Model ([RSM](https://ui.adsabs.harvard.edu/abs/2020A%26A...633A..95D/abstract)): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package.
+* Standardized Trajectory Intensity Mean ([STIM](https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.2262P/abstract)): available in the [VIP](https://pyklip.readthedocs.io/en/latest/) package.
+* Principal Component Analysis ([PCA](https://ui.adsabs.harvard.edu/abs/2012MNRAS.427..948A/abstract), [KLIP](https://ui.adsabs.harvard.edu/abs/2012ApJ...755L..28S/abstract))
 
 
 **We hope this page motivates you to participate too !**
