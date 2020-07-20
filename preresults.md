@@ -3,13 +3,13 @@ layout: page
 title: Preliminary results
 ---
 
-**On this page, we present the results obtained during the test phase of the data challenge (January 2020)** 
+**On this page, we present the results obtained during the test-phase of the data challenge (January 2020)** 
 
-The feedbacks of this test phase were useful to improve the data challenge as a whole before settling the new deadline for the phase 1 (**30th of September 2020**). 
+The feedbacks received from this *test-phase* were useful to improve the data challenge before settling the new deadline for the *phase 1*: **30th of September 2020**. 
 
-*Among the 51 participants who registered on CodaLab, we received 9 submissions. 
-We publish here the results from the ADI sub-challenge (subchallenge_1/) on the VLT/SPHERE-IRDIS data taken with the K1 narrow-band filter (SPHERE_IRDIS_3/). 
-We warmly thanks the participants who have submitted their results for this first test phase (note that the results submitted during the test phase are valid for the final phase 1).*
+*Among the* **51 participants** *who registered on CodaLab, we received* **9 submissions**. 
+We publish here the results from the ADI sub-challenge (*subchallenge_1/*) on the VLT/SPHERE-IRDIS data taken with the K1 narrow-band filter (*SPHERE_IRDIS_3/*). 
+*We warmly thanks the participants who have submitted their results for this first test phase (note that the results submitted during the test phase are valid for the final phase 1).*
 
 
 ## Data VLT/SPHERE-IRDIS narrow-band
