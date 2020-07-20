@@ -3,7 +3,7 @@ layout: page
 title: Preliminary results
 ---
 
-# **On this page, we present the results obtained during the test-phase of the data challenge (January 2020)** 
+### **On this page, we present the results obtained during the test-phase of the data challenge (January 2020)** 
 
 The feedbacks received from this *test-phase* were useful to improve the data challenge before settling the new deadline for the *phase 1*: **30th of September 2020**. 
 
