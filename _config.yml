@@ -17,7 +17,7 @@ baseurl: ""
 title: Exoplanet Imaging Data Challenge
 
 # Short description of your site
-description: Community-wide data challenge for high-contrast imaging data processing and the comparison of exoplanet direct detection algorithms
+description: Community-wide data challenge for high-contrast imaging of exoplanets, to compare and test the various post-processing techniques.
 
 # --- Navigation bar option s --- #
 
@@ -102,7 +102,7 @@ share-links-active:
   twitter: true
   facebook: true
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
