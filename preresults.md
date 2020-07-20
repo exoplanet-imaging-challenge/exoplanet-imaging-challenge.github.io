@@ -40,7 +40,7 @@ More information about each algorithm used can be find at the end of this page.
 
 The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.io/metrics/)) is also shwown below each algorithm.
 
-| ![ResultSPHEREirdis3](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/DataChallenge_sphere3.pdf){:width="600px"} |
+| ![ResultSPHEREirdis3](img/DataChallenge_sphere3.png){:width="600px"} |
 |---|
 | Figure 3. *Detection maps submitted (the colorbar is given from the minimal value to the given threshold): at the participant-provided threshold, true detections are encircled in blue. For each image we plotted the corresponding FPF and TPF as a function of threshold (vertical line is the participant-provided threshold) and the F1-score is indicated below*. |
 
