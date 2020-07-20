@@ -42,13 +42,13 @@ The six detection maps are displayed from their minimum value to the participant
 
 From these detection map, we extracted the true positive fraction (TPF, see definitions [here](https://exoplanet-imaging-challenge.github.io/metrics/)) and the false positive fraction (FPF). For this we first apply the same binary mask to all the detection maps (between a radius of 15 to 70 pixels, the detection maps being 159x159 pixels). We then varied the threshold from 0.1 to 10 and counted the detections per resels, compared to the injected signals. The FPF (red solid line) and the TPF (green solid line) as a function of the threshold are shown below the detection maps. *The goal is to minimize the area under the red curve (the FPF must be as close as possible to zero whatever the threshold) and to maximize the area under the green curve (the TPF must be as close as possible to one, whatever the threshold)*.
 
-More information about each algorithm used can be find at the end of this page.
-
-The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.io/metrics/)) is also shwown below each algorithm.
+The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.io/metrics/), to be as close as possible to 1) is indicated below each detection map.
 
 | ![ResultSPHEREirdis3](img/DataChallenge_sphere3.png){:width="1200px"} |
 |---|
 | **Figure 3.** Detection maps submitted (the colorbar is given from the minimal value to the given threshold): at the participant-provided threshold, true detections are encircled in pale yellow. For each image we plotted the corresponding FPF (red) and TPF (green) as a function of threshold (vertical line is the participant-provided threshold),  and the F1-score is indicated below. |
+
+*More information about each algorithm used can be find at the end of this page.*
 
 
 ### 4. Discussions
