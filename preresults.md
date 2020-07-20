@@ -15,7 +15,7 @@ We chose this dataset among the data for the data challenge ([presented on this 
 
 The observing conditions were not stable so the image cube shows large temporal speckle variation.
 
-| ![DataSPHEREirdis3](img/Info_data.001.jpeg){:width="800px"} |
+| ![DataSPHEREirdis3](img/Info_inputdata.png){:width="800px"} |
 |---|
 | Figure 1. *First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right) *. |
 
@@ -23,7 +23,7 @@ The observing conditions were not stable so the image cube shows large temporal 
 
 In order to define the detection limit around which the synthetic companions are injected, we ran a classic annular PCA from the VIP toolbox (https://vip.readthedocs.io/en/latest/#). The obtained detection map is shown on Fig.2 below. The F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
 
-| ![BaselineSPHEREirdis3](link){:width="600px"} |
+| ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="400px"} |
 |---|
 | Figure 2. *Post-processed image using annular PCA as implemented in VIP*. |
 
