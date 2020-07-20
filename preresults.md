@@ -5,10 +5,11 @@ title: Preliminary results
 
 **On this page, we present the results obtained during the test-phase of the data challenge (January 2020)** 
 
-The feedbacks received from this *test-phase* were useful to improve the data challenge before settling the new deadline for the *phase 1*: **30th of September 2020**. 
+The feedbacks received from this *test-phase* were useful to improve the data challenge before setting the new deadline for the *phase 1* to the **30th of September 2020**. 
 
-*Among the* **51 participants** *who registered on CodaLab, we received* **9 submissions**. 
+Among the **51 participants** who registered on CodaLab, we received **9 submissions**. 
 We publish here the results from the ADI sub-challenge (*subchallenge_1/*) on the VLT/SPHERE-IRDIS data taken with the K1 narrow-band filter (*SPHERE_IRDIS_3/*). 
+
 *We warmly thanks the participants who have submitted their results for this first test-phase* (note that the results submitted during the test-phase remain valid for the final phase 1).
 
 
@@ -19,7 +20,7 @@ The observing conditions were not stable so the image cube shows large temporal 
 
 | ![DataSPHEREirdis3](img/Info_inputdata.png){:width="1200px"} |
 |---|
-| **Figure 1.** First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right). |
+| **Figure 1.** First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right). The intensity is the raw contrast in terms of magnitude. |
 
 
 ### 2. Baseline result
