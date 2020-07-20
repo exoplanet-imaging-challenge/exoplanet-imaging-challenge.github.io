@@ -15,7 +15,7 @@ We chose this dataset among the data for the data challenge ([presented on this 
 
 The observing conditions were not stable so the image cube shows large temporal speckle variation.
 
-| ![DataSPHEREirdis3](link){:width="600px"} |
+| ![DataSPHEREirdis3](img/DataChallenge_sphere3.pdf){:width="600px"} |
 |---|
 | Figure 1. *First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right) *. |
 
