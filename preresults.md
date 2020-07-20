@@ -4,28 +4,31 @@ title: Preliminary results
 ---
 
 **On this page, we present the results obtained during the test phase of the data challenge (deadline January 2020).** 
-The feedbacks of this test phase were useful to improve the data challenge as a whole before settling the new deadline for the phase 1 (30th of September 2020). 
-We warmly thanks the participants who have submitted their results for this first test phase (note that the results submitted during the test phase are valid for the final phase 1).
 
-Among the 51 participants who registered on CodaLab, we received *9 submissions*. 
-We publish here the results from the ADI sub-challenge (*subchallenge_1*) on the VLT/SPHERE-IRDIS data in K1 narrow-band (*SPHERE_IRDIS_3*). 
+The feedbacks of this test phase were useful to improve the data challenge as a whole before settling the new deadline for the phase 1 (**30th of September 2020**). 
+
+*Among the 51 participants who registered on CodaLab, we received **9 submissions**. 
+We publish here the results from the ADI sub-challenge (*subchallenge_1*) on the VLT/SPHERE-IRDIS data taken with the K1 narrow-band filter (*SPHERE_IRDIS_3*). 
+We warmly thanks the participants who have submitted their results for this first test phase (note that the results submitted during the test phase are valid for the final phase 1).*
+
 
 ## Data VLT/SPHERE-IRDIS narrow-band
-We chose this dataset among the data for the data challenge ([presented on this page] (https://exoplanet-imaging-challenge.github.io/datasets/)) because this is the most used SPHERE mode for exoplanet detection (e.g. SHINE large survey, [Chauvin et al., 2017](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..331C/abstract)). 
+We chose this dataset among the data for the data challenge, ([presented on this page](https://exoplanet-imaging-challenge.github.io/datasets/)), because this is the most used SPHERE mode for exoplanet detection (e.g. SHINE large survey, [Chauvin et al., 2017](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..331C/abstract)). 
 
-The observing conditions were not stable so the image cube shows large temporal speckle variation.
+The observing conditions were not stable so the image cube shows large temporal variations.
 
 | ![DataSPHEREirdis3](img/Info_inputdata.png){:width="800px"} |
 |---|
-| Figure 1. *First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right) *. |
+| **Figure 1.** First frame of the provided data cube (left), temporal median of the data cube (middle) and normalised off-axis PSF (right). |
+
 
 ## Baseline result
 
-In order to define the detection limit around which the synthetic companions are injected, we ran a classic annular PCA from the VIP toolbox (https://vip.readthedocs.io/en/latest/#). The obtained detection map is shown on Fig.2 below. The F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
+In order to define the detection limit around which the synthetic planetary signals are injected, we ran a classic annular PCA from the [VIP toolbox](https://vip.readthedocs.io/en/latest/#). The resulting detection map is shown in Fig. 2 and the F1-score obtained for this widely used speckle-subtraction technique is *0.45*. 
 
 | ![BaselineSPHEREirdis3](img/Baseline_result.png){:width="400px"} |
 |---|
-| Figure 2. *Post-processed image using annular PCA as implemented in VIP*. |
+| **Figure 2.** Post-processed image using annular PCA as implemented in VIP. |
 
 
 ## Results from participants
@@ -42,7 +45,7 @@ The global F1-score ([defined here](https://exoplanet-imaging-challenge.github.i
 
 | ![ResultSPHEREirdis3](img/DataChallenge_sphere3.png) |
 |---|
-| Figure 3. *Detection maps submitted (the colorbar is given from the minimal value to the given threshold): at the participant-provided threshold, true detections are encircled in blue. For each image we plotted the corresponding FPF and TPF as a function of threshold (vertical line is the participant-provided threshold) and the F1-score is indicated below*. |
+| **Figure 3.** Detection maps submitted (the colorbar is given from the minimal value to the given threshold): at the participant-provided threshold, true detections are encircled in blue. For each image we plotted the corresponding FPF and TPF as a function of threshold (vertical line is the participant-provided threshold) and the F1-score is indicated below. |
 
 
 ## Discussions
