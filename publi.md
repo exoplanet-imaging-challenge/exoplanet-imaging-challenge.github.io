@@ -5,8 +5,8 @@ title: Publication of the results
 
 ## Publication of the results 
 
-After the first phase of the exoplanet imaging data challenge (ending Monday 1st of June 2020 at 11.59am CET), the results of the submission will be gathered in an SPIE conference proceeding. 
-The proceeding is the result of a poster presented at SPIE *Astronomical Telescope + Instrumentation* taking place in Yokohama (Japan) from the 14th to the 19th of June 2020 (<https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation?SSO=1>). 
+After the first phase of the exoplanet imaging data challenge (ending 30th of September 2020 at 11.59am CET), the results of the submission will be gathered in an SPIE conference proceeding. 
+The proceeding is the result of a poster presented at SPIE [Astronomical Telescope + Instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) taking place in San Diego (USA) from the 13th to the 18th of December 2020 
 
 **All participants to the Exoplanet Imaging Data Challenge** will be invited to co-author the proceeding. 
 
