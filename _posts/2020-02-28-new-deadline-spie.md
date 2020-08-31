@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deadline is postponed to 30/09/2020
+title: Deadline is post-poned to 30/09/2020
 comments: true
 ---
 
