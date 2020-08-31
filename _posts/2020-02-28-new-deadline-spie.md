@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New deadline for phase 1: 30/09/2020
+title: New deadline for phase 1 on 30/09/2020
 comments: true
 ---
 
