@@ -12,7 +12,7 @@ In order to reduce the need of domain knowledge (e.g. the expertize related to h
 
 Please keep in mind that we use these contributed datasets to inject synthetic companions and create the data challenge library. Once the data challenge is finished, the datasets without synthetic companions will constitute the benchmark HCI library.
 
-<iframe width="700" height="550" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtS1LYA97Rbv27P9T3bD3ctrS0-cxhJ9n2CT_qEIZZ-6bvwzx7u7OSaH5o9fdWIKNDnXa99b0vjalw/pubhtml?widget=true&headers=false></iframe>
+<iframe width="700" height="550" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtS1LYA97Rbv27P9T3bD3ctrS0-cxhJ9n2CT_qEIZZ-6bvwzx7u7OSaH5o9fdWIKNDnXa99b0vjalw/pubhtml?widget=true&headers=false"></iframe>
 
 For the sub-challenge on ADI post-processing, each dataset will be composed of:
  * ``instrument_cube_id.fits`` (3d array),
