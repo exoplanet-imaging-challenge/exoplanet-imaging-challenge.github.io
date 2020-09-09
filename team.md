@@ -33,9 +33,8 @@ If you have any questions about the data challenge or encounter any issue, pleas
 
 Below we list the collaborators who have provided data from high-contrast imaging instruments for the data challenge:
 
-* Olivier Absil (ULiège, Belgium)
-* David Mouillet (IPAG, France)
-* Dimitri Mawet (Caltech, USA)
-* Jordan Stone (LBT observatory, USA)
-
+* David Mouillet (IPAG, France): VLT/SPHERE data
+* Dimitri Mawet (Caltech, USA): Keck/NIRC2 data
+* Jordan Stone (LBT observatory, USA): LBT/LMIRCam data
+* J.-B. Ruffio (Caltech, USA): Gemini-N/GPI data
 
