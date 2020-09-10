@@ -36,5 +36,5 @@ Below we list the collaborators who have provided data from high-contrast imagin
 * David Mouillet (IPAG, France): VLT/SPHERE data
 * Dimitri Mawet (Caltech, USA): Keck/NIRC2 data
 * Jordan Stone (LBT observatory, USA): LBT/LMIRCam data
-* J.-B. Ruffio (Caltech, USA): Gemini-N/GPI data
+* J.-B. Ruffio (Caltech, USA), on behalf of *GPIES collaboration*: Gemini-S/GPI data
 
