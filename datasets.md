@@ -54,7 +54,7 @@ The information about the datasets can be find in the table below:
 
 <iframe 
 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0fDpZD4LAoawUkITgWj_6Nx7XIKB4JAeOVS9CUIsTITI4X-MTI_rsqzC6e5MvQ2j9ivkoxZzI-XKB/pubhtml?gid=39220023&amp;single=true&amp;widget=true&amp;headers=false"
-style="width:100%; height:450px;"></iframe>
+style="width:100%; height:480px;"></iframe>
 
 ***
 It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the **HCI benchmark library** that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.
