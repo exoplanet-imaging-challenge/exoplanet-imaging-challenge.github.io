@@ -31,7 +31,7 @@ The data are saved in [FITS](https://en.wikipedia.org/wiki/FITS) files format. A
 No additional sorting or temporal binning have been applied. **Users can sort-out the images if they wish**
 
 ### Injections
-Using the center defined in the table below, we injected 0 to 5 synthetic planetary signals in each dataset, with contrast and separation randomly picked around the detection limit (5-sigma contrast curve) computed from the baseline post-processing technique (a full frame PCA). To inject the synthetic planetary signals, we made use of the VIP pipeline.
+Using the center defined in the table below and [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0fDpZD4LAoawUkITgWj_6Nx7XIKB4JAeOVS9CUIsTITI4X-MTI_rsqzC6e5MvQ2j9ivkoxZzI-XKB/pubhtml?gid=39220023&single=true), we injected 0 to 5 synthetic planetary signals in each dataset, with contrast and separation randomly picked around the detection limit (5-sigma contrast curve) computed from the baseline post-processing technique (a full frame PCA). To inject the synthetic planetary signals, we made use of the VIP pipeline.
 
 ### Provided data content
 For the sub-challenge on ADI post-processing, each dataset is composed of:
@@ -52,7 +52,9 @@ For the second sub-challenge on ADI+mSDI post-processing, each dataset is compos
 ### Data parameters
 The information about the datasets can be find in the table below:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0fDpZD4LAoawUkITgWj_6Nx7XIKB4JAeOVS9CUIsTITI4X-MTI_rsqzC6e5MvQ2j9ivkoxZzI-XKB/pubhtml?gid=39220023&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe 
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0fDpZD4LAoawUkITgWj_6Nx7XIKB4JAeOVS9CUIsTITI4X-MTI_rsqzC6e5MvQ2j9ivkoxZzI-XKB/pubhtml?gid=39220023&amp;single=true&amp;widget=true&amp;headers=false"
+style="width:100%; height:300px;"></iframe>
 
 ***
 It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the **HCI benchmark library** that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.
