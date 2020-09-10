@@ -9,11 +9,15 @@ Make sure you get the latest version (v2.0).
 
 #### Instruments
 The datasets used in this data challenge were kindly provided by scientists from several high-contrast imaging instruments (see [Team](https://exoplanet-imaging-challenge.github.io/team/)), and are the result of many years of work of different teams around the globe:
+
 *Subchallenge 1:*
+
 * VLT/SPHERE-IRDIS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
 * Keck/NIRC2, [NIRC2 webpage](https://www2.keck.hawaii.edu/inst/nirc2/)
 * LBT/LMIRCam, [Wilson et al., 2008](https://ui.adsabs.harvard.edu/abs/2008SPIE.7013E..3AW/abstract)
+
 *Subchallenge 2:*
+
 * VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
 * Gemini-S/GPI, [Macintosh et al., 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full) 
 
