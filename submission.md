@@ -3,23 +3,29 @@ layout: page
 title: Submission instructions
 ---
 
-The exoplanet imaging data challenge will consist of two consecutive stages, each one with its own type of submission and metrics. 
+The exoplanet imaging data challenge will consist of several stages, each one with its own type of submission and metrics. 
 
 ## Stage 1
 
-**Deadline 1st of June 2020**
+**Deadline 30st of September 2020**
 
-The expected output from an algorithm (i.e. the submission from a given participant), consists of:
-* All the detection maps (9 for the first ADI sub-challenge and 10 for the second ADI+mSDI sub-challenge); 
+For each algorithm, the participants must submit:
+* All the detection maps (i.e. 9 for the ADI sub-challenge and 10 for the ADI+mSDI sub-challenge)
 * One detection threshold for all the maps (1 value per sub-challenge), which is the threshold from which a detection is claimed;
 * Optionally, the [FHWM](https://en.wikipedia.org/wiki/Full_width_at_half_maximum) values used for each dataset can be submitted (the FWHM is related to the expected size of a candidate detection - or resolution element - in the detection maps). 
 
-**Every file must be in .FITS format**
+{: .box-note}
+**File format:** Every file must be in **.fits** format.
 
-**All of these .fits files must be submitted within a single .zip file, with a flat structure.**
+{: .box-note}
+**Threshold:** The detection threshold is **one single value for all of the detection maps** submitted. Also the threshold must be a 1x1 array containing the chosen scalar value. If needed, the detection maps can be streched to a common threshold value. We remind that any signal above the threshold value will be considered as a detection.
 
-**One .zip file must be submitted for each sub-challenge (one for ADI and one for ADI+mSDI).**
+{: .box-note}
+**Submission into a .zip file:** All of the .fits files must be submitted within **a single .zip file**, with a flat structure.
+One .zip file must be submitted for each sub-challenge (one for ADI and one for ADI+mSDI).
 
+
+#### Example
 For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must compile the following files in *.zip* format (any name can be used): 
 
 * ``detection_threshold.fits`` (scalar value, enclosed in a 1x1 vector-array),
@@ -50,8 +56,6 @@ Optionally, you can include:
 {: .box-note}
 **Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard). Please keep in mind that a partial submission for a given sub-challenge is possible, but that will penalize the metrics computations and your score. 
 
-{: .box-note}
-**Note:** The detection threshold is **one single value for all of the detection maps** submitted. Also the threshold must be a 1x1 array containing the chosen scalar value. 
 
 {: .box-note}
 **Note:** *Please check out the documentation of the [Astropy Python library](http://docs.astropy.org/en/stable/io/fits/) if you want to know more about saving data in FITS format. Optionally, the [VIP Python library]((https://github.com/vortex-exoplanet/VIP)) contains a wrapper (``vip_hci.fits.write_fits()``) of Astropy for saving Python numpy arrays as FITS files.*
@@ -66,6 +70,7 @@ Optionally, you can include:
 {: .box-warning}
 **Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
 
+*** 
 
 ## Stage 2
 
