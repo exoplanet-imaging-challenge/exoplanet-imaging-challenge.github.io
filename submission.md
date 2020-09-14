@@ -10,9 +10,12 @@ The exoplanet imaging data challenge will consist of several stages, each one wi
 **Deadline 30st of September 2020**
 
 For each algorithm, the participants must submit:
-* All the detection maps (i.e. 9 for the ADI sub-challenge and 10 for the ADI+mSDI sub-challenge)
-* One detection threshold for all the maps (1 value per sub-challenge), which is the threshold from which a detection is claimed;
-* Optionally, the [FHWM](https://en.wikipedia.org/wiki/Full_width_at_half_maximum) values used for each dataset can be submitted (the FWHM is related to the expected size of a candidate detection - or resolution element - in the detection maps). 
+* All the detection maps for each data set:
+9 for the ADI sub-challenge and 10 for the ADI+mSDI sub-challenge.
+* One detection threshold for all the maps, which is the threshold from which a detection is claimed:
+1 value per sub-challenge.
+* Optionally, the [FHWM](https://en.wikipedia.org/wiki/Full_width_at_half_maximum) values used for each dataset can be submitted (the FWHM is related to the expected size of a candidate detection - or resolution element - in the detection maps):
+9 values for the ADI sub-challenge and 10 values for the ADI+mSDI sub-challenge.
 
 {: .box-note}
 **File format:** Every file must be in **.fits** format.
