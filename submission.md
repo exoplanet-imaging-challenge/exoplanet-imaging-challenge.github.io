@@ -24,9 +24,49 @@ For each algorithm, the participants must submit:
 **Submission into a .zip file:** All of the .fits files must be submitted within **a single .zip file**, with a flat structure.
 One .zip file must be submitted for each sub-challenge (one for ADI and one for ADI+mSDI).
 
+{: .box-note}
+**Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard). Please keep in mind that a partial submission for a given sub-challenge is possible, but that will penalize the metrics computations and your score. 
 
-#### Example
-For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must compile the following files in *.zip* format (any name can be used): 
+### Potential error message
+
+**Zipping the file:** The zip file must be flat (i.e. without subfolder structure), please consider checking this aspect.
+
+**Space left on device:** This error occurs when a compute worker is full, usually because it has too many docker images. If this happens, we have to contact CodaLab and clean the repository. Please notify us if you encounter such error (<exoimg.datachallenge@gmail.com>).
+
+{: .box-warning}
+**Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
+
+{: .box-note}
+**Note:** *Please check out the documentation of the [Astropy Python library](http://docs.astropy.org/en/stable/io/fits/) if you want to know more about saving data in FITS format. Optionally, the [VIP Python library]((https://github.com/vortex-exoplanet/VIP)) contains a wrapper (``vip_hci.fits.write_fits()``) of Astropy for saving Python numpy arrays as FITS files.*
+
+
+### Example, ADI
+For example, for submitting your results of the 1st sub-challenge (ADI), you must gather the following files in *.zip* format (any name can be used): 
+* ``detection_threshold.fits`` (scalar value, enclosed in a 1x1 vector-array),
+* ``sphere_irdis_detmap_1.fits`` (2d array),
+* ``sphere_irdis_detmap_2.fits`` (2d array), 
+* ``sphere_irdis_detmap_3.fits`` (2d array), 
+* ``nirc2_detmap_1.fits`` (2d array), 
+* ``nirc2_detmap_2.fits`` (2d array), 
+* ``nirc2_detmap_3.fits`` (2d array), 
+* ``lmircam_detmap_1.fits`` (2d array), 
+* ``lmircam_detmap_2.fits`` (2d array), 
+* ``lmircam_detmap_3.fits`` (2d array), 
+
+Optionally, you can include:
+* ``sphere_irdis_fwhm_1.fits`` (scalar value), 
+* ``sphere_irdis_fwhm_2.fits`` (scalar value),
+* ``sphere_irdis_fwhm_3.fits`` (scalar value),
+* ``nirc2_fwhm_1.fits`` (scalar value),
+* ``nirc2_fwhm_2.fits`` (scalar value), 
+* ``nirc2_fwhm_3.fits`` (scalar value), 
+* ``lmircam_fwhm_1.fits`` (scalar value), 
+* ``lmircam_fwhm_2.fits`` (scalar value), 
+* ``lmircam_fwhm_3.fits`` (scalar value), 
+
+
+### Example, ADI+mSDI
+For example, for submitting your results of the 2nd sub-challenge (ADI+mSDI), you must gather the following files in *.zip* format (any name can be used):
 
 * ``detection_threshold.fits`` (scalar value, enclosed in a 1x1 vector-array),
 * ``gpi_detmap_1.fits`` (2d array),
@@ -39,36 +79,8 @@ For example, for generating a submission file to the second sub-challenge (ADI+m
 * ``sphere_ifs_detmap_3.fits`` (2d array), 
 * ``sphere_ifs_detmap_4.fits`` (2d array), 
 * ``sphere_ifs_detmap_5.fits`` (2d array). 
+And optionally the corresponding FWHM values (similarly to above).
 
-Optionally, you can include:
-
-* ``gpi_fwhm_1.fits`` (scalar value), 
-* ``gpi_fwhm_2.fits`` (scalar value),
-* ``gpi_fwhm_3.fits`` (scalar value),
-* ``gpi_fwhm_4.fits`` (scalar value),
-* ``gpi_fwhm_5.fits`` (scalar value), 
-* ``sphere_ifs_fwhm_1.fits`` (scalar value), 
-* ``sphere_ifs_fwhm_2.fits`` (scalar value), 
-* ``sphere_ifs_fwhm_3.fits`` (scalar value), 
-* ``sphere_ifs_fwhm_4.fits`` (scalar value), 
-* ``sphere_ifs_fwhm_5.fits`` (scalar value). 
-
-{: .box-note}
-**Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard). Please keep in mind that a partial submission for a given sub-challenge is possible, but that will penalize the metrics computations and your score. 
-
-
-{: .box-note}
-**Note:** *Please check out the documentation of the [Astropy Python library](http://docs.astropy.org/en/stable/io/fits/) if you want to know more about saving data in FITS format. Optionally, the [VIP Python library]((https://github.com/vortex-exoplanet/VIP)) contains a wrapper (``vip_hci.fits.write_fits()``) of Astropy for saving Python numpy arrays as FITS files.*
-
-
-## Potential error message
-
-**Zipping the file:** The zip file must be flat (i.e. without subfolder structure), please consider checking this aspect.
-
-**Space left on device:** This error occurs when a compute worker is full, usually because it has too many docker images. If this happens, we have to contact CodaLab and clean the repository. Please notify us if you encounter such error (<exoimg.datachallenge@gmail.com>).
-
-{: .box-warning}
-**Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
 
 *** 
 
