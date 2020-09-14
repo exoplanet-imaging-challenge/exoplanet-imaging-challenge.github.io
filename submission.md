@@ -5,9 +5,7 @@ title: Submission instructions
 
 The exoplanet imaging data challenge will consist of several stages, each one with its own type of submission and metrics. 
 
-## Stage 1
-
-**Deadline 30st of September 2020**
+## Stage 1: Deadline 30st of September 2020
 
 For each algorithm, the participants must submit:
 * All the detection maps for each data set:
