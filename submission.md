@@ -19,7 +19,7 @@ For each algorithm, the participants must submit:
 **Threshold:** The detection threshold is **one single value for all of the detection maps** submitted. Also the threshold must be a 1x1 array containing the chosen scalar value. If needed, the detection maps can be streched to a common threshold value. We remind that any signal above the threshold value will be considered as a detection.
 
 {: .box-note}
-**Submission into a .zip file:** All of the .fits files must be submitted within **a single .zip file**, with a flat structure.
+**Submission into a .zip file:** All of the .fits files must be submitted within **a single .zip file**, with a flat structure (e.g. using the command on Mac > zip -r -X -j archive_name.zip folder_to_compress).
 One .zip file must be submitted for each sub-challenge (one for ADI and one for ADI+mSDI).
 
 {: .box-note}
