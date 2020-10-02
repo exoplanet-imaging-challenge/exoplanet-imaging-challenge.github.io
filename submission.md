@@ -5,6 +5,8 @@ title: Submission instructions
 
 The exoplanet imaging data challenge will consist of several stages, each one with its own type of submission and metrics. 
 
+*To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693)*
+
 ## Stage 1: Deadline 30st of September 2020
 
 For each algorithm, the participants must submit:
@@ -23,7 +25,7 @@ For each algorithm, the participants must submit:
 One .zip file must be submitted for each sub-challenge (one for ADI and one for ADI+mSDI).
 
 {: .box-note}
-**Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard). Please keep in mind that a partial submission for a given sub-challenge is possible, but that will penalize the metrics computations and your score. 
+**Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard). Please keep in mind that a partial submission for a given sub-challenge is possible, but that will penalize the metrics computations and your score. You can make several submissions, even if only one will show up on the competition webpage leaderboard, all of the submissions will be processed off-line.
 
 ### Potential error message
 
