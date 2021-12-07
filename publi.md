@@ -11,7 +11,7 @@ You can find the publication [here](https://arxiv.org/pdf/2101.05080.pdf) (arXiv
 
 ## SPIE 2020 poster summarizing the results 
 
-<iframe src="https://drive.google.com/file/d/1qYLRHtipjD3QUajlIHLuMd4EU0LVIshB/view?usp=sharing" style="width:100%; height:535px;"></iframe> 
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vTgk9Z_7N9VvXrOsdObFLa8leDONGmHWt51borg46uM6zSYX9beCQfQitQPUpV4AMFDmVh6WPOOVR-z/pub" style="width:100%; height:535px;"></iframe> 
 
 ## Future of the Exoplanet Imaging Data Challenge
 
