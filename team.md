@@ -9,16 +9,16 @@ If you have any questions about the data challenge or encounter any issue, pleas
 
 ## Data challenge creation team
 
-* Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> *(challenge design and coordination: website creation, data gathering, metrics definition, backend implementation on Codalab, logic implementation and extras repository)*
+* Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> *(challenge phase 1 design and coordination: website creation, data gathering, metrics definition, backend implementation on Codalab, logic implementation and extras repository)*
+* Faustine Cantalloube, <faustine.cantalloube@lam.fr>  *(challenge design and coordination: compilation of template spectra for synthetic companions, results compilation and follow-up)*
+* Rebecca Jensen-Clem, <rjensenclem@ucsc.edu> *(testing the Codalab submission engine)*
+* Tiffany Meshkat, <meshkat@caltech.edu> *(logistics, data gathering)*
 * Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
 * Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(contributed datasets pre-processing)*
-* Faustine Cantalloube, <cantalloube@mpia.de>  *(challenge design, compilation of template spectra for synthetic companions)*
-* Tiffany Meshkat, <meshkat@caltech.edu> *(logistics, data gathering)*
-* Rebecca Jensen-Clem, <rjensenclem@berkeley.edu> *(testing the Codalab submission engine)*
 
 ## Working group
 
-* Faustine Cantalloube (MPIA, Germany)
+* Faustine Cantalloube (LAM, France)
 * Carlos Gomez Gonzalez (BSC, Spain)
 * Olivier Absil (ULiege, Belgium)
 * J.-B. Ruffio (Caltech, USA)
