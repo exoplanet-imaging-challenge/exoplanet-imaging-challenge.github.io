@@ -9,8 +9,6 @@ layout: base
 {% include header.html type="page" %}
 <p align="center">
 <div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-17 col-lg-offset-14 col-md-20 col-md-offset-10">
       {{ content }}
 	    {% if page.comments %}
         <div class="disqus-comments">
@@ -24,7 +22,5 @@ layout: base
           {% include just_comments.html %}
         </div>
 	    {% endif %}
-    </div>
-  </div>
 </div>
 </p>
