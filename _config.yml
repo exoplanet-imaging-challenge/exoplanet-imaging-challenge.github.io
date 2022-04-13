@@ -17,29 +17,39 @@ baseurl: ""
 title: Exoplanet Imaging Data Challenge
 
 # Short description of your site
-description: Community-wide data challenge for high-contrast imaging of exoplanets, to compare and test the various post-processing techniques.
+description: Data challenge for astronomical high-contrast imaging, to compare and benchmark the various post-processing techniques.
 
 # --- Navigation bar option s --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Description:
-    - Objectives: "context"
-    - Sub-challenges: "subchallenges"
-    - Datasets: "datasets"
-    - Submissions: "submission"
-    - Metrics: "metrics"
-    - Publication: "publi"
-  Resources:
+  Phase#1: Detection:
+    - Objectives: "context" #description et motivation, includes subchallenges
+    #- Sub-challenges: "subchallenges"
     - Starting kit and extras: "startingkit"
-    - Results of test phase: "preresults"
+    - Datasets: "datasets" #lien zenodo + instru + data providers + injection procedure
+    - Submissions: "submission" #Codalab et metric leaderboard
+    #- Metrics: "metrics"
+    - Results: "publi" #publication et poster + add pre-results
+    #- Results of test phase: "preresults"
+    -F.A.Q: "faq"
+  Phase#2: Characterisation:
+    - Objectives: "context2" #description et motivation, includes subchallenges
+    - Datasets: "datasets2" #lien zenodo + instru + data providers + injection procedure
+    - Submissions: "submission2" #Codalab et metric leaderboard
+    - Results: "publi2" #publication et poster
+    -F.A.Q: "faq2"
+  Other Challenges:
     - NEAR campaign data: "near"
+    - Interferometry: "interfero"
+    - StarShade: "starshade"
+    - Roman Space Telescope: "cgi"
+    - Bibliography: "biblio"
   Team: "team"
-  F.A.Q: "faq"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/challenge_logo.003_lowres.png"
+avatar: "/img/Logo_EIDC2.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -71,7 +81,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Carlos Alberto Gomez Gonzalez
+  name: Exoplanet Imaging Data Challenge Team
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
