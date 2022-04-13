@@ -23,7 +23,7 @@ description: Community-wide data challenge for high-contrast imaging of exoplane
 
 # List of links in the navigation bar
 navbar-links:
-  Phase#1:
+  Description:
     - Objectives: "context"
     - Sub-challenges: "subchallenges"
     - Datasets: "datasets"
@@ -182,7 +182,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
