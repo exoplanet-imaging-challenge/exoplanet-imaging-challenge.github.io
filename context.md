@@ -3,11 +3,8 @@ layout: page
 title: Scientific context and objectives
 ---
 
-Direct imaging is a major step in the hunt of extrasolar planets. But observing exoplanets using ground-based telescopes is a very challenging task! The main difficulties are the huge difference in brightness between the host star and its potential companions and the small angular separation between them. These difficulties are amplified by the image degradation caused by the Earth's turbulent atmosphere and the imperfect optics in the instrument. Therefore, ground-based high-contrast imaging (HCI) relies on the use of adaptive optics, which corrects in real time for the atmosphere turbulence by using a deformable mirror, and coronagraphy, which suppresses most of the light coming from the host star. The following video, prepared by the NASA Exoplanet Exploration Program, explains the role of coronagraphy and adaptive optics correction in the specific case of space-based observations:  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SpzeS7KBGkw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Even using these cutting-edge technologies, the resulting images suffer from bright starlight residuals hiding the presence of planetary companions. Among them, the quasi-statics *speckles* are of the same size as the exoplanet signal and often brighter. Therefore, the two remaining components of high-contrast imaging are (1) the data acquisition techniques, which focuses on introducing some diversity in the data to later disentangle between the planetary companions and the speckle field and (2) the post-processing techniques that exploit this diversity to carve out further the starlight residuals and recover the planetary signals (see the sub-challenges section below). **Post-processing techniques is what ultimately pushes the performance of the HCI instruments.** 
 
 # Objectives 
 
