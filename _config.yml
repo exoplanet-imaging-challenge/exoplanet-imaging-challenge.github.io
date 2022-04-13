@@ -24,15 +24,15 @@ description: Data challenge for astronomical high-contrast imaging, to compare a
 # List of links in the navigation bar
 navbar-links:
   Phase#1 (Detection):
-    - Objectives: "context" #description et motivation, includes subchallenges
+    - Objectives: "context1" #description et motivation, includes subchallenges
     #- Sub-challenges: "subchallenges"
     - Starting kit and extras: "startingkit"
-    - Datasets: "datasets" #lien zenodo + instru + data providers + injection procedure
-    - Submissions: "submission" #Codalab et metric leaderboard
+    - Datasets: "datasets1" #lien zenodo + instru + data providers + injection procedure
+    - Submissions: "submission1" #Codalab et metric leaderboard
     #- Metrics: "metrics"
-    - Results: "publi" #publication et poster + add pre-results
+    - Results: "publi1" #publication et poster + add pre-results
     #- Results of test phase: "preresults"
-    - F.A.Q: "faq"
+    - F.A.Q: "faq1"
   Phase#2 (Characterisation):
     - Objectives: "context2" #description et motivation, includes subchallenges
     - Datasets: "datasets2" #lien zenodo + instru + data providers + injection procedure

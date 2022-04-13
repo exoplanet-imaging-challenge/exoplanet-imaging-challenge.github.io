@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submission instructions
+title: Submission instructions (phase 1)
 ---
 
 The exoplanet imaging data challenge will consist of several stages, each one with its own type of submission and metrics. 

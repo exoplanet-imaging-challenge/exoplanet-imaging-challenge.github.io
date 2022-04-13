@@ -1,6 +1,6 @@
 ---
 layout: page
-title: F.A.Q
+title: F.A.Q  (phase 1)
 ---
 
 * How can I participate? Where is the competition? Is this working
