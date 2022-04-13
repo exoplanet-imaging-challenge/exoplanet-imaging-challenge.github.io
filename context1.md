@@ -9,9 +9,6 @@ A multitude of HCI post-processing algorithms and pipelines have been developed 
 
 With the aim of creating a manageable competition, we will focus exclusively on the detection of point-like sources (exoplanets). Other tasks, such as the characterization of companions, the detection of extended sources, reference star differential imaging and the usage of metadata/telemetry, will be the subject of future editions of the challenge. 
 
-{: .box-note}
-**Note:** You don't need to be an astronomer or expert in high-contrast imaging to participate! We welcome the participation of non-domain experts. On this website you will find extensive documentation about the challenge and how to participate. We expect domain experts will use their tools, for outsiders we have prepared a starting kit in the resources section.
-
 Computer science and machine learning fields have a long tradition conducting data challenges and competitions. Repositories of benchmark (curated) datasets are an integral part of the field of machine learning. We want to integrate these practices to the field of high-contrast imaging. In the future, the process of testing new algorithms will be much straightforward and robust, once the community adopts the standard metrics (with their open-source implementations) and the benchmark library resulting from this challenge.  
 
 # Two sub-challenges
