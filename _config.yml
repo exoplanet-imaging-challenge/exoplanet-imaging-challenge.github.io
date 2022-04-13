@@ -23,7 +23,7 @@ description: Community-wide data challenge for high-contrast imaging of exoplane
 
 # List of links in the navigation bar
 navbar-links:
-  Description:
+  Phase#1:
     - Objectives: "context"
     - Sub-challenges: "subchallenges"
     - Datasets: "datasets"
@@ -71,7 +71,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Carlos Alberto Gomez Gonzalez
+  name: Exoplanet Imaging Data Challenge Team
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
