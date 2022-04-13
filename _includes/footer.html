@@ -23,13 +23,8 @@
             </li>
           {%- endfor -%}
         </ul>
-      <p class="copyright text-muted">
-      {{ site.author.name }}
-      &nbsp;&bull;&nbsp;
-      {{ site.time | date: '%Y' }}
-
+      <p class="copyright text-muted"
       {% if site.url-pretty %}
-      &nbsp;&bull;&nbsp;
       <a href="{{ site.url }}">{{ site.url-pretty }}</a>
       {% endif %}
 
