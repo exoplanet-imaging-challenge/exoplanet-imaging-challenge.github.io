@@ -9,32 +9,39 @@ If you have any questions about the data challenge or encounter any issue, pleas
 
 ## Data challenge creation team
 
-* Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> *(challenge phase 1 design and coordination: website creation, data gathering, metrics definition, backend implementation on Codalab, logic implementation and extras repository)*
-* Faustine Cantalloube, <faustine.cantalloube@lam.fr>  *(challenge design and coordination: compilation of template spectra for synthetic companions, results compilation and follow-up)*
-* Rebecca Jensen-Clem, <rjensenclem@ucsc.edu> *(testing the Codalab submission engine)*
-* Tiffany Meshkat, <meshkat@caltech.edu> *(logistics, data gathering)*
-* Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
-* Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(contributed datasets pre-processing)*
+* Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> 
+* Faustine Cantalloube, <faustine.cantalloube@lam.fr>  
+* Olivier Absil, <olivier.absil@uliege.be>
+* Rebecca Jensen-Clem, <rjensenclem@ucsc.edu> 
+* Tiffany Meshkat, <meshkat@caltech.edu> 
 
-## Working group
+## Working group, Phase#1 (planet detection)
 
 * Faustine Cantalloube (LAM, France)
-* Carlos Gomez Gonzalez (BSC, Spain)
 * Olivier Absil (ULiege, Belgium)
-* J.-B. Ruffio (Caltech, USA)
+* Markus Bonse (ETH-Zurich, Switzerland)
+* Mike Bottom (IfA Hawaii, USA)
+* Raphael Bacher (UGA, France)
+* Carles Cantero (ULiege, Belgium) 
+* Corentin Doco (UGA, France)
+* Carlos Gomez Gonzalez (BSC, Spain)
 * Rebecca Jensen-Clem (UC Santa Cruz, USA)
+* Tiffany Meshkat (Caltech, USA)
 * Sebastien Pierard (ULiege, Belgium)
+* J.-B. Ruffio (Caltech, USA)
+
+## Working group, Phase#2 (planet characterization)
+
+* Faustine Cantalloube (LAM, France)
+* Olivier Absil (ULiege, Belgium)
 * Markus Bonse (ETH-Zurich, Switzerland)
 * Carles Cantero (ULiege, Belgium)
-* Tiffany Meshkat (Caltech, USA)
-* Mike Bottom (IfA Hawaii, USA)
-
-## Data providers
-
-Below we list the collaborators who have provided data from high-contrast imaging instruments for the data challenge:
-
-* David Mouillet (IPAG, France): VLT/SPHERE data
-* Dimitri Mawet (Caltech, USA): Keck/NIRC2 data
-* Jordan Stone (LBT observatory, USA): LBT/LMIRCam data
-* J.-B. Ruffio (Caltech, USA), on behalf of *GPIES collaboration*: Gemini-S/GPI data
+* Anthony Cioppa (ULiege, Belgium)
+* Valentin Christiaens (ULiege, Belgium)
+* Sandrine Juillard (ULiege, Belgium)
+* Johan Mazoyer (LESIA, France)
+* Evert Nasedkin (MPIA, Germany)
+* J.-B. Ruffio (Caltech, USA)
+* Matthias Samland (MPIA, Germany)
+* Marc Van Droogenbroeck (ULiege, Belgium)
 
