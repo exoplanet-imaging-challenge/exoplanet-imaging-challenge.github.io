@@ -1,34 +1,82 @@
 ---
 layout: page
 title: Exoplanet Imaging Data Challenge
-subtitle: Community-wide data challenge to benchmark and compare the high-contrast imaging post-processing algorithms to detect and characterize exoplanets
+subtitle: Community-wide data challenge for high-contrast imaging data processing and the comparison of exoplanet direct detection algorithms
 use-site-title: false
 ---
 
 <br />
 
+<p align="center"><i>The challenge datasets are hosted on <a href="https://zenodo.org/record/3361544">Zenodo</a></i></p>
+<p align="center"><i>The challenge is hosted on <a href="https://competitions.codalab.org/competitions/20693">Codalab</a></i></p>
 
-<p align="center"><strong>The second phase of the challenge, focused on characterisation of exoplanets, is on-going !<strong></p>
-<p align="center"><i>The caracterisation phase datasets are hosted on <a href="https://zenodo.org/record/3361544">Zenodo</a></i></p>
-<p align="center"><i>The caracterisation phase challenge is hosted on <a href="https://competitions.codalab.org/competitions/20693">EvalAI</a></i></p>
+<p> Welcome to The Exoplanet Imaging Data Challenge, a community-wide effort to compare algorithms for detecting exoplanets with ground-based high-contrast imaging. The challenge is organized in collaboration with several members of the high-contrast imaging community and had direct support from the <a href="https://data-institute.univ-grenoble-alpes.fr/">Grenoble Alpes Data Institute</a> (Université Grenoble Alpes, France). </p>
 
-<p> Welcome to The Exoplanet Imaging Data Challenge, which aims at benchmarking and comparing post-processing techniques to detect and characterize exoplanets within ground-based high-contrast images. 
-The challenge is organized in collaboration with several members of the high-contrast imaging community</p>
+<p>Direct imaging is a major step in the hunt of extrasolar planets. But observing exoplanets using ground-based telescopes is a very challenging task! The main difficulties are the huge difference in brightness between the host star and its potential companions and the small angular separation between them. These difficulties are amplified by the image degradation caused by the Earth's turbulent atmosphere and the imperfect optics in the instrument. Therefore, ground-based high-contrast imaging (HCI) relies on the use of adaptive optics, which corrects in real time for the atmosphere turbulence by using a deformable mirror, and coronagraphy, which suppresses most of the light coming from the host star. The following video, prepared by the NASA Exoplanet Exploration Program, explains the role of coronagraphy and adaptive optics correction in the specific case of space-based observations:  </p>
+<center> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpzeS7KBGkw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center> 
 
-<p> Direct imagin of planetary systems is a major step towards understanding the demographics, the evolution and formation of extrasolar planets. 
-Observing exoplanets using the largest ground-based telescopes is a very challenging task! The main difficulties are (i) the huge difference in brightness between the host star and its potential companions, which are millions of times fainter, and (ii) the small angular separation between them, which are less than a few hundreds milli-arcseconds. 
-Astronomers need the largest optical telescopes to adress this challenge. But, on Earth, these difficulties are amplified by the image degradation caused by the Earth's turbulent atmosphere and the imperfect optics in the instrument. Therefore, ground-based high-contrast imaging (HCI) relies on the use of adaptive optics, which corrects in real time for the atmosphere turbulence by using a deformable mirror, and coronagraphy, which suppresses most of the light coming from the host star.  </p>
+<p>Even using these cutting-edge technologies, the resulting images suffer from bright starlight residuals hiding the presence of planetary companions. Among them, the quasi-statics *speckles* are of the same size as the exoplanet signal and often brighter. Therefore, the two remaining components of high-contrast imaging are (1) the data acquisition techniques, which focuses on introducing some diversity in the data to later disentangle between the planetary companions and the speckle field and (2) the post-processing techniques that exploit this diversity to carve out further the starlight residuals and recover the planetary signals (see the sub-challenges section below). **Post-processing techniques is what ultimately pushes the performance of the HCI instruments.** </p>
 
-<p> Even using these cutting-edge technologies, the resulting images suffer from bright starlight residuals hiding the presence of planetary companions. Among them, the quasi-statics *speckles* are of the same size as the exoplanet signal and often brighter by two orders of magnitude. 
-Therefore, the two remaining components of high-contrast imaging are (1) the data acquisition techniques, which focuses on introducing some diversity in the data to later disentangle between the planetary companions and the speckle field and (2) the post-processing techniques that exploit this diversity to carve out further the starlight residuals and recover the planetary signals. 
-**Post-processing techniques is what ultimately pushes the performance of the HCI instruments.** </p>
+<div class="box-note">You don't need to be an astronomer or expert in high-contrast imaging to participate! We welcome the participation of non-domain experts. On this website you will find extensive documentation about the challenge and how to participate. We expect domain experts will use their tools, for outsiders we have prepared a starting kit in the resources section.</div>
 
-<p><i> You don't need to be an astronomer nor an expert in high-contrast imaging to participate! We welcome the participation of non-domain experts. On this website you will find extensive documentation about the challenge and how to participate, with tool kits to get started. </i></p>
+<!-- <p>In the spirit of openness, we exclusively rely on open source tools for conducting this competition: all the contributed datasets (nineteen in total from 5 different instruments) will be released at the end of the competition as well as the results of the challenge. Finally, this challenge is open to anyone who is interested in participating!</p> -->
 
-<p> In this challenge, we exclusively rely on open source tools for conducting this competition: all the datasets are available throughout and after the competition, as well as the results of the challenge and metrics used for publications. 
-</p>
+<!-- <p> In the spirit of openness, we exclusively rely on open source tools for conducting this competition: this website is hosted on <a href="https://github.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io">GitHub</a>,
+the implementations of the metrics and backend algorithms (Python code) are stored in the <a href="https://github.com/carlgogo/exoimaging_challenge_extras">exoimaging extras repository</a>, and Codalab, a framework for accelerating reproducible computational research, was selected to host the competition. Moreover, our plan is to release all the contributed datasets (nineteen in total from 5 different instruments) at the end of the competition as well as the results of the challenge. Finally, this challenge is open to anyone who is interested in participating!</p>
 
-{% if paginator.total_pages > 1 %}
+<p> For information about the data challenge explore the "description" pull-down menu on the top of the page: <a href="https://exoplanet-imaging-challenge.github.io/context">objectives</a> section motivates the realization of this challenge, <a href=https://exoplanet-imaging-challenge.github.io/subchallenges>sub-challenges</a> presents two separate challenges that will be running in parallel, <a href=https://exoplanet-imaging-challenge.github.io/datasets>datasets</a> section describes the data formats for each sub-challenge, <a href=https://exoplanet-imaging-challenge.github.io/submission>submissions</a> details the formats and contents of each participants' submission, and finally in the <a href=https://exoplanet-imaging-challenge.github.io/metrics>metrics</a> section describes the metrics used in this competition and the service/framework used to host the scoreboards. </p> -->
+
+
+<!-- <div class="posts-list">
+  <h1>What's new:</h1>
+
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h5 class="post-title">{{ post.title }}</h5>
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div> -->
+
+<!--    {% if post.tags.size > 0 %}-->
+<!--    <div class="blog-tags">-->
+<!--      Tags:-->
+<!--      {% if site.link-tags %}-->
+<!--      {% for tag in post.tags %}-->
+<!--      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>-->
+<!--      {% endfor %}-->
+<!--      {% else %}-->
+<!--        {{ post.tags | join: ", " }}-->
+<!--      {% endif %}-->
+<!--    </div>-->
+<!--    {% endif %}-->
+
+   <!-- </article>
+  {% endfor %}
+</div> -->
+
+<!-- {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
@@ -41,4 +89,4 @@ Therefore, the two remaining components of high-contrast imaging are (1) the dat
   </li>
   {% endif %}
 </ul>
-{% endif %}
+{% endif %} -->
