@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Publication of the results (Phase 1)
+title: Results (phase 1)
 ---
 
 ## Publication of the results 
