@@ -3,19 +3,19 @@ layout: page
 title: Objectives of the Phase 1 
 ---
 
-# Objectives: 
+# Objectives:
 ## point source detection
 
 In the first phase of the <i> Exoplanet Imaging Data Challenge </i>, the focus is exclusively on the detection of point-like sources (exoplanets) within high-contrast images taken with ground-based telescopes. 
 
-A multitude of high-contrast imaging post-processing algorithms and pipelines have been developed in the past fifteen years to detect faint planetary signals within astronomical images. [Pueyo (2018)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1) offers an ample discussion on the exoplanet detection algorithms proposed in the literature. You may refer to the ``biblio`` tab for more reference about the latest image processing techniques dedicated to HCI.
+A multitude of high-contrast imaging post-processing algorithms and pipelines have been developed in the past fifteen years to detect faint planetary signals within astronomical images. [Pueyo (2018)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1) offers an ample discussion on the exoplanet detection algorithms proposed in the literature. You may refer to the ``Bibliography`` tab for more reference about the latest image processing techniques dedicated to HCI.
 
 # Two sub-challenges:
-## rotating field and multispectral images
+## Rotating field and multispectral images
 
 This competition is composed of two sub-challenges focusing on the two most widely used observing techniques:<br> 
--pupil tracking (angular differential imaging, **ADI**), <br> 
--multi-spectral imaging, combined with pupil tracking (multi-channel spectral differential imaging, **ADI+mSDI***). 
+- Pupil tracking observations (angular differential imaging, **ADI**), <br> 
+- Multi-spectral imaging, combined with pupil tracking (multi-channel spectral differential imaging, **ADI+mSDI**). 
 
 ### ADI
 In pupil-stabilized or pupil-tracking observations the telescope pupil is stabilized on the detector and the field of view rotates in step with a given angle (the parallactic angle). This generates a fake movement of the companions in a circular trajectory around the center of the image, the place where the star is located. This generated diversity makes it possible to disentangles the exoplanet signal (rotating) from the speckle field (quasi-static). ADI-based post-processing techniques exploit this diverstity to unveil the faint planetary signals. 
@@ -39,7 +39,6 @@ In the case of multi-spectral imaging, an integral field spectrograph (IFS) disp
 | --- |
 | Figure 1. *A single IFS frame showing the behaviour of the speckles as a function of the wavelength (the label on the animation corresponds to an index instead of the wavelength itself)*. |
 
-The so-called "ADI datasets" are composed of:<br> 
 Multi-spectral imaging is usually combined with ADI. In this case, the so-called "ADI+mSDI datasets" are composed of:<br>  
 (i) a 4D cube of images (see Fig. 2);<br>
 (ii) the corresponding parallactic angles variation along the temporal dimension;<br>
