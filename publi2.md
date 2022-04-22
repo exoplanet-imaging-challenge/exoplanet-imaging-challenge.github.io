@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publication of the results (Phase 2)
+title: Results (phase 2)
 ---
 
-Skyfall
+Coming soon (end of Summer 2022)
