@@ -83,10 +83,3 @@ And optionally the corresponding FWHM values (similarly to above).
 
 
 *** 
-
-## Stage 2
-
-This expensive procedure will be performed locally, therefore the source code of the algorithm (implemented on an open source language such as Python or R), an executable file or a Docker image will be required from the participants. Additionally, each participant must submit a single detection threshold (per sub-challenge) to be used during the thresholding and blob counting procedures.
-
-{: .box-warning}
-**Important:** this stage of the data challenge will only be conducted if enough participants demonstrate their interest in submitting/sharing their code. 
