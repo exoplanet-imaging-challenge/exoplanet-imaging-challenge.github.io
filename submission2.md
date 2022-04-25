@@ -3,7 +3,7 @@ layout: page
 title: Submission instructions (phase 2)
 ---
 
-To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/)*
+To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/)
 
 The second phase of the Exoplanet Imaging Data Challenge consists in performing *two* tasks, each one will have its own type of submission and metrics.
 
@@ -54,7 +54,7 @@ For example, for submitting your results of the 1st task (astrometry), you must 
 * ``astrometry_sphere_4.mef``.
 Each file must *at least* contain the 1st dimension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_INSTX.fits` file provided with the data sets. 
 
-#### Task 1:
+#### Task 2:
 For example, for submitting your results of the 2nd task (photometry), you must gather the following files in *.zip* format (any name can be used): 
 * ``photometry_gpi_1.mef``,
 * ``photometry_gpi_2.mef``,
@@ -67,7 +67,7 @@ For example, for submitting your results of the 2nd task (photometry), you must 
 Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_INSTX.fits` file provided with the data sets. 
 
 {: .box-note}
-**File format:** Every file must be in **.mef** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/eidc2), you will find functions and notebook to put your results into a .mef file.
+**File format:** Every file must be in **.mef** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/eidc2), you will find functions and a dedicated jupyter notebook to put your results into a .mef file.
 
 {: .box-note}
 **Submission into a .zip file:** All of the 8 .mef files must be submitted within **a single .zip file**, with a flat structure (without subfolder structure, e.g. using the command on Mac > ``zip -r -X -j archive_name.zip folder_to_compress``).
@@ -82,8 +82,5 @@ One .zip file must be submitted for each task (one for **astrometry** and one fo
 
 {: .box-warning}
 **Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
-
-{: .box-note}
-**Note:** *Please check out the documentation of the [Astropy Python library](http://docs.astropy.org/en/stable/io/fits/) if you want to know more about saving data in FITS format. Optionally, the [VIP Python library]((https://github.com/vortex-exoplanet/VIP)) contains a wrapper (``vip_hci.fits.write_fits()``) of Astropy for saving Python numpy arrays as FITS files.*
 
 *** 
