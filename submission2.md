@@ -10,7 +10,7 @@ The second phase of the Exoplanet Imaging Data Challenge consists in performing 
 
 ## Deadline: 25th of June 2022
 For each submission (one submission per algorithm), the participants must provide one zip file per task. <br>
-In each zip file, one [MEF](https://en.wikipedia.org/wiki/Modernized_e-File) file per data set (so a total of 8 MEF fils must be included in the zip file).
+In each zip file, one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set (so a total of 8 MEF fils must be included in the zip file).
 
 ### Task 1 (astrometry)
 The participants must provide one `.mef` file containing per target: <br>
