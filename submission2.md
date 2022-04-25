@@ -23,7 +23,8 @@ If the posterior distribution (iii) is not provided, we will assume that the pos
 One .mef file contains the information of all the injections (2 to 3) of a given data set.
 
 {: .box-note}
-**Task 1: filename:** Please call all your files following this naming convention **astrometry_INST_X.mef**, with INST the instrument in lower case (e.g. `sphere` or `gpi`) and X the data set index (e.g. `1`, `2`, `3` or `4`).
+**Task 1: filename:** Please call all your files following this naming convention **astrometry_instID.mef**, with **inst** the instrument in lower case (e.g. `sphere` or `gpi`) and **ID** the dataset index (e.g. `1`, `2`, `3` or `4`).
+
 
 
 ### Task 2 (spectrophotometry)
