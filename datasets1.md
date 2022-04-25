@@ -60,6 +60,22 @@ style="width:100%; height:535px;"></iframe>
 **Note LMIRCam images:** The image cube of LMIRCam being quite long, feel free to bin temporally the images to process it faster. 
 
 ***
+
 It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the **HCI benchmark library** that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.
+
+
+***
+
+### Data and pre-reduction team:
+* David Mouillet (IPAG, France): VLT/SPHERE data
+* Dimitri Mawet (Caltech, USA): Keck/NIRC2 data
+* Jordan Stone (LBT observatory, USA): LBT/LMIRCam data
+* J.-B. Ruffio (Caltech, USA), on behalf of *GPIES collaboration*: Gemini-S/GPI data
+
+Injection of planetary signals, homogeneization of the data and tests:
+* Faustine Cantalloube (LAM, France)
+* Carlos Gomez-Gonzalez (ULiege, Belgium & BCS, Spain)
+* Rebecca Jensen-Clem (UCSC, USA)
+* Tiffany Meshkat (IPAC/CalTech, USA)
 
 
