@@ -17,6 +17,30 @@ Data set from two high-contrast spectro-imagers of the latest generation are use
 There are 4 dataset from SPHERE-IFS and 4 dataset from GPI.<br> 
 The training dataset is from SPHERE-IFS.
 
+### Provided data content
+The 8 data set of the data challenge contain the following files (in *.fits* format):
+ * ``image_cube_instID.fits``: Spectral temporal coronagraphic image cube (4D array);
+ * ``parallactic_angles_instID.fits``: Vector of parallactic angles and airmass variation (2D vector array);
+ * ``psf_cube_instID.fits``: Vector of the central wavelength of each channel of the spectro-imager (1D vector array);
+ * ``psf_cube_instID.fits``: Spectral non-coronagraphic image cube of the star (3D array);
+ * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors).
+ where **inst** is either `sphere` or `gpi` (lower case) and **ID** the index of the data set between 0 and 4.
+
+The images (coronagraphic and non-coronagraphics) are withing a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.
+
+The first guess gives an estimation of the location of the injected planetary signal within a radius of 5 FWHM (in case of low SNR). The values are given as the distance (in pixels) from the star (the center of the frame) in cartesian coordinates (x,y).
+
+The airmass is given as an information, it is not mandatory to take it into account within the algorithm used.
+
+### Injection procedure
+
+
+
+No other effect is taken into account for the injection: no other flux temporal variation (intrinsic nor instrumental), no smearing at large separation due to the exposure time, no temporal binning, no off-centering of the star behind the coronagraph during the exposure, no diffraction effect due to the coronagraph at close separation etc. 
+
+{: .box-note}
+**Training data set:** . 
+
 *** 
 
 ### Data and pre-reduction team:
