@@ -37,34 +37,34 @@ If the posterior distribution (iii) is not provided, we will assume that the pos
 One .mef file contains the information of all the injections (2 to 3) of a given data set.
 
 {: .box-note}
-**Task 2: filename:** Please call all your files following this naming convention **photometry_INST_X.mef**, with INST the instrument in lower case (e.g. `sphere` or `gpi`) and X the data set index (e.g. `1`, `2`, `3` or `4`).
+**Task 2: filename:** Please call all your files following this naming convention **photometry_instID.mef**, with **inst** the instrument in lower case (e.g. `sphere` or `gpi`) and **ID** the dataset index (e.g. `1`, `2`, `3` or `4`).
 
 
 ### Example of submission files
 
 #### Task 1:
 For example, for submitting your results of the 1st task (astrometry), you must gather the following files in *.zip* format (any name can be used): 
-* ``astrometry_gpi_1.mef``,
-* ``astrometry_gpi_2.mef``,
-* ``astrometry_gpi_3.mef``, 
-* ``astrometry_gpi_4.mef``, 
-* ``astrometry_sphere_1.mef``,
-* ``astrometry_sphere_2.mef``,
-* ``astrometry_sphere_3.mef``,
-* ``astrometry_sphere_4.mef``.
-Each file must *at least* contain the 1st dimension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_INSTX.fits` file provided with the data sets. 
+* ``astrometry_gpi1.mef``,
+* ``astrometry_gpi2.mef``,
+* ``astrometry_gpi3.mef``, 
+* ``astrometry_gpi4.mef``, 
+* ``astrometry_sphere1.mef``,
+* ``astrometry_sphere2.mef``,
+* ``astrometry_sphere3.mef``,
+* ``astrometry_sphere4.mef``.
+Each file must *at least* contain the 1st dimension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets. 
 
 #### Task 2:
 For example, for submitting your results of the 2nd task (photometry), you must gather the following files in *.zip* format (any name can be used): 
-* ``photometry_gpi_1.mef``,
-* ``photometry_gpi_2.mef``,
-* ``photometry_gpi_3.mef``, 
-* ``photometry_gpi_4.mef``, 
-* ``photometry_sphere_1.mef``,
-* ``photometry_sphere_2.mef``,
-* ``photometry_sphere_3.mef``,
-* ``photometry_sphere_4.mef``.
-Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_INSTX.fits` file provided with the data sets. 
+* ``photometry_gpi1.mef``,
+* ``photometry_gpi2.mef``,
+* ``photometry_gpi3.mef``, 
+* ``photometry_gpi4.mef``, 
+* ``photometry_sphere1.mef``,
+* ``photometry_sphere2.mef``,
+* ``photometry_sphere3.mef``,
+* ``photometry_sphere4.mef``.
+Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets. 
 
 {: .box-note}
 **File format:** Every file must be in **.mef** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/eidc2), you will find functions and a dedicated jupyter notebook to put your results into a .mef file.
