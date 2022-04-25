@@ -52,7 +52,8 @@ For example, for submitting your results of the 1st task (astrometry), you must 
 * ``astrometry_sphere1.mef``,
 * ``astrometry_sphere2.mef``,
 * ``astrometry_sphere3.mef``,
-* ``astrometry_sphere4.mef``.<br>
+* ``astrometry_sphere4.mef``.
+
 Each file must *at least* contain the 1st dimension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets. 
 
 #### Task 2:
@@ -64,7 +65,8 @@ For example, for submitting your results of the 2nd task (photometry), you must 
 * ``photometry_sphere1.mef``,
 * ``photometry_sphere2.mef``,
 * ``photometry_sphere3.mef``,
-* ``photometry_sphere4.mef``.<br>
+* ``photometry_sphere4.mef``.
+
 Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets. 
 
 {: .box-note}
