@@ -8,7 +8,7 @@ title: Datasets phase 2
 **Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/3361544). 
 
 
-### Instruments
+### Instruments 
 Data set from two high-contrast spectro-imagers of the latest generation are used:
 
 * VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
@@ -16,6 +16,13 @@ Data set from two high-contrast spectro-imagers of the latest generation are use
 
 There are 4 dataset from SPHERE-IFS and 4 dataset from GPI.<br> 
 The training dataset is from SPHERE-IFS.
+
+The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angle. This trick preserves the temporal correlation of the starlight residuals, but makes that the signals are no-longer co-aligned at the end of the process. 
+
+Each data set of a given instrument is taken under various observing conditions, from very favorable to bad, with bright or faint targets (see details below). 
+
+The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract)) and GPI pipelines ([GPIES Data Cruncher](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)). Our team homogeneized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).
+
 
 ### Provided data content
 The 8 data set of the data challenge contain the following files (in *.fits* format):
@@ -31,6 +38,10 @@ The images (coronagraphic and non-coronagraphics) are withing a frame with an od
 The first guess gives an estimation of the location of the injected planetary signal within a radius of 5 FWHM (in case of low SNR). The values are given as the distance (in pixels) from the star (the center of the frame) in cartesian coordinates (x,y).
 
 The airmass is given as an information, it is not mandatory to take it into account within the algorithm used.
+
+
+### Observing conditions
+
 
 ### Injection procedure
 
