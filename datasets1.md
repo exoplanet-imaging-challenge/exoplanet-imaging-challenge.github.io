@@ -72,7 +72,7 @@ It is mandatory that the submitted datasets remain *secret* for the duration of 
 * Jordan Stone (LBT observatory, USA): LBT/LMIRCam data
 * J.-B. Ruffio (Caltech, USA), on behalf of *GPIES collaboration*: Gemini-S/GPI data
 
-Injection of planetary signals, homogeneization of the data and tests:
+### Injection of planetary signals, homoegenization and test team:
 * Faustine Cantalloube (LAM, France)
 * Carlos Gomez-Gonzalez (ULiege, Belgium & BCS, Spain)
 * Rebecca Jensen-Clem (UCSC, USA)
