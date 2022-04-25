@@ -44,7 +44,7 @@ One .mef file contains the information of all the injections (2 to 3) of a given
 ### Example of submission files
 
 #### Task 1:
-For example, for submitting your results of the 1st task (astrometry), you must gather the following files in *.zip* format (any name can be used): 
+For example, for submitting your results of the 1st task (astrometry), you must gather the following eight files in *.zip* format (any name can be used for the *.zip* file - please do not use any subfolder!): 
 * ``astrometry_gpi1.mef``,
 * ``astrometry_gpi2.mef``,
 * ``astrometry_gpi3.mef``, 
@@ -56,7 +56,7 @@ For example, for submitting your results of the 1st task (astrometry), you must 
 Each file must *at least* contain the 1st dimension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets. 
 
 #### Task 2:
-For example, for submitting your results of the 2nd task (photometry), you must gather the following files in *.zip* format (any name can be used): 
+For example, for submitting your results of the 2nd task (photometry), you must gather the following eight files in *.zip* format (any name can be used for the *.zip* file - please do not use any subfolder!): 
 * ``photometry_gpi1.mef``,
 * ``photometry_gpi2.mef``,
 * ``photometry_gpi3.mef``, 
