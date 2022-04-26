@@ -80,6 +80,10 @@ One .zip file must be submitted for each task (one for **astrometry** and one fo
 {: .box-note}
 **Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. You can therefore make several submissions, even if only one will show up on the competition webpage leaderboard, all of the submissions will be processed off-line.
 
+{: .box-warning}
+**IMPORTANT:** If you really cannot detect the companion, despite the first guess provided, please put `-1` as an entry (for both estimated value and its uncertainties).
+
+
 *** 
 
 ### Evaluation metric
