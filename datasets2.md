@@ -46,7 +46,7 @@ More information (telescope, instrument, coronagraph type, effective telescope d
 The table below summarizes the main information about the data set and the observing conditions:
 
 <iframe 
-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAXn_qb9ul2Mt458MEUoQfPyg6qyR_ctGkOYjTo73v7YONXpWDLErtDLckinR5E6LVXvWORa0OsBcH/pubhtml?gid=1302786282&single=true"
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAXn_qb9ul2Mt458MEUoQfPyg6qyR_ctGkOYjTo73v7YONXpWDLErtDLckinR5E6LVXvWORa0OsBcH/pubhtml?gid=1302786282&single=false"
 style="width:100%; height:290px;"></iframe>
 
 ### Injection procedure
