@@ -3,7 +3,8 @@ layout: page
 title: Submission instructions (phase 2)
 ---
 
-To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/)
+{: .box-note}
+**EvalAI platform:** To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693).
 
 The second phase of the Exoplanet Imaging Data Challenge consists in performing *two* tasks, each one will have its own type of submission and metrics.
 
@@ -70,7 +71,7 @@ For example, for submitting your results of the 2nd task (photometry), you must 
 Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets. 
 
 {: .box-note}
-**File format:** Every file must be in **.mef** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/eidc2), you will find functions and a dedicated jupyter notebook to put your results into a .mef file.
+**File format:** Every file must be in **.mef** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/blob/main/tutorials/Tutorial_creation_MEF.ipynb), you will find a short tutorial, as a jupyter notebook, to put your results into a .mef file.
 
 {: .box-note}
 **Submission into a .zip file:** All of the 8 .mef files must be submitted within **a single .zip file**, with a flat structure (without subfolder structure, e.g. using the command on Mac > ``zip -r -X -j archive_name.zip folder_to_compress``).
@@ -81,9 +82,35 @@ One .zip file must be submitted for each task (one for **astrometry** and one fo
 
 *** 
 
+### Evaluation metric
+
+For the leaderboard display, the EIDC team has decided to use a simple metric. Further analysis of the results will be conducted off-line by our team and the results will be published in an [SPIE Astronomical telescopes + instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) conference proceeding in summer 2022. 
+
+For the leaderboard, the metric consist in using simply the distance (in the sense of the L1-norm) between the estimated value submitted by the participant and the ground-truth. 
+
+**Task 1 (astrometry)**
+
+For each injected companion, we compute the L1-norm distance (following the [Taxicab geometry](https://en.wikipedia.org/wiki/Taxicab_geometry)) between the estimated value (xy_est) and the ground-truth (xy_gt) value: <br>
+dist_astro = | x_est - x_gt | + | y_est - y_gt |
+
+We then average all the distances obtained for each of the 21 exoplanet injections. 
+
+**Task 2 (spectrophometry)**
+
+
+
+
+*** 
+
 ### Potential error message
 
 {: .box-warning}
 **Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
 
 *** 
+
+### EvalAI team:
+* Anthony Cioppa (ULiège, Belgium): putting the challenge and EvalAI in place, tests.
+* Carles Cantero (ULiège, Belgium): writing the backend for the leaderboard, tests.
+* Faustine Cantalloube (LAM, France): coordination, description and tests.
+
