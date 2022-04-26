@@ -39,18 +39,34 @@ The first guess gives an estimation of the location of the injected planetary si
 
 The airmass is given as an information, it is not mandatory to take it into account within the algorithm used.
 
+More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. 
 
 ### Observing conditions
 
+The table below summarizes the main information about the data set and the observing conditions. 
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0fDpZD4LAoawUkITgWj_6Nx7XIKB4JAeOVS9CUIsTITI4X-MTI_rsqzC6e5MvQ2j9ivkoxZzI-XKB/pubhtml?gid=39220023&single=true&widget=true&headers=false" style="width:100%; height:535px;"></iframe> 
 
 ### Injection procedure
+In each data set we observed from 2 to 3 synthetic exoplanet (point source) signals. Within the SPHERE-IFS images we injected 11 exoplanet signals, and within the GPI data 10 exoplanet signals. **In total there are 21 exoplanet signals to be characterized.**
 
+As shown in the [injection procedure tutorial](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials), based on [VIP pipeline](https://vip.readthedocs.io/en/latest/) procedures, the exoplanet signal injection relies on the following steps:
 
+* Choosing the subpixel position of the injected planet in the 1st frame of the image cube;
+* Choosing the mean contrast accross wavelengths of the injected planet `mean_contrast_planet`;
+* Choosing a template spectrum shape for the injected planet `spectrum_planet` (e.g. blackbody, atmospheric model, best fit etc.);
+* Fitting the stellar spectrum measured from the non-coronagraphic image `fitted_stellar_spectrum` (for the contrast normalization);
+* Grabbing a stellar spectrum SED model `model_stellar_spectrum` (to estimate the transmission of the atmosphere and the instrument);
+* Computing the airmass factor to be applied to the planetary signal through time `airmass_factor`;
+* Injecting the planet signal, using the `inject_fcp_ifs` function of VIP. <br>
+The injection function takes as an input: the multispectral image cube in which the injection is made, the normalized non-coronagraphic PSF used as a planetary signal model, the parallactic angle variation, the position, spectrum and mean contrast of the injection, the fitted stellar spectrum, the model SED stellar spectrum, the instrument spectral resolving power and the airmass variation through time.
+
+The injected signal at a given wavelength (lambda) and position then writes: `Injected_planet_lambda = PSF_lambda * spectrum_planet * mean_contrast_planet * transmission_AtmInstr * airmass_factor`, where `transmission_AtmInstr = fitted_stellar_spectrum / model_stellar_spectrum `.
 
 No other effect is taken into account for the injection: no other flux temporal variation (intrinsic nor instrumental), no smearing at large separation due to the exposure time, no temporal binning, no off-centering of the star behind the coronagraph during the exposure, no diffraction effect due to the coronagraph at close separation etc. 
 
 {: .box-note}
-**Training data set:** . 
+**Training data set:** On the [Zenodo repository](https://zenodo.org/record/6476919) containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the [Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials) containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder /planet_spectra/) to be injected and uses a given stellar spectra (in folder /stellar_spectra/) to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
 
 *** 
 
