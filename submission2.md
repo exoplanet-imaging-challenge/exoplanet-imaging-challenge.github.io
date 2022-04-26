@@ -90,15 +90,19 @@ For the leaderboard, the metric consist in using simply the distance (in the sen
 
 **Task 1 (astrometry)**
 
-For each injected companion, we compute the L1-norm distance (following the [Taxicab geometry](https://en.wikipedia.org/wiki/Taxicab_geometry)) between the estimated value (xy_est) and the ground-truth (xy_gt) value: <br>
-dist_astro = | x_est - x_gt | + | y_est - y_gt |
+For each injected companion, we compute the L1-norm distance (following the [Taxicab geometry](https://en.wikipedia.org/wiki/Taxicab_geometry)) between the estimated position value (xy_est) and the corresponding ground-truth value (xy_gt): <br>
 
-We then average all the distances obtained for each of the 21 exoplanet injections. 
+> dist_astro = | x_est - x_gt | + | y_est - y_gt |
+
+We then average all the distances *dist_astro* obtained for each of the 21 exoplanet injections. 
 
 **Task 2 (spectrophometry)**
 
+For each injected companion, we compute the L1-norm distance between the estimated contrast value (cont_est) and the ground-truth value (cont_gt), for each wavelength (lambda): <br>
 
+> dist_photo = sum| cont_est_lambda - cont_gt_lambda |, (sum over all the wavelength)
 
+We then average all the distances *dist_photo* obtained for each of the 21 exoplanet injections. 
 
 *** 
 
