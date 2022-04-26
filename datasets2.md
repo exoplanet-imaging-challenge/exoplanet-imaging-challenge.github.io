@@ -35,7 +35,7 @@ The 8 data set of the data challenge contain the following files (in *.fits* for
 
 The images (coronagraphic and non-coronagraphics) are withing a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.
 
-The first guess gives an estimation of the location of the injected planetary signal within a radius of 5 FWHM (in case of low SNR). The values are given as the distance (in pixels) from the star (the center of the frame) in cartesian coordinates (x,y).
+The first guess gives an estimation of the location of the injected planetary signal within a radius of 5 pixels (in case of low SNR). The values are given as the distance (in pixels) from the star (the center of the frame) in cartesian coordinates (x,y).
 
 The airmass is given as an information, it is not mandatory to take it into account within the algorithm used.
 
