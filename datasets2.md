@@ -30,8 +30,7 @@ The 8 data set of the data challenge contain the following files (in *.fits* for
  * ``parallactic_angles_instID.fits``: Vector of parallactic angles and airmass variation (2D vector array);
  * ``wavelength_vect_instID.fits``: Vector of the central wavelength of each channel of the spectro-imager (1D vector array);
  * ``psf_cube_instID.fits``: Spectral non-coronagraphic image cube of the star (3D array);
- * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors);
- 
+ * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors); <br>
  where **inst** is either `sphere` or `gpi` (lower case) and **ID** the index of the data set between 0 and 4.
 
 The images (coronagraphic and non-coronagraphics) are withing a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.
