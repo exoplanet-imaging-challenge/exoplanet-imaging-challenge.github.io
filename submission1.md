@@ -3,9 +3,11 @@ layout: page
 title: Submission instructions (phase 1)
 ---
 
+{: .box-note}
+**CodaLab platform:** To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693).
+
 The exoplanet imaging data challenge will consist of several stages, each one with its own type of submission and metrics. 
 
-*To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693)*
 
 ## Stage 1: Deadline 30st of September 2020
 
