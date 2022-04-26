@@ -21,7 +21,7 @@ The participants must provide one MEF `.fits` file containing per target: <br>
 
 If the posterior distribution (iii) is not provided, we will assume that the posterior follows a normal distribution. 
 
-One .mef file contains the information of all the injections (2 to 3) of a given data set.
+One MEF .fits file contains the information of all the injections (2 to 3) of a given data set.
 
 {: .box-note}
 **Task 1: filename:** Please call all your files following this naming convention **astrometry_instID.fits**, with **inst** the instrument in lower case (e.g. `sphere` or `gpi`) and **ID** the dataset index (e.g. `1`, `2`, `3` or `4`).
@@ -29,14 +29,14 @@ One .mef file contains the information of all the injections (2 to 3) of a given
 
 
 ### Task 2 (spectrophotometry)
-The participants must provide one `.mef` file containing per target: <br>
+The participants must provide one MEF `.fits` file containing per target: <br>
 (i) the estimated contrast wrt the star;
 (ii) [optional] the 1-sigma uncertainties on the estimated contrast;
 (iii) [optional] the corresponding posterior distribution used to estimate the contrast and its uncertainties.
 
 If the posterior distribution (iii) is not provided, we will assume that the posterior follows a normal distribution. 
 
-One .mef file contains the information of all the injections (2 to 3) of a given data set.
+One MEF .fits file contains the information of all the injections (2 to 3) of a given data set.
 
 {: .box-note}
 **Task 2: filename:** Please call all your files following this naming convention **photometry_instID.fits**, with **inst** the instrument in lower case (e.g. `sphere` or `gpi`) and **ID** the dataset index (e.g. `1`, `2`, `3` or `4`).
