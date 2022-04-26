@@ -4,7 +4,7 @@ title: Submission instructions (phase 2)
 ---
 
 {: .box-note}
-**EvalAI platform:** To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693).
+**EvalAI platform:** To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/).
 
 The second phase of the Exoplanet Imaging Data Challenge consists in performing *two* tasks, each one will have its own type of submission and metrics.
 
