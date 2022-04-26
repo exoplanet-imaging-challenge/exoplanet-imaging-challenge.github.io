@@ -71,7 +71,7 @@ For example, for submitting your results of the 2nd task (photometry), you must 
 Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets (and same file format). 
 
 {: .box-note}
-**File format:** Every file must be in MEF **.fits** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/blob/main/tutorials/Tutorial_creation_MEF.ipynb), you will find a short tutorial, as a jupyter notebook, to put your results into a MEF .fits file.
+**File format:** Every file must be in MEF **.fits** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/blob/main/tutorials/tutorial_creation_MEF.ipynb), you will find a short tutorial, as a jupyter notebook, to put your results into a MEF .fits file.
 
 {: .box-note}
 **Submission into a .zip file:** All of the 8 MEF .fits files must be submitted within **a single .zip file**, with a flat structure (without subfolder structure, e.g. using the command on Mac > ``zip -r -X -j archive_name.zip folder_to_compress``).
