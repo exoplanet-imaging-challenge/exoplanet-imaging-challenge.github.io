@@ -17,7 +17,7 @@ Data set from two high-contrast spectro-imagers of the latest generation are use
 There are 4 dataset from SPHERE-IFS and 4 dataset from GPI.<br> 
 The training dataset is from SPHERE-IFS.
 
-The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angle. This trick preserves the temporal correlation of the starlight residuals, but makes that the signals are no-longer co-aligned at the end of the process. 
+The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angle. This trick preserves the temporal correlation of the starlight residuals, but any pre-existing circumstellar signal is no longer co-aligned. The opposite parallactic angles are the ones used for the injections and provided in the data set.
 
 Each data set of a given instrument is taken under various observing conditions, from very favorable to bad, with bright or faint targets (see details below). 
 
@@ -28,9 +28,10 @@ The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsab
 The 8 data set of the data challenge contain the following files (in *.fits* format):
  * ``image_cube_instID.fits``: Spectral temporal coronagraphic image cube (4D array);
  * ``parallactic_angles_instID.fits``: Vector of parallactic angles and airmass variation (2D vector array);
- * ``psf_cube_instID.fits``: Vector of the central wavelength of each channel of the spectro-imager (1D vector array);
+ * ``wavelength_vect_instID.fits``: Vector of the central wavelength of each channel of the spectro-imager (1D vector array);
  * ``psf_cube_instID.fits``: Spectral non-coronagraphic image cube of the star (3D array);
- * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors).
+ * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors);
+ 
  where **inst** is either `sphere` or `gpi` (lower case) and **ID** the index of the data set between 0 and 4.
 
 The images (coronagraphic and non-coronagraphics) are withing a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.
