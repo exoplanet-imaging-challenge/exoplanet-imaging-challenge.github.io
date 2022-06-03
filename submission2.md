@@ -55,7 +55,7 @@ For example, for submitting your results of the 1st task (astrometry), you must 
 * ``astrometry_sphere3.fits``,
 * ``astrometry_sphere4.fits``.
 
-Each file must *at least* contain the 1st dimension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets (and same file format). 
+Each file must *at least* contain the 1st extension with the position values in x and y of each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets (and same numpy array format - e.g. 3 rows (ny) of 2 columns (nx) for the xy coordinates of 3 planets). 
 
 #### Task 2:
 For example, for submitting your results of the 2nd task (photometry), you must gather the following eight files in *.zip* format (any name can be used for the *.zip* file - please do not use any subfolder!): 
@@ -68,7 +68,7 @@ For example, for submitting your results of the 2nd task (photometry), you must 
 * ``photometry_sphere3.fits``,
 * ``photometry_sphere4.fits``.
 
-Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets (and same file format). 
+Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets (and same numpy array format - e.g. 3 rows (ny) of 39 columns (nx) for the spectra of 3 planets). 
 
 {: .box-note}
 **File format:** Every file must be in MEF **.fits** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/blob/main/tutorials/tutorial_creation_MEF.ipynb), you will find a short tutorial, as a jupyter notebook, to put your results into a MEF .fits file.
