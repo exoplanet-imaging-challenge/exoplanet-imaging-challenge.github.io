@@ -6,6 +6,9 @@ title: Submission instructions (phase 2)
 {: .box-note}
 **EvalAI platform:** To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/).
 
+{: .box-warning} WARNING: The `sphere2` data set has **strong** low wind effect, which might significantly affect the algorithms to process the images. This data set will therfore **not** be taken into account for the leaderboard ranking. If you encounter problems with this, please put 0 values as inputs and we will not take it into account for the final evaluation.
+
+
 The second phase of the Exoplanet Imaging Data Challenge consists in performing *two* tasks, each one will have its own type of submission and metrics.
 
 
