@@ -7,7 +7,10 @@ title: Datasets phase 2
 {: .box-note}
 **Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/6477664). 
 
-{: .box-warning} WARNING: The `sphere2` data set has **strong** low wind effect, which might significantly affect the algorithms to process the images. This data set will therfore **not** be taken into account for the leaderboard ranking. If you encounter problems with this, please put 0 values as inputs and we will not take it into account for the final evaluation.
+{: .box-warning} 
+**WARNING:** The `sphere2` data set has **strong** low wind effect, which might significantly affect the algorithms to process the images. This data set will therfore **not** be taken into account for the leaderboard ranking. If you encounter problems with this, please put 0 values as inputs and we will not take it into account for the final evaluation.
+
+
 
 ### Instruments 
 Data set from two high-contrast spectro-imagers of the latest generation are used:
