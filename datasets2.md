@@ -5,12 +5,7 @@ title: Datasets phase 2
 
 
 {: .box-note}
-**Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/6477664). 
-
-{: .box-warning} 
-**WARNING:** The `sphere2` data set has **strong** low wind effect, which might significantly affect the algorithms to process the images. This data set will therfore **not** be taken into account for the leaderboard ranking. If you encounter problems with this, please put 0 values as inputs and we will not take it into account for the final evaluation.
-
-
+**Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/6883534). 
 
 ### Instruments 
 Data set from two high-contrast spectro-imagers of the latest generation are used:
@@ -72,7 +67,7 @@ The injected signal at a given wavelength (lambda) and position then writes: `In
 No other effect is taken into account for the injection: no other flux temporal variation (intrinsic nor instrumental), no smearing at large separation due to the exposure time, no temporal binning, no off-centering of the star behind the coronagraph during the exposure, no diffraction effect due to the coronagraph at close separation etc. 
 
 {: .box-note}
-**Training data set:** On the [Zenodo repository](https://zenodo.org/record/6477664) containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the [Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials) containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder /planet_spectra/) to be injected and uses a given stellar spectra (in folder /stellar_spectra/) to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
+**Training data set:** On the [Zenodo repository](https://zenodo.org/record/6883534) containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the [Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials) containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder /planet_spectra/) to be injected and uses a given stellar spectra (in folder /stellar_spectra/) to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
 
 *** 
 
