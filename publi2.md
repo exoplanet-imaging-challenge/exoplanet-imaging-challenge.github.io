@@ -3,4 +3,4 @@ layout: page
 title: Results (phase 2)
 ---
 
-Coming soon (end of Summer 2022)
+Coming in 2023 !
