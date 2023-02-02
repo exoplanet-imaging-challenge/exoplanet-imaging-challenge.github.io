@@ -8,19 +8,19 @@ title: Datasets phase 2
 **Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/6902628). 
 
 ### Instruments 
-Data set from two high-contrast spectro-imagers of the latest generation are used:
+Datasets from two high-contrast spectro-imagers of the latest generation are used:
 
 * VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
 * Gemini-S/GPI, [Macintosh et al., 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full) 
 
-There are 4 dataset from SPHERE-IFS and 4 dataset from GPI.<br> 
+There are 4 datasets from SPHERE-IFS and 4 datasets from GPI.<br> 
 The training dataset is from SPHERE-IFS.
 
-The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angle. This trick preserves the temporal correlation of the starlight residuals, but any pre-existing circumstellar signal is no longer co-aligned. The opposite parallactic angles are the ones used for the injections and provided in the data set.
+The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angles. This trick preserves the temporal correlation of the starlight residuals, but any pre-existing circumstellar signal is no longer co-aligned after derotation. The opposite parallactic angles are the ones used for the injections and provided with each downloadable dataset.
 
-Each data set of a given instrument is taken under various observing conditions, from very favorable to bad, with bright or faint targets (see details below). 
+The datasets are taken under various observing conditions, from very favorable to bad, with bright or faint targets (see details below). 
 
-The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract)) and GPI pipelines ([GPIES Data Cruncher](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)). Our team homogeneized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).
+The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract)) and GPI pipelines ([GPIES Data Cruncher](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)). Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).
 
 
 ### Provided data content
@@ -75,7 +75,7 @@ No other effect is taken into account for the injection: no other flux temporal 
 * J.-B. Ruffio (Caltech, USA), on behalf of *GPIES collaboration*: Gemini-S/GPI data
 * P. Delorme (IPAG, France), on behalf of the *SPHERE Data Center team*: VLT/SPHERE-IFS data
 
-### Injection of planetary signals, homoegenization and test team:
+### Injection of planetary signals, homogenization and test team:
 * Faustine Cantalloube (LAM, France)
 * Carles Cantero (ULiège, Belgium)
 * Valentin Christiaens (ULiège, Belgium)
