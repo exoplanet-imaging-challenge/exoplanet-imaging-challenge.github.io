@@ -86,25 +86,25 @@ One .zip file must be submitted for each task (one for **astrometry** and one fo
 
 *** 
 
-### Evaluation metric
+### Evaluation metrics
 
-For the leaderboard display, the EIDC team has decided to use a simple metric. Further analysis of the results will be conducted off-line by our team and the results will be published in an [SPIE Astronomical telescopes + instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) conference proceeding in summer 2022. 
+For the leaderboard display, the EIDC team has decided to use simple metrics. Further analysis of the results will be conducted off-line by our team and the results will be published in an [SPIE Astronomical telescopes + instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) conference proceeding in summer 2023. 
 
-For the leaderboard, the metric consist in using simply the distance (in the sense of the L1-norm) between the estimated value submitted by the participant and the ground-truth. 
+For the leaderboard, the metrics consist in mean normalized distances between the estimated value submitted by the participant and the ground truth used for injection. The distance is based on the L2 and L1 norms for astrometry and spectrophotometry, respectively. 
 
 **Task 1 (astrometry)**
 
-For each injected companion, we compute the L1-norm distance (following the [Taxicab geometry](https://en.wikipedia.org/wiki/Taxicab_geometry)) between the estimated position value (xy_est) and the corresponding ground-truth value (xy_gt): <br>
+For each injected companion, we compute the L2-norm distance (i.e. the Euclidian distance) between the estimated position value (xy_est) and the corresponding ground-truth value (xy_gt): <br>
 
-`dist_astro = | x_est - x_gt | + | y_est - y_gt |`
+`dist_astro = sqrt| | x_est - x_gt |^2 + | y_est - y_gt |^2 |`
 
 We then average all the distances *dist_astro* obtained for each of the 21 exoplanet injections. 
 
 **Task 2 (spectrophometry)**
 
-For each injected companion, we compute the L1-norm distance between the estimated contrast value (cont_est) and the ground-truth value (cont_gt), for each wavelength (lambda): <br>
+For each injected companion, we compute the L1-norm distance between the estimated contrast value (cont_est) and the ground-truth value (cont_gt), for each wavelength (lambda), and normalize it with the ground truth contrast (to not penalize smaller true contrasts in the averaged score): <br>
 
-`dist_photo = sum| cont_est_lambda - cont_gt_lambda |`, (sum over all the wavelength)
+`dist_photo = sum| | cont_est_lambda - cont_gt_lambda | / cont_gt_lambda |`, (sum over all the wavelength)
 
 We then average all the distances *dist_photo* obtained for each of the 21 exoplanet injections. 
 
