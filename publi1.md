@@ -13,13 +13,5 @@ You can find the publication [here](https://arxiv.org/pdf/2101.05080.pdf) (arXiv
 
 <iframe src="https://app.luminpdf.com/viewer/61af8f4daffae00012a74196" style="width:100%; height:535px;"></iframe> 
 
-## Future of the Exoplanet Imaging Data Challenge
-
-We intend to regularly launch different phases of this data challenge, and make it evolve to include more features. Next steps will be (1) the planet characterization in terms of contrast and position estimation and (2) the detection of circumstellar disks.
-
-The idea is to publish the results every two years, under the form of an SPIE *Astronomical Telescope + Instrumentation* proceeding.
-
-The data will be available permanently on the Zenodo repository so that anyone can test her/his algorithm on these data set and compare it to the published results.
-
 
 
