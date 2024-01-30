@@ -17,7 +17,7 @@ The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](h
 <div style="text-align:center"> 
   <br><br>
   <video id="video1" width="420">
-    <source src="hr8799.mp4" type="hr8799/mp4">
+    <source src="img/hr8799.mp4" type="img/hr8799/mp4">
     Your browser does not support HTML video.
   </video>
   <p> <i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i> </p>
