@@ -57,7 +57,7 @@ Multi-spectral imaging is usually combined with ADI. In this case, the so-called
 Figure 3 shows an schematic representation of an HCI point source detection pipeline. 
 In this phase of the data challenge, we do not use datasets with known (real) companions. Instead, we injected synthetic planetary signals in the data in order to measure the detection capability of different algorithms. Each challenge cube contains from *none to five synthetic point-sources*, injected using a standard process (without accounting for smearing or any source of variable photometry). For spectrally dispersed data we additionnaly use three empirical field brown dwarf template spectra for the injection of the synthetic planetary signals in the different spectral channels.
 
-| ![data]([https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/challenge_fig2.001.png){:width="700px"} |
+| ![data](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/challenge_fig2.001.png){:width="700px"} |
 |---|
 | Figure 3. *Schematic representation of the high-contrast imaging data processing pipeline, for the case of a LBTI/LMIRCam HR8799 data cube. Notice how from a data cube (or image sequence) we obtain one view of the star's vicinity and an associated detection map where we could detect potential point-like sources*.  |
  
