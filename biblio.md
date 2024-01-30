@@ -3,7 +3,17 @@ layout: page
 title: Bibliography HCI post-processing 
 ---
 
-In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging. 
+<i>In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging.</i>
+
+<br>
+
+Nowadays, most techniques rely on <i>differential imaging</i>.
+The image below summarizes the four steps of differential imaging towards the detection of exoplanets (or disks) signals. 
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/DIprocessing.png" />
+</p>
+<center><small><i> The images above were acquired with the SPHERE-IRDIS high-contrast instrument installed at the Very Large Telescope (ESO, Chile). The target star is HR 8799 hosting a multiple planetary system. </i></small></center>
 
 ### High-contrast imaging general reviews ###
 
@@ -21,7 +31,7 @@ The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](h
 
 <br>
 
-<p align="center" width="250" height="250">
+<p align="center" width="150" height="150">
   <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/orbit_hr_8799.gif" alt="animated" />
 </p>
 <center><i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i></center>
