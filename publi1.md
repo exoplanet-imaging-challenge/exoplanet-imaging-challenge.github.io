@@ -11,8 +11,8 @@ You can find the publication [here](https://arxiv.org/pdf/2101.05080.pdf) (arXiv
 
 ## SPIE 2020 poster summarizing the results 
 
-![](img/SPIE_Poster_EIDC_v4.pdf)
+![posterSPIE](img/SPIE_Poster_EIDC_v4.pdf)
 
 
-<iframe src="himg/SPIE_Poster_EIDC_v4.pdf/&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+<iframe src="img/SPIE_Poster_EIDC_v4.pdf/&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 
