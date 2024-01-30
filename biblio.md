@@ -18,4 +18,11 @@ The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](h
 ![hr8799](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/hr8799.mp4)
 <i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i>  
 
+<iframe src="[https://player.vimeo.com/video/125547220](https://www.youtube.com/shorts/x9EG3gbQ5P0)" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> 
 
+
+<center> 
+<iframe src="https://player.vimeo.com/video/125547220" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</center>
+
+| ![ADI_SDI](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/challenge_fig1.001.png){:width="700px"} |
