@@ -14,18 +14,13 @@ title: Bibliography: Post-processing for high-contrast imaging
 
 The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](https://www.nature.com/articles/nature09684.pdf)). The following video shows 10 different epochs of post-processed high-contrast images of the HR 8799 system observed in the near-infrared over a period of 12 years, from 2009 to 2021. Data are taken using the [NIRC2 instrument](https://www2.keck.hawaii.edu/inst/nirc2/) installed at the [Keck Telescope](https://keckobservatory.org/) (Mauna Kea observatory, Hawaii, USA). 
 
-<video src="img/movie_hr8799.mp4" controls="controls" style="max-width: 730px;"></video>
+<video src="img/orbit_hr_8799.gif" controls="controls" style="max-width: 730px;"></video>
 
-![movie](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/movie_hr8799.mp4)
+![orbit_hr8799](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/orbit_hr_8799.gif)
 
 <i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i>  
 
-| ![Test](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/movie_hr8799.mp4){:width="400px"} |
+| ![Test](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/orbit_hr_8799.gif){:width="400px"} |
 | --- |
 | Figure 46. test link. |
 
-
-<center> 
-<iframe src="https://www.youtube.com/shorts/x9EG3gbQ5P0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://www.youtube.com/shorts/x9EG3gbQ5P0"> Test youtube </a>.</p>
-</center> 
