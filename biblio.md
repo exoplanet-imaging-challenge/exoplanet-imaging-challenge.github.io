@@ -14,22 +14,18 @@ title: Bibliography: Post-processing for high-contrast imaging
 
 The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](https://www.nature.com/articles/nature09684.pdf)). The following video shows 10 different epochs of post-processed high-contrast images of the HR 8799 system observed in the near-infrared over a period of 12 years, from 2009 to 2021. Data are taken using the [NIRC2 instrument](https://www2.keck.hawaii.edu/inst/nirc2/) installed at the [Keck Telescope](https://keckobservatory.org/) (Mauna Kea observatory, Hawaii, USA). 
 
-<video src="img/movie_hr8799.mp4" controls="controls" style="max-width: 730px;">
-</video>
+<video src="img/movie_hr8799.mp4" controls="controls" style="max-width: 730px;"></video>
 
-![movie](img/movie_hr8799.mp4)
+![movie](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/movie_hr8799.mp4)
 
 <i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i>  
 
-### ADI+mSDI
-In the case of multi-spectral imaging, an integral field spectrograph (IFS) disperses the light, providing simultaneously, for each exposure, several monochromatic images. The resolution and wavelength coverage varies depending on the instrument used. The speckle distributions (and more generally the starlight residuals) vary with the wavelength (see Fig. 1), while the planetary signal's centroid remains static. This diversity also makes it possible to disentangles the exoplanet signal (static) from the speckle field (moving radially). SDI-based post-processing techniques exploit this diverstity to unveil the faint planetary signals. 
-
 | ![Test](https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/movie_hr8799.mp4){:width="400px"} |
 | --- |
-| Figure 46. test. |
+| Figure 46. test link. |
 
 
 <center> 
 <iframe src="https://www.youtube.com/shorts/x9EG3gbQ5P0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://www.youtube.com/shorts/x9EG3gbQ5P0"> Test </a>.</p>
+<p><a href="https://www.youtube.com/shorts/x9EG3gbQ5P0"> Test youtube </a>.</p>
 </center> 
