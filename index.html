@@ -19,19 +19,31 @@ This challenge is organized collaboratively by several members of the astronomic
 
 &nbsp  
 
-<p>Direct imaging of planetary systems is a major step towards understanding the demographics, the evolution and formation of extrasolar planets. 
-Observing exoplanets using the largest ground-based telescopes is a very challenging task! The main difficulties are (i) the huge difference in brightness between the host star and its potential companions, which are millions of times fainter, and (ii) the small angular separation between them, which are less than a few hundreds milli-arcseconds. 
-Astronomers need the largest optical telescopes to adress this challenge. But, on Earth, these difficulties are amplified by the image degradation caused by the Earth's turbulent atmosphere and the imperfect optics in the instrument. Therefore, ground-based high-contrast imaging (HCI) relies on the use of adaptive optics, which corrects in real time for the atmosphere turbulence by using a deformable mirror, and coronagraphy, which suppresses most of the light coming from the host star.  </p>
+<p>Direct imaging of planetary systems is a major step towards studying the demographics of extrasolar planets, as well as understanding the process of formation and evolution of planetary systems. Direct imaging aims at young distant gaseous planets and allows to capture the light emitted by the planet towards analysing its atmosphere properties. 
+However, these objects are very faint and observing exoplanets is a very challenging task. The main difficulties are: (i) the huge difference in brightness between the host star and its planets, which more than millions of times fainter, and (ii) the very small angular separation between them, which are less than a few hundreds milli-arcseconds. 
+As a consequence, astronomers need the largest telescopes to adress this challenge, such as ground-based 8-m class telescope, offering both a good sensitivity and spatial resolution. But, the theoretical spatial resolution of the telescope is hindered by the optical turbulence of the Earth atmosphere. 
+The use of an adaptive optic system (that corrects in real time for the atmosphere turbulence by using a deformable mirror) is necessary to reach an angular resolution allowing to probe the inner regions surrounding a star (around 10 astronomical units). 
+As a second step, one may use a coronagraph device (an optical component that suppresses most of the light coming from the host star) to reach a contrast allowing to detect the planet signal that is million times fainter than the starlight.  </p>
 
+<br>
+
+<p> Even using these cutting-edge technologies, the resulting images suffer from bright starlight residuals hiding the presence of planetary companions. 
+Among them, the <i>quasi-statics speckles</i> are of the same size and shape as the exoplanet signal and often brighter by up to two orders of magnitude. 
+Therefore, the two remaining components of high-contrast imaging are (1) the data acquisition techniques, which focuses on introducing some diversity in the data to later disentangle between the planetary signals and the starlight residuals spreading in the image and (2) the post-processing techniques that exploit this diversity to carve out further the starlight residuals and recover the planetary signals. 
+
+<br>
+The image below highlights the "four pillars" of high-contrast imaging that enable the detection of Jupiter-sized exoplanets located at large distances (a few tenth of astronomical units) from their host star.
 <img src="/img/PillarsHCI.png" alt="The four pillars of HCI">
-
-<p> Even using these cutting-edge technologies, the resulting images suffer from bright starlight residuals hiding the presence of planetary companions. Among them, the quasi-statics <i>speckles</i> are of the same size and shape as the exoplanet signal and often brighter by up to two orders of magnitude. Therefore, the two remaining components of high-contrast imaging are (1) the data acquisition techniques, which focuses on introducing some diversity in the data to later disentangle between the planetary signals and the starlight residuals spreading in the image and (2) the post-processing techniques that exploit this diversity to carve out further the starlight residuals and recover the planetary signals. <strong>Post-processing techniques is what ultimately pushes the performance of high-contrast imaging instruments.</strong> </p>
+The images above are taken using the SPHERE-IRDIS instrument installed at the Very Large Telescope (ESO, Chile). 
+This instrument is equipped with an extreme adaptive optics system, SAXO, and an apodized Lyot coronagraph (APLC). 
+The image post-processing shown is the STIM-map of the planetary system HR 8799 hosting four massive jupiter planets.
+<br>
+	
+<strong>Post-processing techniques is what ultimately pushes the performance of high-contrast imaging instruments.</strong> </p>
 
 <div class="box-note">Participants do not need to be neither a professional astronomer nor an expert in high-contrast imaging techniques to participate! We warmly encourage the participation of non-domain experts. On this website you will find extensive documentation about the challenge and how to participate, with tool kits to get started.</div>
 
 <p> Computer science and machine learning fields have a long tradition conducting data challenges and competitions. We aim to integrate these practices to the field of high-contrast imaging and make available repositories of benchmark (curated) datasets to the community. This initiative intends to make the process of testing new algorithms more straightforward and robust, via the use of standard metrics and benchmark data set offered to the community with this challenge.  </p>
-
-<!--<p> The Exoplanet Imaging Data Challenge is split in different phases conducted every 1-2 year: detection of point sources, characterisation of point sources, detection of extended sources, usage of metadata/telemetry, usage of a reference library, high-resolution spectroscopy data, etc. </p>-->
 
 <div class="box-note">The goal of the <i>Exoplanet Imaging Data Challenge</i> is not only to compare in a fair and robust way existing post-processing techniques, but also to spur the design of new techniques, spark new collaborations and ideas, and share knowledge.</div>
 
