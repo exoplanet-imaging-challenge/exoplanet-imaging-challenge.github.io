@@ -14,7 +14,7 @@ The following pipelines are focused on the basic reduction steps (or pre-reducti
 ## General pipelines for HCI
 * [VIP](https://github.com/vortex-exoplanet/VIP): library of various post-processing techniques including many tools and tutorials, [Gomez Gonzalez et al., 2017](https://github.com/vortex-exoplanet/VIP), [Christiaens et al., 2022](https://joss.theoj.org/papers/10.21105/joss.04774) and references therein.
 * [PynPOINT](https://github.com/PynPoint/PynPoint): modular reduction and post-processing pipeline for large HCI data managements, [Stolker et al., 2019](https://arxiv.org/pdf/1811.03336.pdf).
-* [pyKLIP](https://bitbucket.org/pyKLIP/pyklip/src/main/): collaborative library of pipeline, including various forward modeling techniques, (Wang et al., 2025)[Wang, J. J., Ruffio, J.-B., De Rosa, R. J., et al. 2015, Astrophysics Source Code Library, ascl:1506.001]
+* [pyKLIP](https://bitbucket.org/pyKLIP/pyklip/src/main/): collaborative library of pipeline, including various forward modeling techniques, (Wang et al., 2015).
 
 ## Specific algorithms for HCI
 * [RSM](https://github.com/chdahlqvist/RSMmap): dedicated to point-source detection after applying various ADi-based post-processing techniques, [Dalqvist et al., 2019](https://arxiv.org/pdf/1912.05412.pdf).
