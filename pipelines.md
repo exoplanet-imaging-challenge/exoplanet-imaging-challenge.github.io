@@ -24,3 +24,17 @@ The following pipelines are focused on the basic reduction steps (or pre-reducti
 * [MAYONNAISE](https://github.com/bpairet/mayo_hci): dedicated to extended signal imaging from pupil tracking data set, [Pairet et al., 2020](https://arxiv.org/pdf/2008.05170.pdf)
 * [MUSTARD](https://github.com/Sand-jrd/mustard): dedicated to extended signal imaging from pupil tracking data set, [Juillard et al., 2023](https://arxiv.org/pdf/2211.03361.pdf).
 * [Applefy](https://github.com/markusbonse/applefy): pipeline dedicated to produce unbiased detection limits for high-contrast images, [Bonse et al., 2023](https://arxiv.org/pdf/2303.12030.pdf)
+
+
+<br>
+
+<br>
+
+<p>The image below summarizes the three main open source pipelines available to the HCI community, with their respective functionalities highlighted.</p>
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/OpenSourcePipelines.png" />
+</p>
+
+
+
