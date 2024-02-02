@@ -3,7 +3,7 @@ layout: page
 title: Bibliography HCI post-processing 
 ---
 
-<i>In this section, you will find the most relevant scientific publications and open-source pipelines related to post-processing techniques for high-contrast imaging.</i>
+<i>In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging.</i>
 
 <br>
 
@@ -18,13 +18,24 @@ title: Bibliography HCI post-processing
 
 ### High-contrast imaging general reviews ###
 
+* <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: [Currie et al., 2023](https://arxiv.org/pdf/2205.05696.pdf)
+* <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: [Follette et al., 2023](https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf)
+ 
+
 ### Post-processing techniques dedicated to high-contrast imaging ###
+The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by [Marois et al., 2006](https://iopscience.iop.org/article/10.1086/500401/pdf).<br>
+In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence (1) the astrophysical scene rotates around the optical axis (centred on the star) following the parallactic angle, while (2) the pupil (entrance apperture) of the telescope remains fixed, which means that the optical aberrations are kepts in the same direction in the field of view. <br>
+The image below summarizes how typical so-called 'ADI data set' (temporal cube of high-contrast images) are taken.
 
-### Limitations to high-contrast imaging ###
+#### 1/ Classical Speckle Subtraction techniques ####
 
-<br>
 
-<br>
+#### 2/ Advanced Subtraction techniques ####
+
+#### 3/ Inverse Problem approaches ####
+
+#### 4/ Supervised Machine learning ####
+
 
 #### HR 8799 system orbit video ####
 
@@ -32,7 +43,7 @@ The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](h
 
 <br>
 
-<p align="center" width="150" height="150">
+<p align="center" width="100" height="100">
   <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/orbit_hr_8799.gif" alt="animated" />
 </p>
 <center><i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i></center>
