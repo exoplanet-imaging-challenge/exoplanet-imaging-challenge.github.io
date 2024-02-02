@@ -11,7 +11,7 @@ title: Other Astronomy Data Challenges
 <p style='text-align: justify;'>The Nancy Grace Roman Space Telescope (formerly known as WFIRST, Wide Field Infrared Survey Telescope), also called Roman Space Telescope (RST) is a 2.4m telescope working in the infrared. The [RST](https://roman.gsfc.nasa.gov/) is a NASA observatory designed for a 5-year mission, whose launch is foreseen during the mid-2020.
 The RST Exoplanet Data Challenge aims at looking at several detection techniques (coronagraphy, microlensing...) based on simulated images and data created and provided by the RST consortium.</p>
 
-[RST Exoplanet Imagin Data Challenge](https://www.exoplanetdatachallenge.com/)
+[RST Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
 
 
 ### Starshade Exoplanet Data Challenge ###
@@ -24,8 +24,22 @@ This [starshade](https://exoplanets.nasa.gov/exep/technology/starshade/) technol
 
 ### Interferometry Data Challenge ###
 Every two years, the interferometry community organizes a "beauty contest" at the SPIE Astronomical Telescope and Instrumentation conference. 
+The platform used to distribute and store the data is the [Optical interferometry Database](https://www.jmmc.fr/english/tools/data-bases/oidb/) (OiDB), itself a community service from the [Jean-Marie Mariotti Center](https://www.jmmc.fr/) (JMMC) gathering numerous ressources about astronomical interferometry in the visible/infrared domain. 
+We invite interested participants to subscribe to the Optical Long Baseline Interferometry News (OLBIN) mailing-list to receive news of the on-going contest.
 
-[Interferometry Beauty Contest]
+[Interferometry Beauty Contest 2016](http://fmillour.com/wp-content/uploads/2022/06/SPIE_Beauty_manuscript-1.pdf)
+<br>
+[Interferometry Beauty Contest 2014](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/22034/The?sequence=1)
+<br>
+[Interferometry Beauty Contest 2012](https://arxiv.org/pdf/1207.7141.pdf)
+<br>
+[Interferometry Beauty Contest 2010](https://arxiv.org/pdf/1007.4473.pdf)
+<br>
+[Interferometry Beauty Contest 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7013/70131N/2008-imaging-beauty-contest/10.1117/12.788903.short#_=_)
+<br>
+[Interferometry Beauty Contest 2006](https://www.researchgate.net/profile/Sridharan-Rengaswamy/publication/252071405_2006_Interferometry_Imaging_Beauty_Contest_-_art_no_62681U/links/596867cba6fdcc18ea66e9f9/2006-Interferometry-Imaging-Beauty-Contest-art-no-62681U.pdf)
+<br>
+[Interferometry Beauty Contest 2004]([https://arxiv.org/pdf/1007.4473.pdf](https://ui.adsabs.harvard.edu/abs/2004AAS...20515318L/abstract))
 
 
 ### ARIEL Data Challenge ###
