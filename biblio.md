@@ -42,13 +42,13 @@ The image below summarizes how typical so-called 'ADI data set' (temporal cube o
 * LR-map: [Daglayan et al., 2022](https://arxiv.org/pdf/2210.10609.pdf)
 
 #### 3/ Inverse Problem approaches ####
-* ANDROMEDA: [Cantalloube et al., 2015](https://browse.arxiv.org/pdf/1508.06406.pdf) (after [Mugnier et al., 2009]())
-* FMMF: [Ruffio et al., 2017](https://browse.arxiv.org/pdf/1705.05477.pdf) (after [Pueyo et al., 2016]())
+* ANDROMEDA: [Cantalloube et al., 2015](https://browse.arxiv.org/pdf/1508.06406.pdf) (after [Mugnier et al., 2009](http://laurent.mugnier.free.fr/publis/Mugnier-JOSAA-09.pdf))
+* FMMF: [Ruffio et al., 2017](https://browse.arxiv.org/pdf/1705.05477.pdf) (after [Pueyo et al., 2016](https://iopscience.iop.org/article/10.3847/0004-637X/824/2/117/pdf))
 * PACO: [Flasseur et al., 2018](https://www.aanda.org/articles/aa/pdf/2018/10/aa32745-18.pdf)
 * TRAP: [Samland et al., 2021](https://browse.arxiv.org/pdf/2011.12311.pdf)
 
 #### 4/ Supervised Machine learning ####
-* SODDIN: (Gomez-Gonzalez et al., 2017)[https://arxiv.org/pdf/1712.02841.pdf]
+* SODDIN: [Gomez-Gonzalez et al., 2017](https://arxiv.org/pdf/1712.02841.pdf)
 * NA-SODDIN: [Cantero et al., 2023](https://arxiv.org/pdf/2302.02854.pdf)
 * HSR: [Gebhard et al., 2022](https://arxiv.org/pdf/2204.03439.pdf)
 * Deep-PACO: [Flasseur et al., 2023](https://arxiv.org/pdf/2303.02461.pdf)
@@ -63,14 +63,11 @@ The image below summarizes how typical so-called 'ADI data set' (temporal cube o
 
 ### Other related paper ###
 
-#### Detection limits ####
+#### Detection limits & performance assessement ####
 * <i>Confidence level and Sensitivity limits in HCI</i>: [Marois et al., 2007](https://browse.arxiv.org/pdf/0709.3548.pdf)
 * <i>Fundamental limitations of HCI set by small sample statistics</i>: [Mawet et al., 2014](https://browse.arxiv.org/pdf/1407.2247.pdf)
 * <i>A New Standard for assessing the performance of HCI</i>: [Jensen-Clem et al., 2017](https://arxiv.org/pdf/1711.01215.pdf)
 * <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: [Bonse et al., 2023](https://arxiv.org/pdf/1711.01215.pdf)
-
-#### Comparing algorithms ####
-* <i></i>: [Savransky et al., 2016]()
 
 
 #### HR 8799 system orbit video ####
