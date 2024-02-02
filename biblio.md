@@ -31,9 +31,10 @@ In order to use ADI-based techniques, the images are taken in <em>pupil tracking
 The image below summarizes how typical so-called 'ADI data set' (temporal cube of high-contrast images) are taken.
 
 #### 1/ Classical Speckle Subtraction techniques ####
-* KLIP
-* PCA
-* LOCI
+* LOCI: [Lafrenière et al., 2007](https://browse.arxiv.org/pdf/astro-ph/0702697.pdf)
+* KLIP (PCA): [Soummer et al., 2012](https://iopscience.iop.org/article/10.1088/2041-8205/755/2/L28/pdf)
+* SVD (PCA): [Amara & Quanz, 2012](https://browse.arxiv.org/pdf/1207.6637.pdf)
+* NMF: [Ren et al., 2018](https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf)
 
 #### 2/ Advanced Subtraction techniques ####
 * RSM: [Dahlqvist et al., 2020](https://browse.arxiv.org/pdf/1912.05412.pdf)
@@ -53,6 +54,7 @@ The image below summarizes how typical so-called 'ADI data set' (temporal cube o
 * Deep-PACO: [Flasseur et al., 2023](https://arxiv.org/pdf/2303.02461.pdf)
 
 #### 5/ Dedicated to extended structure imaging ####
+* NMF: [Ren et al., 2018](https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf)
 * DISK-FM: [Mazoyer et al., 2020](https://arxiv.org/pdf/2012.06790.pdf)
 * MAYONNAISE: [Pairet et al., 2021](https://browse.arxiv.org/pdf/2008.05170.pdf)
 * REXPACO: [Flasseur et al., 2021](https://arxiv.org/pdf/2104.09672.pdf)
@@ -62,6 +64,7 @@ The image below summarizes how typical so-called 'ADI data set' (temporal cube o
 ### Other related paper ###
 
 #### Detection limits ####
+* <i>Confidence level and Sensitivity limits in HCI</i>: [Marois et al., 2007](https://browse.arxiv.org/pdf/0709.3548.pdf)
 * <i>Fundamental limitations of HCI set by small sample statistics</i>: [Mawet et al., 2014](https://browse.arxiv.org/pdf/1407.2247.pdf)
 * <i>A New Standard for assessing the performance of HCI</i>: [Jensen-Clem et al., 2017](https://arxiv.org/pdf/1711.01215.pdf)
 * <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: [Bonse et al., 2023](https://arxiv.org/pdf/1711.01215.pdf)
