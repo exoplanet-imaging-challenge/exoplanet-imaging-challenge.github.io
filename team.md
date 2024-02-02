@@ -10,7 +10,7 @@ If you have any questions about the data challenge or encounter any issue, pleas
 ## Data challenge creation team
 
 * Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> 
-* Faustine Cantalloube, <faustine.cantalloube@lam.fr>  
+* Faustine Cantalloube, <faustine.cantalloube@univ-grenoble-alpes.fr>  
 * Olivier Absil, <olivier.absil@uliege.be>
 * Rebecca Jensen-Clem, <rjensenclem@ucsc.edu> 
 * Tiffany Meshkat, <meshkat@caltech.edu> 
@@ -32,7 +32,7 @@ If you have any questions about the data challenge or encounter any issue, pleas
 
 ## Working group, Phase#2 (planet characterization)
 
-* Faustine Cantalloube (LAM, France)
+* Faustine Cantalloube (IPAG, France)
 * Olivier Absil (ULiege, Belgium)
 * Markus Bonse (ETH-Zurich, Switzerland)
 * Carles Cantero (ULiege, Belgium)
