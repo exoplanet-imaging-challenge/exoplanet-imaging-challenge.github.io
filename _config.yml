@@ -41,7 +41,7 @@ navbar-links:
     - Toolkits: "tool2"
     - F.A.Q: "faq2"
   Bibliography:
-    - 3' videos: "videos"
+    - 3' videos: "video"
     - Algorithms: "biblio"
     - Using the EIDC: "useeidc"
     - Pipelines: "pipelines"
