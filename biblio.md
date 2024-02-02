@@ -61,23 +61,11 @@ The image below summarizes how typical so-called 'ADI data set' (temporal cube o
 * MUSTARD: [Juillard et al., 2023](https://browse.arxiv.org/pdf/2309.14827.pdf)
 
 
-### Other related paper ###
-
-#### Detection limits & performance assessement ####
+### Detection limits & performance assessement ###
 * <i>Confidence level and Sensitivity limits in HCI</i>: [Marois et al., 2007](https://browse.arxiv.org/pdf/0709.3548.pdf)
 * <i>Fundamental limitations of HCI set by small sample statistics</i>: [Mawet et al., 2014](https://browse.arxiv.org/pdf/1407.2247.pdf)
 * <i>A New Standard for assessing the performance of HCI</i>: [Jensen-Clem et al., 2017](https://arxiv.org/pdf/1711.01215.pdf)
 * <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: [Bonse et al., 2023](https://arxiv.org/pdf/1711.01215.pdf)
 
 
-#### HR 8799 system orbit video ####
-
-The young star HR 8799 hosts four giant gaseous planets ([Marois et al., 2010](https://www.nature.com/articles/nature09684.pdf)). The following video shows 10 different epochs of post-processed high-contrast images of the HR 8799 system observed in the near-infrared over a period of 12 years, from 2009 to 2021. Data are taken using the [NIRC2 instrument](https://www2.keck.hawaii.edu/inst/nirc2/) installed at the [Keck Telescope](https://keckobservatory.org/) (Mauna Kea observatory, Hawaii, USA). 
-
-<br>
-
-<p align="center" width="100" height="100">
-  <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/orbit_hr_8799.gif" alt="animated" />
-</p>
-<center><i>&copy; Jason Wang (Northwestern)/William Thompson (UVic)/Christian Marois (NRC Herzberg)/Quinn Konopacky (UCSD) <a href="https://jasonwang.space/orbits.html" target="_blank">Source J. Wang</a>.</i></center>
 
