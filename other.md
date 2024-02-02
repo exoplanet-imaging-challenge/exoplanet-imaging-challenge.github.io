@@ -8,28 +8,29 @@ title: Other Astronomy Data Challenges
 <br>
 
 ### Roman Space Telescope Exoplanet Data Challenge ###
-The Nancy Grace Roman Space Telescope (formerly known as WFIRST, Wide Field Infrared Survey Telescope), also called Roman Space Telescope (RST) is a 2.4m telescope working in the infrared. The RST is a NASA observatory designed for a 5-year mission, whose launch is foreseen during the mid-2020.
-The (RST) Exoplanet Data Challenge aims at looking at several detection techniques (coronagraphy, microlensing...) based on simulated images and data by the RST consortium.
+<p style='text-align: justify;'>The Nancy Grace Roman Space Telescope (formerly known as WFIRST, Wide Field Infrared Survey Telescope), also called Roman Space Telescope (RST) is a 2.4m telescope working in the infrared. The [RST](https://roman.gsfc.nasa.gov/) is a NASA observatory designed for a 5-year mission, whose launch is foreseen during the mid-2020.
+The RST Exoplanet Data Challenge aims at looking at several detection techniques (coronagraphy, microlensing...) based on simulated images and data created and provided by the RST consortium.</p>
 
-[RST Exoplanet Challenge](https://www.exoplanetdatachallenge.com/)
+[RST Exoplanet Imagin Data Challenge](https://www.exoplanetdatachallenge.com/)
 
 
 ### Starshade Exoplanet Data Challenge ###
-The Starshade is an external occulter that, similarly to a coronagraph, hides the glaring light of the target star in order to unveil close-in companions. A starshade is a thin layer of material spread over a diameter of about tens of meter, with a specific outter "flower-like" shape to avoid spurious diffraction effects (like an apodizer). Therefore the technlogical challenge of starshades is that they must be carefully wrapped on ground and deployed in space. 
+<p style='text-align: justify;'>The Starshade is an external occulter that, similarly to a coronagraph, hides the glaring light of the target star in order to unveil close-in companions. A starshade is a thin layer of material spread over a diameter of about ten meters, with a specific outter "flower-like" shape to avoid spurious diffraction effects (like an apodizer). Therefore the technlogical challenge of starshades is that they must be carefully wrapped on ground and deployed in space. 
 Moreover, the starshade must be located at tens of thousands of kilometers from the telescope, pushing for another technological challenge in the domain of high accuracy formation flight.
-This technology is designed, built and tested by [NASA](https://exoplanets.nasa.gov/exep/technology/starshade/) and planned to be co-launched with the Roman Space Telescope for a rendez vous within the first years of operation. 
+This [starshade](https://exoplanets.nasa.gov/exep/technology/starshade/) technology is designed, built and tested by NASA and planned to be co-launched with the Roman Space Telescope for a rendez vous within the first years of operation. </p>
 
-[Star Shade Exoplanet Data Challenge](https://exoplanets.nasa.gov/exep/technology/starshade-data-challenge/)
+[Starshade Exoplanet Data Challenge](https://exoplanets.nasa.gov/exep/technology/starshade-data-challenge/)
 
 
 ### Interferometry Data Challenge ###
-The interferometry community is organizing 
+Every two years, the interferometry community organizes a "beauty contest" at the SPIE Astronomical Telescope and Instrumentation conference. 
 
 [Interferometry Beauty Contest]
 
 
 ### ARIEL Data Challenge ###
-ARIEL is a space mission led by whose mission is to. The launch is forescast.
+<p style='text-align: justify;'>ARIEL (Atmospheric Remote-sensing Infrared Exoplanet Large-survey) is a space-based mission whose goal is to analyse exoplanet atmospheres using transmission spectroscopy of a thousand of transiting exoplanets. The [ARIEL mission](https://arielmission.space/) is led by the European Space Agency (ESA) and its launch is forescast for 2029 for a mission duration of four years. 
+The ARIEL community has launched a number of data challenges, based on simulated data, to be ready to optimally exploit the data during the mission time.</p>
 
 [ARIEL Data Challenge](https://arielmission.space/index.php/data-challenges/)
 
