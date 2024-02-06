@@ -29,7 +29,7 @@ In order to use ADI-based techniques, the images are taken in <em>pupil tracking
 <p>The image below summarizes how typical so-called 'ADI data set' (temporal cube of high-contrast images) are taken.</p>
 <br>
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/HCIADIconcept.jpeg" />
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/HCI_ADIconcept.jpeg" />
 </p>
 <center><small><i> From left to right: Pupil-tracking imaging is possible with a telescope equipped with an alt-az mount. The pupil (telescope entrance aperture) remains fixed, i.e. the optical wavefront propagates in the same direction until it is focused in the detector's field of view. Meanwhile, the astrophysical scene rotates in the detector's field of view, following the parallactic angles (dotted white curve). The end result is a temporal image cube in which the residual starlight remains more or less fixed, while the planetary/disk signals have a different position in each temporal image, depending on the parallactic angle. </i></small></center>
 
