@@ -25,9 +25,9 @@ The following pipelines are focused on the basic reduction steps (or pre-reducti
 * [MUSTARD](https://github.com/Sand-jrd/mustard): dedicated to extended signal imaging from pupil tracking data set, [Juillard et al., 2023](https://arxiv.org/pdf/2211.03361.pdf).
 * [Applefy](https://github.com/markusbonse/applefy): pipeline dedicated to produce unbiased detection limits for high-contrast images, [Bonse et al., 2023](https://arxiv.org/pdf/2303.12030.pdf)
 
-&nbsp 
+<br>
 
-<p>The image below summarizes the three main open-source pipelines (all written in python) that are available to the HCI community, with their respective functionalities highlighted. These three pipelines are highly complementary and are the result of a collabrative work within the HCI community. Please do not hesitate to contact the moderators of the pipelines if you have any suggestion for improvements. </p>
+<p style='text-align: justify;'>The image below summarizes the three main open-source pipelines (all written in python) that are available to the HCI community, with their respective functionalities highlighted. These three pipelines are highly complementary and are the result of a collabrative work within the HCI community. Please do not hesitate to contact the moderators of the pipelines if you have any suggestion for improvements. </p>
 <br>
 <p align="center">
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/OpenSourcePipelines.png" />
