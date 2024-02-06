@@ -17,5 +17,4 @@ You can find the publication [here](https://arxiv.org/pdf/2101.05080.pdf) (arXiv
 <object data="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/SPIE_Poster_EIDC_v4.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/SPIE_Poster_EIDC_v4.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/SPIE_Poster_EIDC_v4.pdf">Download PDF</a>.</p>
-    </embed>
 </object>
