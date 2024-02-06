@@ -3,7 +3,7 @@ layout: page
 title: Papers using the EIDC
 ---
 
-<i>On this page, we reference all the paper that use the ressources from the Exoplanet Imaging Data Challenge (dataset, metrics, toolkits etc.). Please do not hesitate to contact us if your work is missing.</i>
+<i><center>On this page, we reference all the paper that use the ressources from the Exoplanet Imaging Data Challenge (dataset, metrics, toolkits etc.). Please do not hesitate to contact us if your work is missing.</center></i>
 
 <br>
 
