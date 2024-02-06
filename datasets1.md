@@ -21,10 +21,10 @@ The datasets used in this data challenge were kindly provided by scientists from
 * VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
 * Gemini-S/GPI, [Macintosh et al., 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full) 
 
-The datasets used in this competition are diverse: from H-band (1.6 mum) to L-band (3.8 mum), broadband/narrowband filters, total range of field rotation, with or without a coronagraph, observing conditions etc. 
+<p style='text-align: justify;'>The datasets used in this competition are diverse: from H-band (1.6 mum) to L-band (3.8 mum), broadband/narrowband filters, total range of field rotation, with or without a coronagraph, observing conditions etc. </p>
 
 ### Pre-processing steps
-The datasets were calibrated/pre-processed using the standard pipelines of each instrument. We then applied a few pre-processing procedures on each cube to make sure that the library is homogeneous (centering, cropping etc.). The cubes have been cropped to focus on the innermost 20 lambda/D region.
+<p style='text-align: justify;'>The datasets were pre-reduced (calibrated) using the standard pipeline of each instrument. We then applied a few pre-processing procedures on each cube to make sure that the offered data cubes are homogeneous (centering, cropping etc.). All the image of the cubes have been cropped to focus on the innermost 20 lambda/D region.</p>
 
 The data are saved in [FITS](https://en.wikipedia.org/wiki/FITS) files format. A convenient software for quick visualization is [SAOImageDS9](http://ds9.si.edu/site/Download.html). If you use Python and Jupyterlab, you can use the [HCIplot](https://github.com/carlgogo/hciplot/) open-source library for visualizing the cubes. 
 
@@ -61,7 +61,7 @@ style="width:100%; height:535px;"></iframe>
 
 ***
 
-It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the **HCI benchmark library** that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.
+<p style='text-align: justify;'>It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the <strong>HCI benchmark library</strong> that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.</p>
 
 
 ***
