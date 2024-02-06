@@ -35,7 +35,7 @@ This competition is composed of two sub-challenges corresponding to the two most
 ### Sub-challenge #2: ADI+mSDI
 <p style='text-align: justify;'>In the case of multi-spectral imaging, an integral field spectrograph (IFS) disperses the light, providing simultaneously, for each exposure, several monochromatic images. The resolution and wavelength coverage varies depending on the instrument used. The speckle distributions (and more generally the starlight residuals) vary with the wavelength (see figure below), while the planetary signal's centroid remains static. This diversity also makes it possible to disentangles the exoplanet signal (static) from the speckle field (moving radially). SDI-based post-processing techniques exploit this diverstity to unveil the faint planetary signals. Multi-spectral imaging is usually combined with ADI. </p>
 
-**The so-called "ADI+mSDI datasets" are composed of:**<br>  
+**The so-called "ADI+mSDI datasets" are composed of:**<br>
 **(i)** a 4D cube of images (see figure below);<br>
 **(ii)** the corresponding parallactic angles variation along the temporal dimension;<br>
 **(iii)** the corresponding vector of wavelenghts along the spectral dimension;<br>
