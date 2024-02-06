@@ -42,20 +42,20 @@ This competition is composed of two sub-challenges corresponding to the two most
 **(iv)** the point-spread function (PSF) of the instrument.
 
 
-<p align="center" width="100" height="100">
+<p align="center" alt="image" width="300" height="auto">
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/ifs_frame.gif"/>
 </p>
 <center><small>A single IFS frame showing the behaviour of the speckles as a function of the wavelength (the label on the animation corresponds to an index instead of the wavelength itself).</small></center>
 
-### Dimensionality of the data for the two sub-challenges
+#### Dimensionality of the data for the two sub-challenges
 <p style='text-align: justify;'>The figure below shows the dimension of the two type of data set, corresponding to each sub-challenge.</p>
-<p align="center" width="100" height="100">
+<p align="center" alt="image" width="300" height="auto">
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/challenge_fig1.001.png"/>
 </p>
 <center><small>Dimensionality of the high-contrast image cubes constituting this challenge depending on the observing technique. The left panel shows a single ADI data cube and the right panel shows an ADI + mSDI data cube. </small></center>
 
 
-### Typical process to detect point source
+#### Typical process to detect point source
 <p style='text-align: justify;'>The figure below shows an schematic representation of an HCI point source detection pipeline. 
 In this phase of the data challenge, we do not use datasets with known (real) companions. Instead, we injected synthetic planetary signals in the data in order to measure the detection capability of different algorithms. Each challenge cube contains from <strong>none to five synthetic point-sources</strong>, injected using a standard process (without accounting for smearing or any source of variable photometry). For spectrally dispersed data we additionnaly use three empirical field brown dwarf template spectra for the injection of the synthetic planetary signals in the different spectral channels.</p>
 
