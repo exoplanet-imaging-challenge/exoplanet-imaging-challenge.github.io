@@ -42,14 +42,14 @@ This competition is composed of two sub-challenges corresponding to the two most
 **(iv)** the point-spread function (PSF) of the instrument.
 
 
-<p align="center" alt="image" width="300" height="auto">
+<p align="center" alt="image" width="90" height="auto">
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/ifs_frame.gif"/>
 </p>
 <center><small>A single IFS frame showing the behaviour of the speckles as a function of the wavelength (the label on the animation corresponds to an index instead of the wavelength itself).</small></center>
 
 #### Dimensionality of the data for the two sub-challenges
 <p style='text-align: justify;'>The figure below shows the dimension of the two type of data set, corresponding to each sub-challenge.</p>
-<p align="center" alt="image" width="300" height="auto">
+<p align="center" alt="image" width="90" height="auto">
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/challenge_fig1.001.png"/>
 </p>
 <center><small>Dimensionality of the high-contrast image cubes constituting this challenge depending on the observing technique. The left panel shows a single ADI data cube and the right panel shows an ADI + mSDI data cube. </small></center>
