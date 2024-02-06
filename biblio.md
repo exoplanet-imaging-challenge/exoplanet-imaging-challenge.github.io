@@ -11,7 +11,7 @@ title: Bibliography HCI post-processing
 
 <br>
 
-<p>The image below summarizes the four steps of differential imaging towards the detection of exoplanets (or disks) signals:</p>
+<p>The image below summarizes the four steps of differential imaging towards the detection of exoplanet (or disk) signals:</p>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/DIprocessing.png" />
 </p>
@@ -29,7 +29,7 @@ In order to use ADI-based techniques, the images are taken in <em>pupil tracking
 
 <br>
 
-<p>The image below summarizes how a typical so-called 'ADI data set' is acquired:</p>
+<p>The image below summarizes how a typical so-called <em>ADI data set</em> is acquired:</p>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/HCI_ADIconcept.jpeg" />
 </p>
