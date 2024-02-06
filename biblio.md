@@ -7,7 +7,7 @@ title: Bibliography HCI post-processing
 
 <br>
 
-<p style='text-align: justify;'> Nowadays, most post-processing techniques are based on <i>differential imaging</i> (DI). This consists in estimating the residual starlight (ideally without any circumstellar signal) and subtracting this estimate from the scientific image. This operation is repeated for all available high-contrast scientific images of the target. The subtracted images are then combined to increase the signal-to-noise ratio of the potential circumstellar signals (planets and/or disks). A so-called <i>detection map</i> is then built (usually a signal-to-noise ratio map and a threshold), providing a confidence level of any detection.</p>
+<p style='text-align: justify;'> Nowadays, most post-processing techniques are based on <i>differential imaging</i> (DI). It consists in estimating the residual starlight (ideally without any circumstellar signal) and subtracting this estimate from the scientific image. This operation is repeated for every available image of the target star. The subtracted images are then combined to increase the signal-to-noise ratio of the potential circumstellar signals (planets and/or disks). A so-called <i>detection map</i> is then built (usually a signal-to-noise ratio map and a threshold), providing a confidence level of any detection.</p>
 
 <p> In order to estimate the starlight residuals, <i>diversity</i> is required: the circumstellar signals of interest must have a different behavior or properties from those of the starlight noise residuals, so that they can be disentangled. This diversity is usually achieved through specific <i>observing strategies</i> (e.g. polarization imaging, pupil tracking imaging, reference imaging etc.). </p>
 <br>
