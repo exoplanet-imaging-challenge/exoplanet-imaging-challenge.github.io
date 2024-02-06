@@ -9,11 +9,11 @@ If you have any questions about the data challenge or encounter any issue, pleas
 
 ## Data challenge creation team
 
-* Carlos Alberto Gomez Gonzalez, <carlos.gomez@bsc.es> 
-* Faustine Cantalloube, <faustine.cantalloube@univ-grenoble-alpes.fr>  
-* Olivier Absil, <olivier.absil@uliege.be>
-* Rebecca Jensen-Clem, <rjensenclem@ucsc.edu> 
-* Tiffany Meshkat, <meshkat@caltech.edu> 
+* Carlos Alberto Gomez Gonzalez
+* Faustine Cantalloube
+* Olivier Absil
+* Rebecca Jensen-Clem 
+* Tiffany Meshkat
 
 ## Working group, Phase#1 (planet detection)
 
