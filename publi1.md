@@ -9,10 +9,20 @@ After the first phase of the exoplanet imaging data challenge (ending 30th of Se
 
 You can find the publication [here](https://arxiv.org/pdf/2101.05080.pdf) (arXiv version). All participants to the Exoplanet Imaging Data Challenge have been invited as co-author.
 
+
+
 ## SPIE 2020 poster summarizing the results 
 
-![posterSPIE](img/SPIE_Poster_EIDC_v4.pdf)
+
+<object data="img/SPIE_Poster_EIDC_v4.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="img/SPIE_Poster_EIDC_v4.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="img/SPIE_Poster_EIDC_v4.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 
-<iframe src="img/SPIE_Poster_EIDC_v4.pdf/&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+<!--![posterSPIE](img/SPIE_Poster_EIDC_v4.pdf)
+
+<iframe src="img/SPIE_Poster_EIDC_v4.pdf/&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe> --!>
 
