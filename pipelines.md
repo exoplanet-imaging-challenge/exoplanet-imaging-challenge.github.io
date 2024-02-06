@@ -8,7 +8,7 @@ title: Pipelines
 ## Pipelines for HCI surveys
 The following pipelines are focused on the basic reduction steps (or pre-reduction) of the images.: calibration, centering, frame selection etc. 
 * [HC-DC](https://sphere.osug.fr/spip.php?rubrique35&lang=en) (formerly SPHERE-DC): homogeneous data reduction for VLT/SPHERE data. Also includes various ADI-based post-processing [SpeCal](https://arxiv.org/pdf/1805.04854.pdf). Developed by the SPHERE consortium [Delorme et al., 2017](https://arxiv.org/pdf/1712.06948.pdf).
-* [GPI pipeline](https://docs.planetimager.org/pipeline/) and [GPIES Data Cruncher]([GPIES Data Cruncher ](https://arxiv.org/pdf/1801.01902.pdf): mainly developd to process Gemini-S/GPI data, the former focuses on the pre-processing steps, while the latter the ADI-based post-processing. Developed by the Gemini-S/GPI consortium. 
+* [GPI pipeline](https://docs.planetimager.org/pipeline/) and [GPIES Data Cruncher](https://arxiv.org/pdf/1801.01902.pdf): mainly developd to process Gemini-S/GPI data, the former focuses on the pre-processing steps, while the latter the ADI-based post-processing. Developed by the Gemini-S/GPI consortium. 
 * GRAPHIC: Full high-contrast image processing pipeline, from pre-reduction to ADI-based post-processing. Developed by the Geneva Observatory: [Hagelberg et al., 2015](https://arxiv.org/pdf/1510.04331.pdf)
 
 ## Open-source pipelines for HCI
