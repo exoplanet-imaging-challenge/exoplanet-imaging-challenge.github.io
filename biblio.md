@@ -3,7 +3,7 @@ layout: page
 title: Bibliography HCI post-processing 
 ---
 
-<i><center>In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging with ground-based instruments. Please note that the following list is non-exhaustive, if you want your publication to join the list, feel free to contact us.</center></i>
+<i><center>In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging with ground-based instruments. Please note that the following list is not exhaustive. If you would like your publication to be added to the list, please do not hesitate to contact us.</center></i>
 
 <br>
 
