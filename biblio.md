@@ -24,8 +24,9 @@ title: Bibliography HCI post-processing
  
 
 ### Post-processing techniques dedicated to high-contrast imaging ###
-<p style='text-align: justify;'>The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by [Marois et al., 2006](https://iopscience.iop.org/article/10.1086/500401/pdf).<br>
-In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence (1) the astrophysical scene rotates around the optical axis (centred on the star) following the parallactic angle, while (2) the pupil (entrance apperture) of the telescope remains fixed, which means that the optical aberrations are kepts in the same direction in the field of view.</p>
+<p style='text-align: justify;'>The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by <a href='https://iopscience.iop.org/article/10.1086/500401/pdf'>Marois et al., 2006</a>.</p>
+<br>
+<p style='text-align: justify;'>In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence <strong>(1)</strong> the astrophysical scene rotates around the optical axis (centred on the star) following the parallactic angle, while <strong>(2)</strong> the pupil (entrance apperture) of the telescope remains fixed, which means that the optical aberrations are kepts in the same direction in the field of view.</p>
 
 <br>
 
