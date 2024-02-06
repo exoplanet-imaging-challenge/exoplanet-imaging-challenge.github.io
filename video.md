@@ -3,7 +3,7 @@ layout: page
 title: Short Tutorial Videos
 ---
 
-<i>In this section, you will find **soon** find short explanatory videos to better understand hogh-contrast imaging data and the ressources offered in the Exoplanet Imaging Data Challenge.</i>
+<i><center>In this section, you will find **soon** find short explanatory videos to better understand hogh-contrast imaging data and the ressources offered in the Exoplanet Imaging Data Challenge.</center></i>
 
 <br>
 
