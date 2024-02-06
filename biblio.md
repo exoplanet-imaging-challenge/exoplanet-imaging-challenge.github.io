@@ -3,7 +3,7 @@ layout: page
 title: Bibliography HCI post-processing 
 ---
 
-<i>In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging with ground-based instruments.</i>
+<i>In this section, you will find the most relevant scientific publications related to post-processing techniques for high-contrast imaging with ground-based instruments.<em>Please note that the following list is non-exhaustive, if you want your publication to join the list, feel free to contact us.</em></i>
 
 <br>
 
@@ -33,8 +33,6 @@ In order to use ADI-based techniques, the images are taken in <em>pupil tracking
 </p>
 <center><small><i> From left to right: Pupil-tracking imaging is possible with a telescope equipped with an alt-az mount. The pupil (telescope entrance aperture) remains fixed, i.e. the optical wavefront propagates in the same direction until it is focused in the detector's field of view. Meanwhile, the astrophysical scene rotates in the detector's field of view, following the parallactic angles (dotted white curve). The end result is a temporal image cube in which the residual starlight remains more or less fixed, while the planetary/disk signals have a different position in each temporal image, depending on the parallactic angle. </i></small></center>
 
-<br>
-<center><em>Please note that the following list is non-exhaustive, if you want your publication to join the list, feel free to contact us. </em></center>
 <br>
 
 #### 1/ Classical Speckle Subtraction techniques ####
