@@ -43,9 +43,9 @@ This competition is composed of two sub-challenges corresponding to the two most
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/ifs_frame.gif" width="300" height="auto%"/>
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/ifs_frame.gif" width="310" height="auto%"/>
 </p>
-<center><small>A single IFS frame showing the behaviour of the speckles as a function of the wavelength (the label on the animation corresponds to an index instead of the wavelength itself).</small></center>
+<center><small> This animation shows the evolution of a spectral slice from a VLT/SPHERE-IFS image 4D cube. We can see the starlight residuals (speckles) expand radially when the wavelength increases (the label on the animation corresponds to the index of the SPHERE-IFS spectral channel, from short to large wavelength around 1.6microns). On the other hand, the centroid of the point source (located at the top left) remains fix. </small></center>
 
 #### Dimensionality of the data for the two sub-challenges
 <p style='text-align: justify;'>The figure below shows the dimension of the two type of data set, corresponding to each sub-challenge.</p>
