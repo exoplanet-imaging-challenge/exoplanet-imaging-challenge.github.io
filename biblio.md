@@ -7,10 +7,9 @@ title: Bibliography HCI post-processing
 
 <br>
 
-<p> Nowadays, most post-processing is based on <i>differential imaging</i>. This technique consists in estimating the residual starlight (ideally without any circumstellar signal) and subtracting this estimated image from the scientific image. This operation is repeated for all the available high-contrast scientific images of the target. The subtracted images are then combined to increase the signal-to-noise ratio of the circumstellar signals (planets and/or disks). In order to estimate the starlight residuals, <i>diversity</i> is required: the circumstellar signals of interest must have a different behavior or properties from those of the starlight noise residuals, so that they can be disentangled. This diversity is usually achieved through specific <i>observing strategies</i> (e.g. polarization imaging, pupil tracking imaging, reference imaging etc.). </p>
+<div style="text-align: right"> <p> Nowadays, most post-processing is based on <i>differential imaging</i>. This technique consists in estimating the residual starlight (ideally without any circumstellar signal) and subtracting this estimated image from the scientific image. This operation is repeated for all the available high-contrast scientific images of the target. The subtracted images are then combined to increase the signal-to-noise ratio of the circumstellar signals (planets and/or disks). In order to estimate the starlight residuals, <i>diversity</i> is required: the circumstellar signals of interest must have a different behavior or properties from those of the starlight noise residuals, so that they can be disentangled. This diversity is usually achieved through specific <i>observing strategies</i> (e.g. polarization imaging, pupil tracking imaging, reference imaging etc.). </p></div>
 
 <p>The image below summarizes the four steps of differential imaging towards the detection of exoplanets (or disks) signals.</p>
-<br>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/DIprocessing.png" />
 </p>
@@ -27,7 +26,6 @@ The paper presented below correspond to data processing based on Angular Differe
 In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence (1) the astrophysical scene rotates around the optical axis (centred on the star) following the parallactic angle, while (2) the pupil (entrance apperture) of the telescope remains fixed, which means that the optical aberrations are kepts in the same direction in the field of view.
 
 <p>The image below summarizes how typical so-called 'ADI data set' (temporal cube of high-contrast images) are taken.</p>
-<br>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/HCI_ADIconcept.jpeg" />
 </p>
