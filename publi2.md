@@ -4,14 +4,17 @@ title: Results (phase 2)
 ---
 
 ## Current results of the Phase 2 (leaderboard)
+
+The table below shows the current algorithms submitted on the EvalAI platform, with the corresponding distance, used as a metric for comparison.
+
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <div class="w3-container">
   <table class="w3-table-all">
     <thead>
-      <tr class="w3-2021-marigold">
+      <tr class="w3-2021-cerulean">
         <th>Algorithm Name ID</th>
-        <th>Astrometry</th>
-        <th>Spectro-photometry</th>
+        <th class="w3-center">Astrometry</th>
+        <th class="w3-center">Spectrophotometry</th>
       </tr>
     </thead>
     <tr>
@@ -37,8 +40,7 @@ title: Results (phase 2)
   </table>
 </div>
 
-<div class="w3-text-grey"><small><center>Last update on February 7th 2024</center></small></div>
-  
+<div class="w3-text-grey"><small>Last update on February 7th 2024</small></div>
 
 
 ## Publication of the metrics used for the Phase 2 
