@@ -3,7 +3,7 @@ layout: page
 title: Other Astronomy Data Challenges
 ---
 
-<i>In this section, we list other data challenges (or blind test) related to exoplanet search.</i>
+<i><center>In this section, we list other data challenges (or blind test) related to exoplanet search.</center></i>
 
 <br>
 
