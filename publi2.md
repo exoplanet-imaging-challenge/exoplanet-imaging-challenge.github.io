@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Results Phase - Characterization
+title: Results Phase 2 - Characterization
 ---
 
 ## Current results of the Phase 2 (leaderboard)
@@ -54,6 +54,6 @@ All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co
 
 ## Publication of the comparison of the Phase 2 
 
-After the deadline set on 15/04/2024, we will compile the result and publish the comparision 
+After the deadline set on 31/05/2024, we will compile the result and publish the comparision 
 
 All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
