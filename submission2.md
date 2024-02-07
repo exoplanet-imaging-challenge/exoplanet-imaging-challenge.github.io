@@ -9,7 +9,7 @@ title: Submission instructions (phase 2)
 The second phase of the Exoplanet Imaging Data Challenge consists in performing *two* tasks, each one will have its own type of submission and metrics.
 
 
-## Deadline: 15th of April 2024
+## Deadline: 31st of May 2024
 For each submission (one submission per algorithm), the participants must provide one zip file per task. <br>
 In each zip file, one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set (so a total of 8 MEF .fits files must be included in the zip file).
 
