@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tool kit for Phase 2
+title: Toolkit for Phase 2
 ---
 
 <center>Page under construction </center>
