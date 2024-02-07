@@ -3,7 +3,8 @@ layout: page
 title: Submission instructions 
 ---
 
-<center><div class="w3-text-red"><h2>Deadline for the <em>Exoplanet Imaging Data Challenge</em> Phase 2: 31st of May 2024</h2></div></center>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<center><div class="w3-text-red"><h2>Deadline for the <em>Exoplanet Imaging Data Challenge</em> Phase 2: <br> 31st of May 2024</h2></div></center>
 
 {: .box-note}
 **EvalAI platform:** To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/).
