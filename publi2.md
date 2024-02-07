@@ -3,6 +3,44 @@ layout: page
 title: Results (phase 2)
 ---
 
+## Current results of the Phase 2 (leaderboard)
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<div class="w3-container">
+  <table class="w3-table-all">
+    <thead>
+      <tr class="w3-2021-marigold">
+        <th>Algorithm Name ID</th>
+        <th>Astrometry</th>
+        <th>Spectro-photometry</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>VIP-PCA</td>
+      <td>0.126</td>
+      <td>24.97</td>
+    </tr>
+    <tr>
+      <td>ANDROMEDA</td>
+      <td>3.944</td>
+      <td>304.88</td>
+    </tr>
+    <tr>
+      <td>RSM</td>
+      <td>0.396</td>
+      <td>52.18</td>
+    </tr>
+    <tr>
+      <td>MC</td>
+      <td>0.223</td>
+      <td>37.73</td>
+    </tr>
+  </table>
+</div>
+
+<div class="w3-text-grey"><small><center>Last update on February 7th 2024</center></small></div>
+  
+
+
 ## Publication of the metrics used for the Phase 2 
 
 After setting the second phase of the 'Exoplanet Imaging Data Challenge', we gathered the description of the second phase, the challenge design, the data set available and metrics used to make the comparison in an SPIE conference proceeding. This proceeding is the result of an oral contribution presented at SPIE [Astronomical Telescope + Instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) taking place from the 17h to the 22th of July 2022 in Montréal (Canada). 
