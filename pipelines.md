@@ -3,7 +3,7 @@ layout: page
 title: Pipelines
 ---
 
-<i>This page lists the various pipelines to process high-contrast images that are available to the community.</i>
+<center><i>This page lists the various pipelines to process high-contrast images that are available to the community.</i></center>
 
 ## Pipelines for HCI surveys
 The following pipelines focus on the image reduction (or pre-reduction) stages: calibration, centering, image selection, etc.
