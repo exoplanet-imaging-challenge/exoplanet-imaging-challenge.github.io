@@ -1,27 +1,26 @@
 ---
 layout: page
-title: Submission instructions (phase 2)
+title: Submission instructions 
 ---
+
+<center><div class="w3-text-red"><h2>Deadline for the <em>Exoplanet Imaging Data Challenge</em> Phase 2: 31st of May 2024</h2></div></center>
 
 {: .box-note}
 **EvalAI platform:** To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/).
 
-The second phase of the Exoplanet Imaging Data Challenge consists in performing *two* tasks, each one will have its own type of submission and metrics.
-
-
-## Deadline: 31st of May 2024
-For each submission (one submission per algorithm), the participants must provide one zip file per task. <br>
-In each zip file, one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set (so a total of 8 MEF .fits files must be included in the zip file).
+The second phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the characterization of point source: it consists in performing *two* tasks, each one will have its own type of submission and metrics.
+ * For each submission (one submission per algorithm), the participant must provide **one zip file per task**.
+ * In each zip file, one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set.
+ * <div class="w3-text-red"> In total, the submission consists of <strong>two <em>.zip</em> files</strong>, each consisting of <strong>eight <em>MEF .fits</em> files</strong>.</div>
 
 ### Task 1 (astrometry)
-The participants must provide one MEF `.fits` file containing per target: <br>
-(i) the estimated position from the star (in other words, the star is located at the coordinates [0,0]), in pixels;
-(ii) [optional] the 1-sigma uncertainties on the estimated position;
-(iii) [optional] the corresponding posterior distribution used to estimate the position and its uncertainties.
-
+For each target star, the participant must provide one MEF `.fits` file containing: <br>
+(i) the estimated position from the star (in other words, the star is located at the coordinates [0,0]), in pixels;<br>
+(ii) [optional] the 1-sigma uncertainties on the estimated position;<br>
+(iii) [optional] the corresponding posterior distribution used to estimate the position and its uncertainties.<br>
 If the posterior distribution (iii) is not provided, we will assume that the posterior follows a normal distribution. 
 
-One MEF .fits file contains the information of all the injections (2 to 3) of a given data set.
+<strong>Note:</strong> One MEF .fits file contains the information of all the injections (2 to 3) of a given data set.
 
 {: .box-note}
 **Task 1: filename:** Please call all your files following this naming convention **astrometry_instID.fits**, with **inst** the instrument in lower case (e.g. `sphere` or `gpi`) and **ID** the dataset index (e.g. `1`, `2`, `3` or `4`).
@@ -29,14 +28,13 @@ One MEF .fits file contains the information of all the injections (2 to 3) of a 
 
 
 ### Task 2 (spectrophotometry)
-The participants must provide one MEF `.fits` file containing per target: <br>
-(i) the estimated contrast wrt the star;
-(ii) [optional] the 1-sigma uncertainties on the estimated contrast;
-(iii) [optional] the corresponding posterior distribution used to estimate the contrast and its uncertainties.
-
+For each target star, the participant must provide one MEF `.fits` file containing: <br>
+(i) the estimated contrast wrt the star; <br>
+(ii) [optional] the 1-sigma uncertainties on the estimated contrast; <br>
+(iii) [optional] the corresponding posterior distribution used to estimate the contrast and its uncertainties. <br>
 If the posterior distribution (iii) is not provided, we will assume that the posterior follows a normal distribution. 
 
-One MEF .fits file contains the information of all the injections (2 to 3) of a given data set.
+<strong>Note:</strong> One MEF .fits file contains the information of all the injections (2 to 3) of a given data set.
 
 {: .box-note}
 **Task 2: filename:** Please call all your files following this naming convention **photometry_instID.fits**, with **inst** the instrument in lower case (e.g. `sphere` or `gpi`) and **ID** the dataset index (e.g. `1`, `2`, `3` or `4`).
@@ -88,9 +86,7 @@ One .zip file must be submitted for each task (one for **astrometry** and one fo
 
 ### Evaluation metrics
 
-For the leaderboard display, the EIDC team has decided to use simple metrics. Further analysis of the results will be conducted off-line by our team and the results will be published in an [SPIE Astronomical telescopes + instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) conference proceeding in summer 2023. 
-
-For the leaderboard, the metrics consist in mean normalized distances between the estimated value submitted by the participant and the ground truth used for injection. The distance is based on the L2 and L1 norms for astrometry and spectrophotometry, respectively. 
+For the leaderboard display, the EIDC team has decided to use simple metrics: the metrics consist in mean normalized distances between the estimated value submitted by the participant and the ground truth used for injection. The distance is based on the L2 and L1 norms for astrometry and spectrophotometry, respectively.
 
 **Task 1 (astrometry)**
 
@@ -107,6 +103,14 @@ For each injected companion, we compute the L1-norm distance between the estimat
 `dist_photo = sum| | cont_est_lambda - cont_gt_lambda | / cont_gt_lambda |`, (sum over all the wavelength)
 
 We then average all the distances *dist_photo* obtained for each of the 21 exoplanet injections. 
+
+<br>
+<br>
+
+Further analysis of the results will be conducted off-line by our team. The metric used for the phase 2 of the <em>Exoplanet Imaging Data Challenge</em> are published in the proceeding accessible [here](https://arxiv.org/pdf/2209.08120.pdf). <br> 
+
+The final comparison results will be published an [SPIE Astronomical telescopes + instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) conference proceeding in summer 2024.  
+
 
 *** 
 
