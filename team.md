@@ -35,7 +35,7 @@ If you have any questions about the data challenge or encounter any issue, pleas
 * Faustine Cantalloube (IPAG, France)
 * Olivier Absil (ULiege, Belgium)
 * Markus Bonse (ETH-Zurich, Switzerland)
-* Carles Cantero (ULiege, Belgium)
+* Carles Cantero (Unige, Switzerland)
 * Anthony Cioppa (ULiege, Belgium)
 * Valentin Christiaens (ULiege, Belgium)
 * Sandrine Juillard (ULiege, Belgium)
