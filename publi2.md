@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Results (phase 2)
+title: Results Phase - Characterization
 ---
 
 ## Current results of the Phase 2 (leaderboard)
