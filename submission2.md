@@ -11,7 +11,7 @@ title: Submission instructions
 
 The second phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the characterization of point source: it consists in performing *two* tasks, each one will have its own type of submission and metrics.
  * For each submission (one submission per algorithm), the participant must provide **one zip file per task**.
- * In each zip file, one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set.
+ * In each zip file, <strong>one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set</strong>.
  * <div class="w3-text-red"> In total, the submission consists of <strong>two <em>.zip</em> files</strong>, each consisting of <strong>eight <em>MEF .fits</em> files</strong>.</div>
 
 ### Task 1 (astrometry)
