@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Results (phase 1)
+title: Results Phase 1 - Detection
 ---
 
 ## Publication of the results 
