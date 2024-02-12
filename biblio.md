@@ -26,7 +26,7 @@ title: Bibliography HCI post-processing
 
 ### Post-processing techniques dedicated to high-contrast imaging ###
 <p style='text-align: justify;'>The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by <a href='https://iopscience.iop.org/article/10.1086/500401/pdf' style="text-decoration:underline;color:slateblue">Marois et al., 2006</a>.</p>
-<p style='text-align: justify;'>In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence <strong>(1)</strong> the astrophysical scene rotates around the optical axis (centred on the target star) following the parallactic angle, while <strong>(2)</strong> the telescope pupil (entrance aperture) remains fixed, meaning that the optical aberrations are kept in the same direction in the field of view during the observation sequence.</p> 
+<p style='text-align: justify;'>In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence <strong>(1)</strong> the astrophysical scene rotates around the optical axis (centred on the target star) following the <a href='https://en.wikipedia.org/wiki/Parallactic_angle' style="text-decoration:underline;color:slateblue">parallactic angle</a>, while <strong>(2)</strong> the telescope pupil (entrance aperture) remains fixed, meaning that the optical aberrations are kept in the same direction in the field of view during the observation sequence.</p> 
 <br>
 <p>The image below summarizes how a typical so-called <em>ADI data set</em> is acquired:</p>
 <p align="center"> 
@@ -68,10 +68,9 @@ title: Bibliography HCI post-processing
 
 
 ### Detection limits & performance assessement ###
-* <i>Confidence level and Sensitivity limits in HCI</i>: [Marois et al., 2007](https://browse.arxiv.org/pdf/0709.3548.pdf)
-* <i>Fundamental limitations of HCI set by small sample statistics</i>: [Mawet et al., 2014](https://browse.arxiv.org/pdf/1407.2247.pdf)
-* <i>A New Standard for assessing the performance of HCI</i>: [Jensen-Clem et al., 2017](https://arxiv.org/pdf/1711.01215.pdf)
-* <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: [Bonse et al., 2023](https://arxiv.org/pdf/1711.01215.pdf)
-
+* <i>Confidence level and Sensitivity limits in HCI</i>: <a href="https://browse.arxiv.org/pdf/0709.3548.pdf" target="_blank">Marois et al., 2007</a>
+* <i>Fundamental limitations of HCI set by small sample statistics</i>: <a href="https://browse.arxiv.org/pdf/1407.2247.pdf" target="_blank">Mawet et al., 2014</a>
+* <i>A New Standard for assessing the performance of HCI</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" target="_blank">Jensen-Clem et al., 2017</a>
+* <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" target="_blank">Bonse et al., 2023</a>
 
 
