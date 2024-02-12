@@ -65,7 +65,7 @@ style="width:100%; height:535px;"></iframe>
 
 ***
 
-<p style='text-align: justify;'>It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the <strong>HCI benchmark library</strong> that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.</p>
+<p style='text-align: justify;'>It is mandatory that the submitted datasets remain <em>secret</em> for the duration of the challenge. After the data challenge is finished, the contributed datasets (without injected companions) will constitute the <strong>HCI benchmark library</strong> that will be made available for the community. This benchmark library will be stored on Zenodo, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms and for publication.</p>
 
 
 ***
