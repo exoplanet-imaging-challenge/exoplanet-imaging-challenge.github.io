@@ -5,9 +5,19 @@ title: Datasets phase 2
 
 <style>
 a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
   color: purple;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 </style>
 
