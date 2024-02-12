@@ -5,8 +5,8 @@ title: Objectives of the Phase 2
 
 
 ## Characterization of exoplanets
-<p style='text-align: justify;'>In the second phase of the <em>Exoplanet Imaging Data Challenge</em>, the focus is exclusively on the <strong>characterization of point-like sources (exoplanets)</strong> within high-contrast images. The provided data are from two ground-based integral field spectrographs: SPHERE-IFS at the Very Large Telescope (ESO, Cerro Paranal, Chile) and GPI at the Gemini-South telescope (Cerro Pachón, Chile). 
-The images provided are coronagraphic multispectral images (with a rather low spectral resolving power, R ~50) taken in pupil tracking mode. 
+<p style='text-align: justify;'>In the second phase of the <em>Exoplanet Imaging Data Challenge</em>, the focus is exclusively on the <strong>characterization of point-like sources (exoplanets)</strong> within high-contrast images. The provided data are from two ground-based integral field spectrographs: <em>SPHERE-IFS</em> at the Very Large Telescope (ESO, Cerro Paranal, Chile) and <em>GPI</em> at the Gemini-South telescope (Cerro Pachón, Chile). 
+The images provided are coronagraphic multispectral images (with a rather low spectral resolving power, R ~50) taken in pupil tracking mode.<br>
 Note that it therefore corresponds to so-called <em>ADI+mSDI</em> data from the phase 1 of the <em>Exoplanet Imaging Data Challenge</em> (see related Tabs).</p>
 
 <br>
