@@ -6,7 +6,7 @@ title: Organization team
 
 ## Contact 
 
-If you have any questions about the data challenge or encounter any issue, please contact us: <exoimg.datachallenge@gmail.com>
+If you have any questions about the data challenge or encounter any issue, please contact us: <a href="mailto:exoimg.datachallenge@gmail.com" style="text-decoration:underline;color:slateblue">exoimg.datachallenge@gmail.com</a>.
 
 ## Data challenge creation team
 
