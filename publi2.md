@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Results Phase 2 - Characterization
+title: Results Phase 2 Characterization
 ---
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -8,7 +8,7 @@ title: Results Phase 2 - Characterization
 
 ## Current results of the Phase 2 (leaderboard)
 
-The table below shows the current algorithms submitted on the EvalAI platform, with the corresponding distance, used as a metric for comparison.
+The table below shows the current algorithms submitted on the <a href="https://eval.ai/web/challenges/challenge-page/1717/" style="text-decoration:underline;color:slateblue">EvalAI</a> platform, with the corresponding distance, used as a metric for comparison.
 
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <div class="w3-container">
@@ -48,15 +48,16 @@ The table below shows the current algorithms submitted on the EvalAI platform, w
 
 ## Publication of the metrics used for the Phase 2 
 
-After setting the second phase of the 'Exoplanet Imaging Data Challenge', we gathered the description of the second phase, the challenge design, the data set available and metrics used to make the comparison in an SPIE conference proceeding. This proceeding is the result of an oral contribution presented at SPIE [Astronomical Telescope + Instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) taking place from the 17h to the 22th of July 2022 in Montréal (Canada). 
+<p  style='text-align: justify;'>After setting the second phase of the <em>Exoplanet Imaging Data Challenge'</em>, we gathered the description of the second phase, the challenge design, the data set available and metrics used to make the comparison in an SPIE conference proceeding. This proceeding is the result of an oral contribution presented at  
+<a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" style="text-decoration:underline;color:slateblue">SPIE Astronomical Telescope + Instrumentation</a> taking place from the 17h to the 22th of July 2022 in Montréal (Canada). </p>
 
-You can find the publication [here](https://arxiv.org/pdf/2209.08120.pdf) (arXiv version). 
+You can find the publication <a href="https://arxiv.org/pdf/2209.08120.pdf" style="text-decoration:underline;color:slateblue">here</a> (arXiv version). 
 
 All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co-authors.
 
 
 ## Publication of the comparison of the Phase 2 
 
-After the deadline set on 31/05/2024, we will compile the result and publish the comparision 
+After the deadline set on **31/05/2024**, we will compile the result and publish the comparision 
 
 All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
