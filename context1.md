@@ -10,7 +10,7 @@ title: Objectives of the Phase 1
 <br>
 
 <p style='text-align: justify;'>
-A multitude of high-contrast imaging post-processing algorithms and pipelines have been developed in the past fifteen years to detect faint planetary signals within astronomical images. <a href='[https://bobbyhadz.com](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)'>Pueyo (2018)</a> offers an ample discussion on the exoplanet detection algorithms proposed in the literature. You may refer to the <a href='https://exoplanet-imaging-challenge.github.io/biblio/'>Bibliography</a> tab for more reference about the latest image processing techniques dedicated to HCI.
+A multitude of high-contrast imaging post-processing algorithms and pipelines have been developed in the past fifteen years to detect faint planetary signals within astronomical images. <a href='[https://bobbyhadz.com](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)' style="text-decoration:underline;color:slateblue">Pueyo (2018)</a> offers an ample discussion on the exoplanet detection algorithms proposed in the literature. You may refer to the <a href='https://exoplanet-imaging-challenge.github.io/biblio/' style="text-decoration:underline;color:slateblue">Bibliography</a> tab for more reference about the latest image processing techniques dedicated to HCI.
 </p>
 
 
