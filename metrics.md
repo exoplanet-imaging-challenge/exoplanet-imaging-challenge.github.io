@@ -3,6 +3,9 @@ layout: page
 title: Metrics and scoreboard
 ---
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 {: .box-note}
 **Codalab competition:** The challenge is hosted on Codalab, please follow this [link](https://competitions.codalab.org/competitions/20693). In order to participate, you must first register as a Codalab user.
 
