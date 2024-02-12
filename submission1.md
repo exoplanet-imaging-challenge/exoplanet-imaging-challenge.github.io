@@ -2,6 +2,7 @@
 layout: page
 title: Submission instructions (phase 1)
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 {: .box-note}
 **CodaLab platform:** To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693).
