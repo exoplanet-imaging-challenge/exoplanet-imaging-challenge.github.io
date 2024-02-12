@@ -3,8 +3,10 @@ layout: page
 title: Datasets phase 1
 ---
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 {: .box-note}
-**Zenodo repository:** The Zenodo repository containing the challenge datasets can be found [here](https://zenodo.org/record/3361544). 
+**Zenodo repository:** The Zenodo repository containing the challenge datasets can be found [here](https://zenodo.org/record/3361544).<br>
 Make sure you get the latest version (v2.0). 
 
 ### Instruments
