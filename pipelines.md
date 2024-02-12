@@ -2,6 +2,7 @@
 layout: page
 title: Pipelines
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <center><i>This page lists the various pipelines to process high-contrast images that are available to the community.</i></center>
 
