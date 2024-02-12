@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Submission instructions (phase 1)
+title: Submission instructions
 ---
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<center><div class="w3-text-red"><h2>Deadline for the <em>Exoplanet Imaging Data Challenge</em> Phase 1: <br> 30th of September 2020</h2></div></center>
+
+
 {: .box-note}
-**CodaLab platform:** To submit your result(s), the competition is held on [CodaLab](https://competitions.codalab.org/competitions/20693).
-
-The exoplanet imaging data challenge will consist of several stages, each one with its own type of submission and metrics. 
+**CodaLab platform:** The results of the Phase 1 (detection) of the <em>Exoplanet Imaging Data Challenge</em> must be submitted on <a href="https://competitions.codalab.org/competitions/20693" style="text-decoration:underline;color:slateblue">CodaLab</a>. 
 
 
-## Stage 1: Deadline 30st of September 2020
-
-For each algorithm, the participants must submit:
+The first phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the detection of point source. 
+For each algorithm, the participants must submit:<br>
 * All the detection maps for each data set (9 for the ADI sub-challenge and 10 for the ADI+mSDI sub-challenge).
 * One detection threshold for all the maps, which is the threshold from which a detection is claimed (1 value per sub-challenge).
-* Optionally, the [FHWM](https://en.wikipedia.org/wiki/Full_width_at_half_maximum) values used for each dataset can be submitted -the FWHM is related to the expected size of a candidate detection - or resolution element - in the detection maps- (9 values for the ADI sub-challenge and 10 values for the ADI+mSDI sub-challenge).
+* Optionally, the <a href="https://en.wikipedia.org/wiki/Full_width_at_half_maximum" style="text-decoration:underline;color:slateblue">FHWM</a> values used for each dataset can be submitted -the FWHM is related to the expected size of a candidate detection - or resolution element - in the detection maps- (9 values for the ADI sub-challenge and 10 values for the ADI+mSDI sub-challenge).
 
 {: .box-note}
 **File format:** Every file must be in **.fits** format.
@@ -30,18 +30,21 @@ One .zip file must be submitted for each sub-challenge (one for ADI and one for 
 {: .box-note}
 **Note:** Each submission must correspond to the results of applying **a single algorithm to all the datasets**. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard). Please keep in mind that a partial submission for a given sub-challenge is possible, but that will penalize the metrics computations and your score. You can make several submissions, even if only one will show up on the competition webpage leaderboard, all of the submissions will be processed off-line.
 
+*** 
+
 ### Potential error message
 
 **Zipping the file:** The zip file must be flat (i.e. without subfolder structure), please consider checking this aspect.
 
-**Space left on device:** This error occurs when a compute worker is full, usually because it has too many docker images. If this happens, we have to contact CodaLab and clean the repository. Please notify us if you encounter such error (<exoimg.datachallenge@gmail.com>).
+**Space left on device:** This error occurs when a compute worker is full, usually because it has too many docker images. If this happens, we have to contact CodaLab and clean the repository. Please notify us if you encounter such error <a href="mailto:exoimg.datachallenge@gmail.com" style="text-decoration:underline;color:slateblue">exoimg.datachallenge@gmail.com</a>.
 
 {: .box-warning}
-**Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
+**Other error message:** Please contact us if you encounter any issue when submitting your results <a href="mailto:exoimg.datachallenge@gmail.com" style="text-decoration:underline;color:slateblue">exoimg.datachallenge@gmail.com</a>.
 
 {: .box-note}
-**Note:** *Please check out the documentation of the [Astropy Python library](http://docs.astropy.org/en/stable/io/fits/) if you want to know more about saving data in FITS format. Optionally, the [VIP Python library]((https://github.com/vortex-exoplanet/VIP)) contains a wrapper (``vip_hci.fits.write_fits()``) of Astropy for saving Python numpy arrays as FITS files.*
+**Note:** *Please check out the documentation of the <a href="http://docs.astropy.org/en/stable/io/fits/" style="text-decoration:underline;color:slateblue">Astropy Python library</a> if you want to know more about saving data in '.fits' file format. Optionally, the  <a href="https://github.com/vortex-exoplanet/VIP" style="text-decoration:underline;color:slateblue">VIP Python library</a> contains a wrapper (``vip_hci.fits.write_fits()``) of Astropy for saving Python numpy arrays as FITS files.*
 
+*** 
 
 ### Example, ADI
 For example, for submitting your results of the 1st sub-challenge (ADI), you must gather the following files in *.zip* format (any name can be used): 
