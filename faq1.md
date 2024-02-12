@@ -2,6 +2,7 @@
 layout: page
 title: F.A.Q  (phase 1)
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 * How can I participate? Where is the competition? Is this working
 > The challenge is hosted on Codalab, a framework for accelerating reproducible computational research used by many researchers in the machine learning and medical imaging communities. You need to follow this [link](https://competitions.codalab.org/competitions/22836) to acces the exoplanet imaging data challenge. If this is your first time on Codalab, please sign up by entering a user name, a password and a valid e-mail address (that's it).  
