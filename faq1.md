@@ -1,6 +1,6 @@
 ---
 layout: page
-title: F.A.Q  (phase 1)
+title: F.A.Q  - Phase 1
 ---
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
