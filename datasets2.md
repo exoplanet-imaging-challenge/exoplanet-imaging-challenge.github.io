@@ -3,6 +3,13 @@ layout: page
 title: Datasets phase 2
 ---
 
+<style>
+a:link {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style>
 
 {: .box-note}
 **Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/6902628). 
@@ -72,11 +79,10 @@ where `transmission_AtmInstr = fitted_stellar_spectrum / model_stellar_spectrum 
 {: .box-note}
 **Training data set:** On the [Zenodo repository](https://zenodo.org/record/6902628) containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the [Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials) containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder /planet_spectra/) to be injected and uses a given stellar spectra (in folder /stellar_spectra/) to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
 
-
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <div class="w3-panel w3-2021-cerulean w3-round-large w3-border">
-  <p> More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. You can also find more information about the data, the reduction and the planet signals injection procedures in the SPIE proceeding published in 2022 (see <a href="https://exoplanet-imaging-challenge.github.io/publi2/">Results</a> Tab).</p>
+  <p> More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. More information about the data, the reduction and the planet signals injection procedure is available in the SPIE proceeding 2022 (see <a href="https://exoplanet-imaging-challenge.github.io/publi2/">Results</a> Tab).</p>
 </div>
 
 
