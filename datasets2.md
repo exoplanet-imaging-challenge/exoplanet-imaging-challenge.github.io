@@ -16,15 +16,6 @@ The provided challenge datasets come from two high-contrast spectro-imagers of t
 There are **4** datasets from SPHERE-IFS and **4** datasets from GPI.<br> 
 The training dataset is from SPHERE-IFS.
 
-#### Observing conditions
-The datasets are taken under various observing conditions, from very favorable to bad, with bright or faint targets (see details below). 
-
-#### Known companions
-<p style='text-align: justify;'> The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angles. This trick preserves the temporal correlation of the starlight residuals, but any pre-existing circumstellar signal is no longer co-aligned after derotation. The opposite parallactic angles are the ones used for the injections and provided with each downloadable dataset.</p>
-
-#### Data pre-reduction / calibration
-<p style='text-align: justify;'>The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract)) and GPI pipelines ([GPIES Data Cruncher](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)). Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).</p>
-
 
 ### Provided data content
 The 8 data set of the data challenge contain the following files (in *.fits* format):
@@ -34,6 +25,10 @@ The 8 data set of the data challenge contain the following files (in *.fits* for
  * ``psf_cube_instID.fits``: Spectral non-coronagraphic image cube of the star (3D array);
  * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors); <br>
  where **inst** is either `sphere` or `gpi` (lower case) and **ID** the index of the data set between 0 and 4.
+
+
+<p style='text-align: justify;'>The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract)) and GPI pipelines ([GPIES Data Cruncher](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)). Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).</p>
+
 
 #### Image center
 <p style='text-align: justify;'>The images (coronagraphic and non-coronagraphics) are within a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.</p>
@@ -45,8 +40,8 @@ Note that the airmass is given as an information, it is not mandatory to take it
 
 
 ### Observing conditions
-
-The table below summarizes the main information about the data set and the observing conditions:
+<p style='text-align: justify;'>The datasets are taken under various observing conditions, from very favorable to bad, with bright or faint targets. 
+The table below summarizes the main information about the data set and the observing conditions:</p>
 
 <iframe 
 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSAXn_qb9ul2Mt458MEUoQfPyg6qyR_ctGkOYjTo73v7YONXpWDLErtDLckinR5E6LVXvWORa0OsBcH/pubhtml?gid=1302786282&single=false"
@@ -54,6 +49,8 @@ style="width:100%; height:290px;"></iframe>
 
 
 ### Injection procedure
+<p style='text-align: justify;'> The 8 target stars contain no known companion candidate. In order to mitigate the impact of a potential astrophysical signal (planet or disk), we performed the injection using the opposite parallactic angles. This trick preserves the temporal correlation of the starlight residuals, but any pre-existing circumstellar signal is no longer co-aligned after derotation. The opposite parallactic angles are the ones used for the injections and provided with each downloadable dataset.</p>
+
 <p style='text-align: justify;'>In each data set we observed from 2 to 3 synthetic exoplanet (point source) signals. Within the SPHERE-IFS images we injected 11 exoplanet signals, and within the GPI data 10 exoplanet signals. 
  <strong>In total there are 21 exoplanet signals to be characterized.</strong></p>
 
