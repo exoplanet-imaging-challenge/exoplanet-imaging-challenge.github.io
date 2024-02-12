@@ -2,29 +2,7 @@
 layout: page
 title: Objectives of the Phase 1 
 ---
-<style>
-a:link {
-  color: purple;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:hover {
-  color: purple;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: purple;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 ## Detection of exoplanets
 <p style='text-align: justify;'>In the first phase of the Exoplanet Imaging Data Challenge, the focus is exclusively on the <strong>detection of point-like sources</strong> (exoplanets) within high-contrast images taken with ground-based telescopes.</p>
