@@ -7,7 +7,8 @@ title: Submission instructions
 <center><div class="w3-text-red"><h2>Deadline for the <em>Exoplanet Imaging Data Challenge</em> Phase 2: <br> 31st of May 2024</h2></div></center>
 
 {: .box-note}
-**EvalAI platform:** To submit your result(s), the competition is held on [EvalAI](https://eval.ai/web/challenges/challenge-page/1717/).
+**EvalAI platform:** The results of the Phase 2 (characterization) of the <em>Exoplanet Imaging Data Challenge</em> must be submitted on <a href="https://eval.ai/web/challenges/challenge-page/1717/" style="text-decoration:underline;color:slateblue">EvalAI</a>. 
+
 
 The second phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the characterization of point source: it consists in performing *two* tasks, each one will have its own type of submission and metrics.
  * For each submission (one submission per algorithm), the participant must provide **one zip file per task**.
