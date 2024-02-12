@@ -6,17 +6,17 @@ title: Datasets phase 2
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 {: .box-note}
-**Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found [here](https://zenodo.org/record/6902628). 
+**Zenodo repository:** The repository containing the 8 challenge datasets and the 1 training dataset can be found <a href="https://zenodo.org/record/6902628" style="text-decoration:underline;color:slateblue">here</a>.
 
 ### Instruments 
 The provided challenge datasets come from two high-contrast spectro-imagers of the latest generation:
 
-* VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
-* Gemini-S/GPI, [Macintosh et al., 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full) 
+* VLT/SPHERE-IFS, <a href="https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF" style="text-decoration:underline;color:slateblue">Beuzit et al., 2019</a>
+* Gemini-S/GPI, <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full" style="text-decoration:underline;color:slateblue">Macintosh et al., 2008</a>
 
 There are **4** datasets from SPHERE-IFS and **4** datasets from GPI. The training dataset is from SPHERE-IFS.
 
-<p style='text-align: justify;'>The data have been pre-reduced by the official IFS <a href="https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract">HC-DC</a> and GPI pipelines <a href="[https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)">GPIES Data Cruncher</a>. Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).</p>
+<p style='text-align: justify;'>The data have been pre-reduced by the official IFS <a href="https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract" style="text-decoration:underline;color:slateblue">HC-DC</a> and GPI pipelines <a href="https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract"  style="text-decoration:underline;color:slateblue">GPIES Data Cruncher</a>. Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).</p>
 
 ### Provided data content
 The 8 data set of the data challenge contain the following files (in *.fits* format):
@@ -51,7 +51,7 @@ style="width:100%; height:290px;"></iframe>
 <p style='text-align: justify;'>In each data set we observed from 2 to 3 synthetic exoplanet (point source) signals. Within the SPHERE-IFS images we injected 11 exoplanet signals, and within the GPI data 10 exoplanet signals. 
  <strong>In total there are 21 exoplanet signals to be characterized.</strong></p>
 
-As shown in the [injection procedure tutorial](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials), based on [VIP pipeline](https://vip.readthedocs.io/en/latest/) procedures, the exoplanet signal injection relies on the following steps:
+As shown in the <a href="https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials" style="text-decoration:underline;color:slateblue">injection procedure tutorial</a>, based on <a href="https://vip.readthedocs.io/en/latest/" style="text-decoration:underline;color:slateblue">VIP pipeline</a> procedures, the exoplanet signal injection relies on the following steps:
 
 * Choosing the subpixel position of the injected planet in the 1st frame of the image cube;
 * Choosing the mean contrast accross wavelengths of the injected planet `mean_contrast_planet`;
@@ -71,11 +71,11 @@ where `transmission_AtmInstr = fitted_stellar_spectrum / model_stellar_spectrum 
 
 
 {: .box-note}
-**Training data set:** On the [Zenodo repository](https://zenodo.org/record/6902628) containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the [Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials) containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder /planet_spectra/) to be injected and uses a given stellar spectra (in folder /stellar_spectra/) to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
+**Training data set:** On the <a href="https://zenodo.org/record/6902628" style="text-decoration:underline;color:slateblue">Zenodo repository</a> containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the <a href="https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials" style="text-decoration:underline;color:slateblue">Github repository</a> containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder '/planet_spectra/') to be injected and uses a given stellar spectra (in folder '/stellar_spectra/') to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
 
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
 <div class="w3-panel w3-2021-cerulean w3-round-large w3-border">
-  <p> More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. More information about the data, the reduction and the planet signals injection procedure is available in the SPIE proceeding 2022 (see <a href="https://exoplanet-imaging-challenge.github.io/publi2/">Results</a> Tab).</p>
+  <p> More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. More information about the data, the reduction and the planet signals injection procedure is available in the SPIE proceeding 2022 (see <a href="https://exoplanet-imaging-challenge.github.io/publi2/" style="text-decoration:underline;color:slateblue">Results</a> Tab).</p>
 </div>
 
 
