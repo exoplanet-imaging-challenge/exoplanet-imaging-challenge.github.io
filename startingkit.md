@@ -2,6 +2,7 @@
 layout: page
 title: Starting kit and extras repository
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <p style='text-align: justify;'>The procedures to inject synthetic planet signals, count detected point sources and generate ROC curves are included in the open source <a href='https://github.com/vortex-exoplanet/VIP'>Vortex Image Processing package</a> for the sake of transparency. Other code related to the data challenge is available at the <a href='https://github.com/carlgogo/exoimaging_challenge_extras'>Data Challenge Extras repository</a>. Here we also share a Python script <mark>DC1_codalab_starting_kit.py</mark> illustrating how to create the outputs to be submitted for participating in the data challenge.</p>
  
