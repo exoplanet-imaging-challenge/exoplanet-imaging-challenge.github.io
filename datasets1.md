@@ -6,11 +6,11 @@ title: Datasets phase 1
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 {: .box-note}
-**Zenodo repository:** The Zenodo repository containing the challenge datasets can be found [here](https://zenodo.org/record/3361544).<br>
+**Zenodo repository:** The Zenodo repository containing the challenge datasets can be found <a href="https://zenodo.org/record/3361544" style="text-decoration:underline;color:slateblue">here</a>.<br>
 Make sure you get the latest version (v2.0). 
 
 ### Instruments
-The datasets used in this data challenge were kindly provided by scientists from several high-contrast imaging instruments (see [Team](https://exoplanet-imaging-challenge.github.io/team/)), and are the result of many years of work from different teams around the globe.
+The datasets used in this data challenge were kindly provided by scientists from several high-contrast imaging instruments (see <a href="https://exoplanet-imaging-challenge.github.io/team/" style="text-decoration:underline;color:slateblue">Team</a>), and are the result of many years of work from different teams around the globe.
 
 *Subchallenge 1:*
 
