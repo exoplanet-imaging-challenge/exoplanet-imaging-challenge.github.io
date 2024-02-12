@@ -2,13 +2,37 @@
 layout: page
 title: Objectives of the Phase 1 
 ---
+<style>
+a:link {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
 
-<center><i>In the first phase of the Exoplanet Imaging Data Challenge, the focus is exclusively on the <strong>detection of point-like sources</strong> (exoplanets) within high-contrast images taken with ground-based telescopes.</i></center>
+
+## Detection of exoplanets
+<p style='text-align: justify;'>In the first phase of the Exoplanet Imaging Data Challenge, the focus is exclusively on the <strong>detection of point-like sources</strong> (exoplanets) within high-contrast images taken with ground-based telescopes.</p>
 
 <br>
 
 <p style='text-align: justify;'>
-A multitude of high-contrast imaging post-processing algorithms and pipelines have been developed in the past fifteen years to detect faint planetary signals within astronomical images. <a href='[https://bobbyhadz.com](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)'>Pueyo (2018)</a> offers an ample discussion on the exoplanet detection algorithms proposed in the literature. You may refer to the <mark>Bibliography</mark> tab for more reference about the latest image processing techniques dedicated to HCI.
+A multitude of high-contrast imaging post-processing algorithms and pipelines have been developed in the past fifteen years to detect faint planetary signals within astronomical images. <a href='[https://bobbyhadz.com](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)'>Pueyo (2018)</a> offers an ample discussion on the exoplanet detection algorithms proposed in the literature. You may refer to the <a href='https://exoplanet-imaging-challenge.github.io/biblio/'>Bibliography</a> tab for more reference about the latest image processing techniques dedicated to HCI.
 </p>
 
 
