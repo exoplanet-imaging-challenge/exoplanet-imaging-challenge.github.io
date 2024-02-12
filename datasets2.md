@@ -13,9 +13,9 @@ The provided challenge datasets come from two high-contrast spectro-imagers of t
 * VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
 * Gemini-S/GPI, [Macintosh et al., 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full) 
 
-There are **4** datasets from SPHERE-IFS and **4** datasets from GPI.<br> 
-The training dataset is from SPHERE-IFS.
+There are **4** datasets from SPHERE-IFS and **4** datasets from GPI. The training dataset is from SPHERE-IFS.
 
+<p style='text-align: justify;'>The data have been pre-reduced by the official IFS <a href="https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract">HC-DC</a> and GPI pipelines <a href="[https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)">GPIES Data Cruncher</a>. Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).</p>
 
 ### Provided data content
 The 8 data set of the data challenge contain the following files (in *.fits* format):
@@ -26,17 +26,13 @@ The 8 data set of the data challenge contain the following files (in *.fits* for
  * ``first_guess_astrometry_instID.fits``: First guess position of the injected signals (between 2 and 3 vectors); <br>
  where **inst** is either `sphere` or `gpi` (lower case) and **ID** the index of the data set between 0 and 4.
 
-
-<p style='text-align: justify;'>The data have been pre-reduced by the official IFS ([SPHERE-DC](https://ui.adsabs.harvard.edu/abs/2017sf2a.conf..347D/abstract)) and GPI pipelines ([GPIES Data Cruncher](https://ui.adsabs.harvard.edu/abs/2017SPIE10400E..26W/abstract)). Our team homogenized the data (centering, cropping etc.) and injected between 2 and 3 synthetic planetary signals in the coronagraphic image cubes (see details below).</p>
-
-
-#### Image center
-<p style='text-align: justify;'>The images (coronagraphic and non-coronagraphics) are within a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.</p>
-
 Note that the airmass is given as an information, it is not mandatory to take it into account within the algorithm used.
+ 
+<p style='text-align: justify;'>
+<strong>Image center:</strong> The images (coronagraphic and non-coronagraphics) are within a frame with an odd number of pixels, centered on the central pixel. If Npix is the dimension of the frame, it means that the center is located at (Npix-1)/2.</p>
 
-#### Astrometry first guess
-<p style='text-align: justify;'>The first guess gives an estimation of the location of the injected planetary signal within a radius of 5 pixels (in case of low SNR). The values are given as the distance (in pixels) from the star (the center of the frame) in cartesian coordinates (x,y). This first guess is given because the task here is not to assess the detection capabilities but the astrometry estimation accuracy. Therefore, one may attempt to extract the astrometry even if their algorithm shows the signal with a very low signal-to-noise ratio.</p>
+<p style='text-align: justify;'>
+<strong>Astrometry first guess:</strong> The first guess gives an estimation of the location of the injected planetary signal within a radius of 5 pixels (in case of low SNR). The values are given as the distance (in pixels) from the star (the center of the frame) in cartesian coordinates (x,y). This first guess is given because the task here is not to assess the detection capabilities but the astrometry estimation accuracy. Therefore, one may attempt to extract the astrometry even if their algorithm shows the signal with a very low signal-to-noise ratio.</p>
 
 
 ### Observing conditions
@@ -72,12 +68,16 @@ where `transmission_AtmInstr = fitted_stellar_spectrum / model_stellar_spectrum 
 
 <p style='text-align: justify;'>No other effect is taken into account for the injection: no other flux temporal variation (intrinsic nor instrumental), no smearing at large separation due to the exposure time, no temporal binning, no off-centering of the star behind the coronagraph during the exposure, no diffraction effect due to the coronagraph at close separation etc.</p>
 
-<p style='text-align: justify;'> <strong>More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. You can also find more information about the data, the reduction and the planet signals injection procedures in the SPIE proceeding published 2022 (see <em>Results</em> Tab). </strong> </p>
 
 {: .box-note}
 **Training data set:** On the [Zenodo repository](https://zenodo.org/record/6902628) containing the data, you will find a data set annoted `sphere0`. This is the training data set (empty of exoplanetary signals). On the [Github repository](https://github.com/exoplanet-imaging-challenge/phase2/tree/main/tutorials) containing the toolkit, you will find a tutorial showing our planet injection procedure within this example SPHERE-IFS data set. This tutorial makes use of 2 planet spectra (in folder /planet_spectra/) to be injected and uses a given stellar spectra (in folder /stellar_spectra/) to compute a mean contrast. This tutorial contains a part to visualise the input data and one to process the data for a quick-look using a full frame ASDI PCA. Feel free to use this training set to refine your algorithm use.
 
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<div class="w3-panel w3-2021-cerulean w3-round-large w3-border">
+  <p> More information (telescope, instrument, coronagraph type, effective telescope diameter, total field rotation, spectral resolving power, central wavelength, exposure time DIT, number of exposures NDIT, pixel scale, seeing etc.) are written in the header, when available. You can also find more information about the data, the reduction and the planet signals injection procedures in the SPIE proceeding published in 2022 (see <a href="https://exoplanet-imaging-challenge.github.io/publi2/">Results</a> Tab).</p>
+</div>
 
 
 *** 
