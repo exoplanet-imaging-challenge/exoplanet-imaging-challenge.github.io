@@ -14,21 +14,23 @@ The datasets used in this data challenge were kindly provided by scientists from
 
 *Subchallenge 1:*
 
-* VLT/SPHERE-IRDIS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
-* Keck/NIRC2, [NIRC2 webpage](https://www2.keck.hawaii.edu/inst/nirc2/)
-* LBT/LMIRCam, [Wilson et al., 2008](https://ui.adsabs.harvard.edu/abs/2008SPIE.7013E..3AW/abstract)
+* VLT/SPHERE-IRDIS, <a href="https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF" style="text-decoration:underline;color:slateblue">Beuzit et al., 2019</a>
+* Keck/NIRC2, <a href="https://www2.keck.hawaii.edu/inst/nirc2/" style="text-decoration:underline;color:slateblue">NIRC2 webpage</a>
+* LBT/LMIRCam, <a href="https://ui.adsabs.harvard.edu/abs/2008SPIE.7013E..3AW/abstract" style="text-decoration:underline;color:slateblue">Wilson et al., 2008</a>
 
 *Subchallenge 2:*
 
-* VLT/SPHERE-IFS, [Beuzit et al., 2019](https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF)
-* Gemini-S/GPI, [Macintosh et al., 2008](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full) 
+* VLT/SPHERE-IFS, <a href="https://ui.adsabs.harvard.edu/link_gateway/2019A%26A...631A.155B/PUB_PDF" style="text-decoration:underline;color:slateblue">Beuzit et al., 2019</a>
+* Gemini-S/GPI, <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7015/1/The-Gemini-Planet-Imager--from-science-to-design-to/10.1117/12.788083.full" style="text-decoration:underline;color:slateblue">Macintosh et al., 2008</a>
 
 <p style='text-align: justify;'>The datasets used in this competition are diverse: from H-band (1.6 mum) to L-band (3.8 mum), broadband/narrowband filters, total range of field rotation, with or without a coronagraph, observing conditions etc. </p>
 
 ### Pre-processing steps
 <p style='text-align: justify;'>The datasets were pre-reduced (calibrated) using the standard pipeline of each instrument. We then applied a few pre-processing procedures on each cube to make sure that the offered data cubes are homogeneous (centering, cropping etc.). All the image of the cubes have been cropped to focus on the innermost 20 lambda/D region.</p>
 
-The data are saved in [FITS](https://en.wikipedia.org/wiki/FITS) files format. A convenient software for quick visualization is [SAOImageDS9](http://ds9.si.edu/site/Download.html). If you use Python and Jupyterlab, you can use the [HCIplot](https://github.com/carlgogo/hciplot/) open-source library for visualizing the cubes. 
+The data are saved in <a href="https://en.wikipedia.org/wiki/FITS" style="text-decoration:underline;color:slateblue"><em>.fits</em></a> files format. 
+A convenient software for quick visualization is <a href="http://ds9.si.edu/site/Download.html" style="text-decoration:underline;color:slateblue">SAOImageDS9</a>. 
+If you use Python and Jupyterlab, you can use the <a href="https://github.com/carlgogo/hciplot/" style="text-decoration:underline;color:slateblue">HCIplot</a> open-source library for visualizing the cubes. 
 
 No additional sorting or temporal binning have been applied. **Users can sort-out the images if they wish**
 
