@@ -12,7 +12,7 @@ title: Submission instructions
 
 The second phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the characterization of point source: it consists in performing *two* tasks, each one will have its own type of submission and metrics.
  * For each submission (one submission per algorithm), the participant must provide **one zip file per task**.
- * In each zip file, <strong>one [MEF](https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html) (multi-extension *.fits* file) file per data set</strong>.
+ * In each zip file, <strong>one <a href="https://docs.astropy.org/en/stable/generated/examples/io/create-mef.html" style="text-decoration:underline;color:slateblue">MEF</a> (multi-extension *.fits* file) file per data set</strong>.
  * <div class="w3-text-red"> In total, the submission consists of <strong>two <em>.zip</em> files</strong>, each consisting of <strong>eight <em>MEF .fits</em> files</strong>.</div>
 
 ### Task 1 (astrometry)
@@ -71,7 +71,7 @@ For example, for submitting your results of the 2nd task (photometry), you must 
 Each file must *at least* contain the 1st dimension with the contrast estimates along each spectral channel, for each candidate, following the order given by the `first_guess_astrometry_instID.fits` file provided with the data sets (and same numpy array format - e.g. 3 rows (ny) of 39 columns (nx) for the spectra of 3 planets). 
 
 {: .box-note}
-**File format:** Every file must be in MEF **.fits** format. In the [EIDC2 Github repository](https://github.com/exoplanet-imaging-challenge/phase2/blob/main/tutorials/tutorial_creation_MEF.ipynb), you will find a short tutorial, as a jupyter notebook, to put your results into a MEF .fits file.
+**File format:** Every file must be in MEF **.fits** format. In the <a href="https://github.com/exoplanet-imaging-challenge/phase2/blob/main/tutorials/tutorial_creation_MEF.ipynb" style="text-decoration:underline;color:slateblue">EIDC2 Github repository</a>, you will find a short tutorial, as a jupyter notebook, to put your results into a MEF .fits file.
 
 {: .box-note}
 **Submission into a .zip file:** All of the 8 MEF .fits files must be submitted within **a single .zip file**, with a flat structure (without subfolder structure, e.g. using the command on Mac > ``zip -r -X -j archive_name.zip folder_to_compress``).
@@ -109,17 +109,16 @@ We then average all the distances *dist_photo* obtained for each of the 21 exopl
 <br>
 <br>
 
-Further analysis of the results will be conducted off-line by our team. The metric used for the phase 2 of the <em>Exoplanet Imaging Data Challenge</em> are published in the proceeding accessible [here](https://arxiv.org/pdf/2209.08120.pdf). <br> 
+Further analysis of the results will be conducted off-line by our team. The metric used for the phase 2 of the <em>Exoplanet Imaging Data Challenge</em> are published in the proceeding accessible <a href="https://arxiv.org/pdf/2209.08120.pdf" style="text-decoration:underline;color:slateblue">here</a>. <br> 
 
-The final comparison results will be published an [SPIE Astronomical telescopes + instrumentation](https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation) conference proceeding in summer 2024.  
-
+The final comparison results will be published an <a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" style="text-decoration:underline;color:slateblue">SPIE Astronomical telescopes + instrumentation</a> conference proceeding in summer 2024.  
 
 *** 
 
 ### Potential error message
 
 {: .box-warning}
-**Other error message:** Please contact us if you encounter any issue when submitting your results <exoimg.datachallenge@gmail.com>.
+**Other error message:** Please contact us if you encounter any issue when submitting your results <a href="mailto:exoimg.datachallenge@gmail.com" style="text-decoration:underline;color:slateblue">exoimg.datachallenge@gmail.com</a>.
 
 *** 
 
