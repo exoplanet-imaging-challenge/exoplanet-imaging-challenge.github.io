@@ -60,17 +60,16 @@ title: Bibliography HCI post-processing
 * Deep-PACO: [Flasseur et al., 2023](https://arxiv.org/pdf/2303.02461.pdf)
 
 #### 5/ Dedicated to extended structure imaging ####
-* NMF: [Ren et al., 2018](https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf)
-* DISK-FM: [Mazoyer et al., 2020](https://arxiv.org/pdf/2012.06790.pdf)
-* MAYONNAISE: [Pairet et al., 2021](https://browse.arxiv.org/pdf/2008.05170.pdf)
-* REXPACO: [Flasseur et al., 2021](https://arxiv.org/pdf/2104.09672.pdf)
-* MUSTARD: [Juillard et al., 2023](https://browse.arxiv.org/pdf/2309.14827.pdf)
-
+* NMF: <a href="https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf" style="text-decoration:underline;color:slateblue">Ren et al., 2018</a>
+* DISK-FM: <a href="https://arxiv.org/pdf/2012.06790.pdf" style="text-decoration:underline;color:slateblue">Mazoyer et al., 2020</a>
+* MAYONNAISE: <a href="https://arxiv.org/pdf/2008.05170.pdf" style="text-decoration:underline;color:slateblue">Pairet et al., 2021</a>
+* REXPACO: <a href="https://arxiv.org/pdf/2104.09672.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2021</a>
+* MUSTARD: <a href="https://browse.arxiv.org/pdf/2309.14827.pdf" style="text-decoration:underline;color:slateblue">Juillard et al., 2023</a>
 
 ### Detection limits & performance assessement ###
-* <i>Confidence level and Sensitivity limits in HCI</i>: <a href="https://browse.arxiv.org/pdf/0709.3548.pdf" target="_blank">Marois et al., 2007</a>
-* <i>Fundamental limitations of HCI set by small sample statistics</i>: <a href="https://browse.arxiv.org/pdf/1407.2247.pdf" target="_blank">Mawet et al., 2014</a>
-* <i>A New Standard for assessing the performance of HCI</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" target="_blank">Jensen-Clem et al., 2017</a>
-* <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" target="_blank">Bonse et al., 2023</a>
+* <i>Confidence level and Sensitivity limits in HCI</i>: <a href="https://browse.arxiv.org/pdf/0709.3548.pdf" style="text-decoration:underline;color:slateblue">Marois et al., 2007</a>
+* <i>Fundamental limitations of HCI set by small sample statistics</i>: <a href="https://browse.arxiv.org/pdf/1407.2247.pdf" style="text-decoration:underline;color:slateblue">Mawet et al., 2014</a>
+* <i>A New Standard for assessing the performance of HCI</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" style="text-decoration:underline;color:slateblue">Jensen-Clem et al., 2017</a>
+* <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" style="text-decoration:underline;color:slateblue">Bonse et al., 2023</a>
 
 
