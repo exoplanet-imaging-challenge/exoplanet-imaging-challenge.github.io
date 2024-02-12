@@ -19,6 +19,6 @@ Point source characterization in high-contrast imaging consists in two tasks: <b
 <br>
 
 <p align="center">
-<img src="/img/Logo_EIDC2.png" alt="EIDC_Phase2" width="400" height="auto%">
+<img src="/img/Logo_EIDC2.png" alt="EIDC_Phase2" width="430" height="auto%">
 </p>
-<small><center><i>The image above summarizes the two tasks of the second phase of the <em>Exoplanet Imaging Data Challenge</em>: in this example, we show the spectrophotometry (left) and astrometry (right) estimated for the planet HR 8799e.</i></center></small>
+<small><center><i>The image above summarizes the two tasks of the second phase of the <em>Exoplanet Imaging Data Challenge</em>: <br> in this example, we show the spectrophotometry (left) and astrometry (right) estimated for the planet HR 8799e.</i></center></small>
