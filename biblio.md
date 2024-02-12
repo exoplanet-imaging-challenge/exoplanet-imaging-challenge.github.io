@@ -16,16 +16,16 @@ title: Bibliography HCI post-processing
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/DIprocessing.png" />
 </p>
-<center><small><i> The images above were acquired with the SPHERE-IRDIS high-contrast instrument installed at the Very Large Telescope (ESO, Chile). The target star is HR 8799 hosting a multiple planetary system. </i></small></center>
+<center><small><i> The images above were acquired with the VLT/SPHERE-IRDIS high-contrast instrument. The target star is HR 8799 hosting a multiple planetary system (four detected). </i></small></center>
 
 ### High-contrast imaging general reviews ###
 
-* <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: [Currie et al., 2023](https://arxiv.org/pdf/2205.05696.pdf)
-* <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: [Follette et al., 2023](https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf)
+* <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: <a href="https://arxiv.org/pdf/2205.05696.pdf" style="text-decoration:underline;color:slateblue">Currie et al., 2023</a>
+* <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: <a href="https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf" style="text-decoration:underline;color:slateblue">Follette et al., 2023</a>
  
 
 ### Post-processing techniques dedicated to high-contrast imaging ###
-<p style='text-align: justify;'>The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by <a href='https://iopscience.iop.org/article/10.1086/500401/pdf'>Marois et al., 2006</a>.</p>
+<p style='text-align: justify;'>The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by <a href='https://iopscience.iop.org/article/10.1086/500401/pdf' style="text-decoration:underline;color:slateblue">Marois et al., 2006</a>.</p>
 <p style='text-align: justify;'>In order to use ADI-based techniques, the images are taken in <em>pupil tracking mode</em> during the observation sequence (usually about an hour of observation, with exposure times ranging from milliseconds to minutes). This observing strategy introduces angular diversity: during the whole observation sequence <strong>(1)</strong> the astrophysical scene rotates around the optical axis (centred on the target star) following the parallactic angle, while <strong>(2)</strong> the telescope pupil (entrance aperture) remains fixed, meaning that the optical aberrations are kept in the same direction in the field of view during the observation sequence.</p> 
 <br>
 <p>The image below summarizes how a typical so-called <em>ADI data set</em> is acquired:</p>
