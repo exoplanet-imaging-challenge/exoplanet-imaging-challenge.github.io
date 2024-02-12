@@ -3,6 +3,9 @@ layout: page
 title: Results Phase 2 - Characterization
 ---
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 ## Current results of the Phase 2 (leaderboard)
 
 The table below shows the current algorithms submitted on the EvalAI platform, with the corresponding distance, used as a metric for comparison.
