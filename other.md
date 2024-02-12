@@ -2,6 +2,7 @@
 layout: page
 title: Other Astronomy Data Challenges
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <i><center>In this section, we list other data challenges (or blind test) related to exoplanet search.</center></i>
 
