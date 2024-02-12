@@ -2,6 +2,7 @@
 layout: page
 title: Short Tutorial Videos
 ---
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <i><center>In this section, you will <strong>soon</strong> find short explanatory videos to better understand high-contrast imaging data and the ressources offered in the Exoplanet Imaging Data Challenge.</center></i>
 
