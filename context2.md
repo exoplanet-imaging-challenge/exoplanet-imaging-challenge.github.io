@@ -10,12 +10,11 @@ The images provided are coronagraphic multispectral images (with a rather low sp
 Note that it therefore corresponds to so-called <em>ADI+mSDI</em> data from the phase 1 of the <em>Exoplanet Imaging Data Challenge</em> (see related Tabs).</p>
 
 <br>
-
 Point source characterization in high-contrast imaging consists in two tasks: <br>
 **(1) Astrometry**, that is to say the accurate position of the point source with respect to the star;<br>
 **(2) Spectrophotometry**, that is to say the contrast (i.e. brightness ratio) of the point source with respect to the star, for each available wavelength of the multispectral cube of images (spectrum).
 
-<p style='text-align: justify;'> When possible, the extracted values should come with <strong>(a)</strong> the corresponding 1-sigma uncertainties, and <strong>(b)</strong> the corresponding posterior distribution used to estimate the value and its uncertainties.</p>
+<p style='text-align: justify;'> When possible, the extracted values should additionnaly come with <strong>(a)</strong> the corresponding 1-sigma uncertainties, and <strong>(b)</strong> the corresponding posterior distribution used to estimate the value and its uncertainties.</p>
 
 <br>
 
