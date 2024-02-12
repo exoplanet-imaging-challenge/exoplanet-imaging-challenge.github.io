@@ -11,7 +11,7 @@ title: Submission instructions
 **CodaLab platform:** The results of the Phase 1 (detection) of the <em>Exoplanet Imaging Data Challenge</em> must be submitted on <a href="https://competitions.codalab.org/competitions/20693" style="text-decoration:underline;color:slateblue">CodaLab</a>. 
 
 
-The first phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the detection of point source. 
+The first phase of the <em>Exoplanet Imaging Data Challenge</em> is focused on the detection of point source.<br>
 For each algorithm, the participants must submit:<br>
 * All the detection maps for each data set (9 for the ADI sub-challenge and 10 for the ADI+mSDI sub-challenge).
 * One detection threshold for all the maps, which is the threshold from which a detection is claimed (1 value per sub-challenge).
