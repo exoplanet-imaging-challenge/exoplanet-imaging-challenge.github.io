@@ -37,34 +37,34 @@ title: Bibliography HCI post-processing
 <br>
 
 #### 1/ Classical Speckle Subtraction techniques ####
-* LOCI: [Lafrenière et al., 2007](https://browse.arxiv.org/pdf/astro-ph/0702697.pdf)
-* KLIP (PCA): [Soummer et al., 2012](https://iopscience.iop.org/article/10.1088/2041-8205/755/2/L28/pdf)
-* SVD (PCA): [Amara & Quanz, 2012](https://browse.arxiv.org/pdf/1207.6637.pdf)
-* NMF: [Ren et al., 2018](https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf)
+* LOCI: <a href="https://arxiv.org/pdf/astro-ph/0702697.pdf" style="text-decoration:underline;color:slateblue">Lafrenière et al., 2007</a>
+* KLIP (PCA): <a href="https://iopscience.iop.org/article/10.1088/2041-8205/755/2/L28/pdf" style="text-decoration:underline;color:slateblue">Soummer et al., 2012</a>
+* SVD (PCA): <a href="https://arxiv.org/pdf/1207.6637.pdf" style="text-decoration:underline;color:slateblue">Amara & Quanz, 2012</a>
+* NMF: <a href="https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf" style="text-decoration:underline;color:slateblue">Ren et al., 2018</a>
 
 #### 2/ Advanced Subtraction techniques ####
-* RSM: [Dahlqvist et al., 2020](https://browse.arxiv.org/pdf/1912.05412.pdf)
-* STIM-map: [Pairet et al., 2019](https://browse.arxiv.org/pdf/1810.06895.pdf)
-* LR-map: [Daglayan et al., 2022](https://arxiv.org/pdf/2210.10609.pdf)
+* RSM: <a href="https://arxiv.org/pdf/1912.05412.pdf" style="text-decoration:underline;color:slateblue">Dahlqvist et al., 2020</a>
+* STIM-map: <a href="(https://arxiv.org/pdf/1810.06895.pdf" style="text-decoration:underline;color:slateblue">Pairet et al., 2019</a>
+* LR-map: <a href="https://arxiv.org/pdf/2210.10609.pdf" style="text-decoration:underline;color:slateblue">Daglayan et al., 2022</a>
 
 #### 3/ Inverse Problem approaches ####
-* ANDROMEDA: [Cantalloube et al., 2015](https://browse.arxiv.org/pdf/1508.06406.pdf) (after [Mugnier et al., 2009](http://laurent.mugnier.free.fr/publis/Mugnier-JOSAA-09.pdf))
-* FMMF: [Ruffio et al., 2017](https://browse.arxiv.org/pdf/1705.05477.pdf) (after [Pueyo et al., 2016](https://iopscience.iop.org/article/10.3847/0004-637X/824/2/117/pdf))
-* PACO: [Flasseur et al., 2018](https://www.aanda.org/articles/aa/pdf/2018/10/aa32745-18.pdf)
-* TRAP: [Samland et al., 2021](https://browse.arxiv.org/pdf/2011.12311.pdf)
+* ANDROMEDA: <a href="https://arxiv.org/pdf/1508.06406.pdf" style="text-decoration:underline;color:slateblue">Cantalloube et al., 2015</a> (after <a href="http://laurent.mugnier.free.fr/publis/Mugnier-JOSAA-09.pdf" style="text-decoration:underline;color:slateblue">Mugnier et al., 2009</a>)
+* FMMF: <a href="https://arxiv.org/pdf/1705.05477.pdf" style="text-decoration:underline;color:slateblue">Ruffio et al., 2017</a> (after <a href="https://iopscience.iop.org/article/10.3847/0004-637X/824/2/117/pdf" style="text-decoration:underline;color:slateblue">Pueyo et al., 2016</a>)
+* PACO: <a href="https://www.aanda.org/articles/aa/pdf/2018/10/aa32745-18.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2018</a>
+* TRAP: <a href="https://arxiv.org/pdf/2011.12311.pdf" style="text-decoration:underline;color:slateblue">Samland et al., 2021</a>
 
 #### 4/ Supervised Machine learning ####
-* SODDIN: [Gomez-Gonzalez et al., 2017](https://arxiv.org/pdf/1712.02841.pdf)
-* NA-SODDIN: [Cantero et al., 2023](https://arxiv.org/pdf/2302.02854.pdf)
-* HSR: [Gebhard et al., 2022](https://arxiv.org/pdf/2204.03439.pdf)
-* Deep-PACO: [Flasseur et al., 2023](https://arxiv.org/pdf/2303.02461.pdf)
+* SODDIN: <a href="https://arxiv.org/pdf/1712.02841.pdf" style="text-decoration:underline;color:slateblue">Gomez-Gonzalez et al., 2017</a>
+* NA-SODDIN: <a href="https://arxiv.org/pdf/2302.02854.pdf" style="text-decoration:underline;color:slateblue">Cantero et al., 2023</a>
+* HSR: <a href="https://arxiv.org/pdf/2204.03439.pdf" style="text-decoration:underline;color:slateblue">Gebhard et al., 2022</a>  
+* Deep-PACO: <a href="https://arxiv.org/pdf/2303.02461.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2023</a>
 
 #### 5/ Dedicated to extended structure imaging ####
 * NMF: <a href="https://iopscience.iop.org/article/10.3847/1538-4357/aaa1f2/pdf" style="text-decoration:underline;color:slateblue">Ren et al., 2018</a>
 * DISK-FM: <a href="https://arxiv.org/pdf/2012.06790.pdf" style="text-decoration:underline;color:slateblue">Mazoyer et al., 2020</a>
 * MAYONNAISE: <a href="https://arxiv.org/pdf/2008.05170.pdf" style="text-decoration:underline;color:slateblue">Pairet et al., 2021</a>
 * REXPACO: <a href="https://arxiv.org/pdf/2104.09672.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2021</a>
-* MUSTARD: <a href="https://browse.arxiv.org/pdf/2309.14827.pdf" style="text-decoration:underline;color:slateblue">Juillard et al., 2023</a>
+* MUSTARD: <a href="https://arxiv.org/pdf/2309.14827.pdf" style="text-decoration:underline;color:slateblue">Juillard et al., 2023</a>
 
 ### Detection limits & performance assessement ###
 * <i>Confidence level and Sensitivity limits in HCI</i>: <a href="https://browse.arxiv.org/pdf/0709.3548.pdf" style="text-decoration:underline;color:slateblue">Marois et al., 2007</a>
