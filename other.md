@@ -24,7 +24,7 @@ This <a href='https://exoplanets.nasa.gov/exep/technology/starshade/' style="tex
 
 
 ### Interferometry Data Challenge ###
-<p style='text-align: justify;'>Every two years, the interferometry community organizes a "beauty contest" at the SPIE Astronomical Telescope and Instrumentation conference. 
+<p style='text-align: justify;'>Every two years, the visible/infrared interferometry community organizes an <a href='http://fmillour.com/index.php/2022/06/02/interferometry-imaging-contests/' style="text-decoration:underline;color:slateblue">Interferometry Imaging Contest</a>, whose results are published during the SPIE Astronomical Telescope and Instrumentation bi-yearly conference. 
 The platform used to distribute and store the data is the <a href='https://www.jmmc.fr/english/tools/data-bases/oidb/' style="text-decoration:underline;color:slateblue">Optical interferometry Database</a> (OiDB), itself a community service from the <a href='https://www.jmmc.fr/' style="text-decoration:underline;color:slateblue">Jean-Marie Mariotti Center</a> (JMMC) gathering numerous ressources about astronomical interferometry in the visible/infrared domain. 
 We invite interested participants to subscribe to the Optical Long Baseline Interferometry News (OLBIN) mailing-list to receive news of the on-going contest.</p>
 
