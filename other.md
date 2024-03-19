@@ -28,6 +28,8 @@ This <a href='https://exoplanets.nasa.gov/exep/technology/starshade/' style="tex
 The platform used to distribute and store the data is the <a href='https://www.jmmc.fr/english/tools/data-bases/oidb/' style="text-decoration:underline;color:slateblue">Optical interferometry Database</a> (OiDB), itself a community service from the <a href='https://www.jmmc.fr/' style="text-decoration:underline;color:slateblue">Jean-Marie Mariotti Center</a> (JMMC) gathering numerous ressources about astronomical interferometry in the visible/infrared domain. 
 We invite interested participants to subscribe to the Optical Long Baseline Interferometry News (OLBIN) mailing-list to receive news of the on-going contest.</p>
 
+<a href="https://www.hq.eso.org/sci/libraries/SPIE2018/10701-103.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2018</a>
+<br>
 <a href="http://fmillour.com/wp-content/uploads/2022/06/SPIE_Beauty_manuscript-1.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2016</a>
 <br>
 <a href="https://ore.exeter.ac.uk/repository/bitstream/handle/10871/22034/The?sequence=1" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2014</a>
@@ -36,11 +38,11 @@ We invite interested participants to subscribe to the Optical Long Baseline Inte
 <br>
 <a href="https://arxiv.org/pdf/1007.4473.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2010</a>
 <br>
-<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7013/70131N/2008-imaging-beauty-contest/10.1117/12.788903.short#_=_" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2008</a>
+<a href="http://fmillour.com/wp-content/uploads/2022/06/12.788903.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2008</a>
 <br>
-<a href="https://www.researchgate.net/profile/Sridharan-Rengaswamy/publication/252071405_2006_Interferometry_Imaging_Beauty_Contest_-_art_no_62681U/links/596867cba6fdcc18ea66e9f9/2006-Interferometry-Imaging-Beauty-Contest-art-no-62681U.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2006</a>
+<a href="http://fmillour.com/wp-content/uploads/2023/11/2006_Contest_62681U.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2006</a>
 <br>
-<a href="https://arxiv.org/pdf/1007.4473.pdf](https://ui.adsabs.harvard.edu/abs/2004AAS...20515318L/abstract" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2004</a>
+<a href="http://fmillour.com/wp-content/uploads/2023/11/2004_Paper_Lawson-SPIE-04.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2004</a>
 
 
 ### ARIEL Data Challenge ###
