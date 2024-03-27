@@ -22,6 +22,7 @@ title: Bibliography HCI post-processing
 
 * <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: <a href="https://arxiv.org/pdf/2205.05696.pdf" style="text-decoration:underline;color:slateblue">Currie et al., 2023</a>
 * <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: <a href="https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf" style="text-decoration:underline;color:slateblue">Follette et al., 2023</a>
+* <i> Peering through SPHERE Images: A Glance at Contrast Limitations</i>: <a href="https://www.eso.org/sci/publications/messenger/archive/no.176-jun19/messenger-no176-25-31.pdf">Cantalloube et al., 2019</a>
  
 
 ### Post-processing techniques dedicated to high-contrast imaging ###
