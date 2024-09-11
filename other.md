@@ -52,6 +52,12 @@ The ARIEL community has launched a number of data challenges, based on simulated
 <a href="https://arielmission.space/index.php/data-challenges/" style="text-decoration:underline;color:slateblue">ARIEL Data Challenge</a>
 
 
+### MUSE Data Challenge ###
+<p style='text-align: justify;'>The MUSE instrument (Multi-Unit Spectroscopic Explorer), installed on the UT4 Nasmyth plateform at the Very Large Telescope, is an assembly of image slicer Integral Field Spectrographs working in the optical domain (465-930nm) with a spectral resolving power of about 3000. The instrument is equipped with an adaptive optics system that can work in various flavours, and enables wide field observations (~1 arcmin square). The instrument is described in <a href="https://arxiv.org/pdf/2211.16795" style="text-decoration:underline;color:slateblue">Bacon et al., 2010</a>. 
+In 2024, the consortium put in place a data challenge directed to the MUSE users community, including two subchallenges related to the data reduction procedure (Flat-fielding and Sky-subtraction): </p>
+
+<a href="https://www.eso.org/sci/meetings/2024/muse24/muse-data-challenge.html" style="text-decoration:underline;color:slateblue">MUSE Data Challenge</a>
+
 
 ### Precursor high-contrast imaging data challenge ###
 In 2012, a group of researcher from the HCI community gathered to organize a <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c5a8255881e2f986860b4802d61e579ed0ea73f1" style="text-decoration:underline;color:slateblue">similar initiative</a> with simulated data of GPI and SPHERE.
