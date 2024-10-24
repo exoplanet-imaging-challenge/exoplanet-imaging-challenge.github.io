@@ -51,7 +51,7 @@ The table below shows the current algorithms submitted on the <a href="https://e
 <p  style='text-align: justify;'>After setting the second phase of the <em>Exoplanet Imaging Data Challenge</em>, we gathered the description of the second phase, the challenge design, the data set available and metrics used to make the comparison in an SPIE conference proceeding. This proceeding is the result of an oral contribution presented at  
 <a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" style="text-decoration:underline;color:slateblue">SPIE Astronomical Telescope + Instrumentation</a> taking place from the 17h to the 22th of July 2022 in Montréal (Canada). </p>
 
-**You can find the SPIE 2022 publication <a href="https://arxiv.org/pdf/2209.08120.pdf" style="text-decoration:underline;color:slateblue">here</a> (arXiv version).** 
+**You can find the SPIE 2022 publication <a href="https://arxiv.org/pdf/2209.08120.pdf" style="text-decoration:underline;color:slateblue">here</a>** (arXiv version). 
 
 All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co-authors.
 
@@ -61,6 +61,6 @@ All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co
 <p  style='text-align: justify;'> After the deadline set on <b>31/05/2024</b>, we compiled the results and published the comparision in an SPIE conference proceeding is the result of an invited oral contribution presented at  
 <a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" style="text-decoration:underline;color:slateblue">SPIE Astronomical Telescope + Instrumentation</a> taking place from the 16th to the 21st of June 2024 in Yokohama (Japan). </p>
 
-**You can find the SPIE 2024 publication <a href="[https://arxiv.org/pdf/2209.08120.pdf](https://arxiv.org/pdf/2410.17636)" style="text-decoration:underline;color:slateblue">here</a> (arXiv version). **
+**You can find the SPIE 2024 publication <a href="[https://arxiv.org/pdf/2209.08120.pdf](https://arxiv.org/pdf/2410.17636)" style="text-decoration:underline;color:slateblue">here</a>** (arXiv version).
 
 All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
