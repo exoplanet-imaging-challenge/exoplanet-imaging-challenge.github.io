@@ -13,7 +13,7 @@ title: Results Phase 2 Characterization
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_data.jpeg" width="800" />
 </p>
-<center><small><i> Left: Residual map obtained after a PCA subtraction using 10 principal components to build the reference image. The two injections, 'planet b' and 'planet c', are highlighted in orange and green. Right: Corresponding 5-sigma detection limits for every spectral channel of SPHERE-IFS and its median (thick line). </i></small></center>
+<center><small><i> Left: Residual map obtained after a PCA subtraction using 10 principal components to build the reference. The two injections, 'planet b' and 'planet c', are highlighted in orange and green. Right: Corresponding 5-sigma detection limits for every spectral channel of SPHERE-IFS and its median (thick line). </i></small></center>
 
 <br>
 
@@ -22,6 +22,9 @@ title: Results Phase 2 Characterization
 </p>
 <center><small><i> Left: Results in terms of astronmetry retrieval using PCA-NEGFC. The position of each data point shows the relative position to the ground truth standing in the middle and the shaded areas correspond to the
 1-sigma uncertainty. Middle and Right:  Results in terms of spectro-photometry estimation using PCA-NEGFC. The top panel shows the extracted spectrum and the corresponding 3-sigma uncertainties. The bottom panel shows the residuals wrt the ground-truth with the 3-sigma uncertainties (shaded area).</i></small></center>
+
+<br>
+
 
 ## Current results of the Phase 2 (leaderboard)
 
