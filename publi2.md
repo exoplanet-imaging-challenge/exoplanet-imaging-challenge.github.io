@@ -20,8 +20,7 @@ title: Results Phase 2 Characterization
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_results.jpeg" />
 </p>
-<center><small><i> Left: Results in terms of astronmetry retrieval using PCA-NEGFC. The position of each data point shows the relative position to the ground truth standing in the middle and the shaded areas correspond to the
-1-sigma uncertainty. Middle and Right:  Results in terms of spectro-photometry estimation using PCA-NEGFC. The top panel shows the extracted spectrum and the corresponding 3-sigma uncertainties. The bottom panel shows the residuals wrt the ground-truth with the 3-sigma uncertainties (shaded area).</i></small></center>
+<center><small><i> Left: Results in terms of astrometry retrieval using PCA-NEGFC. The position of each point shows the relative position with respect to the ground truth (standing in the middle) with its 1-sigma uncertainty (shaded area). Middle and Right:  Results in terms of spectro-photometry estimation using PCA-NEGFC. The top panel shows the extracted spectrum and its corresponding 3-sigma uncertainties. The bottom panel shows the residuals wrt the ground-truth with the 3-sigma uncertainties (shaded area).</i></small></center>
 
 
 <br>
