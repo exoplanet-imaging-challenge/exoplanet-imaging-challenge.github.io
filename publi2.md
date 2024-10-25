@@ -72,7 +72,7 @@ All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
 <p>The images below show the baseline results on the <em>sphere0</em> training data set:</p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_data.jpeg" width="200" />
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_data.jpeg" width=800" />
 </p>
 <center><small><i> Left: Residual map obtained after a PCA subtraction, using 10 principal components to build the reference image. Two injections, dubbed 'planet b' and 'planet c' are highlighted in orange and green respectively. Right: Corresponding 5-sigma detection limits for every spectral channel of SPHERE-IFS and spectral median of these detection limits (thick line). The position of both planets is shown in the plot. </i></small></center>
 
