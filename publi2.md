@@ -23,7 +23,10 @@ title: Results Phase 2 Characterization
 <center><small><i> Left: Results in terms of astronmetry retrieval using PCA-NEGFC. The position of each data point shows the relative position to the ground truth standing in the middle and the shaded areas correspond to the
 1-sigma uncertainty. Middle and Right:  Results in terms of spectro-photometry estimation using PCA-NEGFC. The top panel shows the extracted spectrum and the corresponding 3-sigma uncertainties. The bottom panel shows the residuals wrt the ground-truth with the 3-sigma uncertainties (shaded area).</i></small></center>
 
+
 <br>
+
+
 
 
 ## Current results of the Phase 2 (leaderboard)
@@ -66,6 +69,8 @@ The table below shows the current algorithms submitted on the <a href="https://e
 <div class="w3-text-grey"><small>Last update on February 7th 2024</small></div>
 
 
+
+
 ## Publication of the metrics used for the Phase 2 
 
 <p  style='text-align: justify;'>After setting the second phase of the <em>Exoplanet Imaging Data Challenge</em>, we gathered the description of the second phase, the challenge design, the data set available and metrics used to make the comparison in an SPIE conference proceeding. This proceeding is the result of an oral contribution presented at  
@@ -74,7 +79,11 @@ The table below shows the current algorithms submitted on the <a href="https://e
 **You can find the SPIE 2022 publication <a href="https://arxiv.org/pdf/2209.08120.pdf" style="text-decoration:underline;color:slateblue">here</a>** (arXiv version). 
 
 All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co-authors.
-<br>
+
+
+<br>  
+
+
 
 ## Publication of the comparison of the Phase 2 
 
@@ -84,5 +93,3 @@ All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co
 **You can find the SPIE 2024 publication <a href="[https://arxiv.org/pdf/2209.08120.pdf](https://arxiv.org/pdf/2410.17636)" style="text-decoration:underline;color:slateblue">here</a>** (arXiv version).
 
 All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
-<br>
-
