@@ -6,6 +6,21 @@ title: Results Phase 2 Characterization
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
+## Results of PCA-NEGFC (baseline) on the training set
+
+<p>The images below show the baseline results on the <em>sphere0</em> training data set:</p>
+
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_data.jpeg" width=800" />
+</p>
+<center><small><i> Left: Residual map obtained after a PCA subtraction, using 10 principal components to build the reference image. Two injections, dubbed 'planet b' and 'planet c' are highlighted in orange and green respectively. Right: Corresponding 5-sigma detection limits for every spectral channel of SPHERE-IFS and spectral median of these detection limits (thick line). The position of both planets is shown in the plot. </i></small></center>
+
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_results.jpeg" />
+</p>
+<center><small><i> Left: Results in terms of astronmetry retrieval using PCA-NEGFC. The position of each data point shows the relative position to the ground truth standing in the middle. The shaded areas correspond to the
+1-sigma uncertainty on the astrometry estimation. Middle and Right:  Results in terms of spectro-photometry estimation using PCA-NEGFC. The top panel shows the extracted spectrum and the corresponding 3-sigma uncertainties. The bottom panel shows the residuals wrt the ground-truth with the shaded area corresponding to the 3-sigma uncertainties.</i></small></center>
+
 ## Current results of the Phase 2 (leaderboard)
 
 The table below shows the current algorithms submitted on the <a href="https://eval.ai/web/challenges/challenge-page/1717/" style="text-decoration:underline;color:slateblue">EvalAI</a> platform, with the corresponding distance, used as a metric for comparison.
@@ -66,19 +81,3 @@ All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co
 All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
 <br>
 
-
-### Results of PCA-NEGFC (baseline) on the training set
-
-<p>The images below show the baseline results on the <em>sphere0</em> training data set:</p>
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_data.jpeg" width=800" />
-</p>
-<center><small><i> Left: Residual map obtained after a PCA subtraction, using 10 principal components to build the reference image. Two injections, dubbed 'planet b' and 'planet c' are highlighted in orange and green respectively. Right: Corresponding 5-sigma detection limits for every spectral channel of SPHERE-IFS and spectral median of these detection limits (thick line). The position of both planets is shown in the plot. </i></small></center>
-
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/exoplanet-imaging-challenge/exoplanet-imaging-challenge.github.io/master/img/Phase2_results.jpeg" />
-</p>
-<center><small><i> Left: Results in terms of astronmetry retrieval using PCA-NEGFC. The position of each data point shows the relative position to the ground truth standing in the middle. The shaded areas correspond to the
-1-sigma uncertainty on the astrometry estimation. Middle and Right:  Results in terms of spectro-photometry estimation using PCA-NEGFC. The top panel shows the extracted spectrum and the corresponding 3-sigma uncertainties. The bottom panel shows the residuals wrt the ground-truth with the shaded area corresponding to the 3-sigma uncertainties.</i></small></center>
