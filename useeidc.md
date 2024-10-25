@@ -12,6 +12,8 @@ Please do not hesitate to contact us if your work is missing.</center></i>
 * **NA-SODINN**: <a href="https://arxiv.org/pdf/2302.02854.pdf" style="text-decoration:underline;color:slateblue">Cantero et al., 2023</a>
 * **depp-PACO**: <a href="https://arxiv.org/pdf/2303.02461.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2023</a>
 * **auto-RSM**: <a href="https://arxiv.org/pdf/2109.14318.pdf" style="text-decoration:underline;color:slateblue">Dalhqvist et al.,2021</a>
+* **AMAT**: <a href="https://arxiv.org/pdf/2410.06310.pdf" style="text-decoration:underline;color:slateblue">Daglayan et al.,2024</a>
+
 * **Impacts of high-contrast image processing on atmospheric retrievals**: <a href="https://arxiv.org/pdf/2308.01343.pdf" style="text-decoration:underline;color:slateblue">Nasedkin et al., 2023</a>
 
 
