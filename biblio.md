@@ -22,7 +22,7 @@ title: Bibliography HCI post-processing
 
 * <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: <a href="https://arxiv.org/pdf/2205.05696.pdf" style="text-decoration:underline;color:slateblue">Currie et al., 2023</a>
 * <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: <a href="https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf" style="text-decoration:underline;color:slateblue">Follette et al., 2023</a>
-* <i> Peering through SPHERE Images: A Glance at Contrast Limitations</i>: <a href="https://www.eso.org/sci/publications/messenger/archive/no.176-jun19/messenger-no176-25-31.pdf">Cantalloube et al., 2019</a>
+* <i> Peering through SPHERE Images: A Glance at Contrast Limitations</i>: <a href="https://www.eso.org/sci/publications/messenger/archive/no.176-jun19/messenger-no176-25-31.pdf" style="text-decoration:underline;color:slateblue">Cantalloube et al., 2019</a>
  
 
 ### Post-processing techniques dedicated to high-contrast imaging ###
@@ -47,12 +47,15 @@ title: Bibliography HCI post-processing
 * RSM: <a href="https://arxiv.org/pdf/1912.05412.pdf" style="text-decoration:underline;color:slateblue">Dahlqvist et al., 2020</a>
 * STIM-map: <a href="(https://arxiv.org/pdf/1810.06895.pdf" style="text-decoration:underline;color:slateblue">Pairet et al., 2019</a>
 * LR-map: <a href="https://arxiv.org/pdf/2210.10609.pdf" style="text-decoration:underline;color:slateblue">Daglayan et al., 2022</a>
+* LRPT: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10096197&casa_token=j0vHesuirR4AAAAA:6ponWBU8HQflUzbI9WRctvl47mGC5CcR6nwWann24tVVf1St0JkcIXuDWvsu0LMLILATemOYkJI&tag=1" style="text-decoration:underline;color:slateblue">Vary et al., 2023</a>
+* AMAT: <a href="https://arxiv.org/pdf/2410.06310.pdf" style="text-decoration:underline;color:slateblue">Daglayan et al., 2024</a>
 
 #### 3/ Inverse Problem approaches ####
 * ANDROMEDA: <a href="https://arxiv.org/pdf/1508.06406.pdf" style="text-decoration:underline;color:slateblue">Cantalloube et al., 2015</a> (after <a href="http://laurent.mugnier.free.fr/publis/Mugnier-JOSAA-09.pdf" style="text-decoration:underline;color:slateblue">Mugnier et al., 2009</a>)
 * FMMF: <a href="https://arxiv.org/pdf/1705.05477.pdf" style="text-decoration:underline;color:slateblue">Ruffio et al., 2017</a> (after <a href="https://iopscience.iop.org/article/10.3847/0004-637X/824/2/117/pdf" style="text-decoration:underline;color:slateblue">Pueyo et al., 2016</a>)
 * PACO: <a href="https://www.aanda.org/articles/aa/pdf/2018/10/aa32745-18.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2018</a>
 * TRAP: <a href="https://arxiv.org/pdf/2011.12311.pdf" style="text-decoration:underline;color:slateblue">Samland et al., 2021</a>
+* SNAP: <a href="https://iopscience.iop.org/article/10.3847/1538-3881/abee7d/pdf" style="text-decoration:underline;color:slateblue">Thompson et al., 2021</a>
 
 #### 4/ Supervised Machine learning ####
 * SODDIN: <a href="https://arxiv.org/pdf/1712.02841.pdf" style="text-decoration:underline;color:slateblue">Gomez-Gonzalez et al., 2017</a>
@@ -65,6 +68,7 @@ title: Bibliography HCI post-processing
 * DISK-FM: <a href="https://arxiv.org/pdf/2012.06790.pdf" style="text-decoration:underline;color:slateblue">Mazoyer et al., 2020</a>
 * MAYONNAISE: <a href="https://arxiv.org/pdf/2008.05170.pdf" style="text-decoration:underline;color:slateblue">Pairet et al., 2021</a>
 * REXPACO: <a href="https://arxiv.org/pdf/2104.09672.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2021</a>
+* IADI: <a href="https://www.aanda.org/articles/aa/pdf/2022/12/aa42820-21.pdf" style="text-decoration:underline;color:slateblue">Stapper & Ginksi, 2022</a>
 * MUSTARD: <a href="https://arxiv.org/pdf/2309.14827.pdf" style="text-decoration:underline;color:slateblue">Juillard et al., 2023</a>
 
 ### Detection limits & performance assessement ###
@@ -72,5 +76,4 @@ title: Bibliography HCI post-processing
 * <i>Fundamental limitations of HCI set by small sample statistics</i>: <a href="https://browse.arxiv.org/pdf/1407.2247.pdf" style="text-decoration:underline;color:slateblue">Mawet et al., 2014</a>
 * <i>A New Standard for assessing the performance of HCI</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" style="text-decoration:underline;color:slateblue">Jensen-Clem et al., 2017</a>
 * <i>Robust Detection Limits for HCI in the presence of non-Gaussian noise</i>: <a href="https://arxiv.org/pdf/1711.01215.pdf" style="text-decoration:underline;color:slateblue">Bonse et al., 2023</a>
-
 
