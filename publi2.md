@@ -68,6 +68,9 @@ The table below shows the current algorithms submitted on the <a href="https://e
 <div class="w3-text-grey"><small>Last update on February 7th 2024</small></div>
 
 
+<br>  
+
+
 
 
 ## Publication of the metrics used for the Phase 2 
