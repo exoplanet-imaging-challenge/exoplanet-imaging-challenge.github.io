@@ -9,7 +9,7 @@ title: Short Tutorial Videos
 <br>
 
 ### Sagan Summer Workshop 2024 video ###
-The annual Sagan Summer Workshop 2024 entitled 'Advances in Direct Imaging: From Young Jupiters to Habitable Earths' took place in Pasadena (USA) and online. The program, links to videos and tutorials can be found on the <a href="https://nexsci.caltech.edu/workshop/2024/" style="text-decoration:underline;color:slateblue">dedicated webpage</a>. Below, we point toward review talks of specific interest for the ''Exoplanet Imaging Data Challenge''.
+The annual Sagan Summer Workshop 2024 entitled 'Advances in Direct Imaging: From Young Jupiters to Habitable Earths' took place in Pasadena (USA) and online. The program, links to videos and tutorials can be found on the <a href="https://nexsci.caltech.edu/workshop/2024/" style="text-decoration:underline;color:slateblue">dedicated webpage</a>. Below, we point toward review talks of specific interest for the *Exoplanet Imaging Data Challenge*.
 
 * <a href="https://www.youtube.com/watch?v=0v4q6VN4b9M" style="text-decoration:underline;color:slateblue">Pre-processing of high-contrast imaging</a>, by R. De Rosa (ESO)
 * <a href="https://www.youtube.com/watch?v=db3Hl7rCEaw&feature=youtu.be" style="text-decoration:underline;color:slateblue">Post-processing for high-contrast imaging</a>, by F. Cantalloube (CNRS/IPAG)
