@@ -92,6 +92,6 @@ All members of the Exoplanet Imaging Data Challenge Phase 2 working group are co
 <p  style='text-align: justify;'> After the deadline set on 31/05/2024, we compiled the results and published the comparision in an SPIE conference proceeding is the result of an invited oral contribution presented at  
 <a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" style="text-decoration:underline;color:slateblue">SPIE Astronomical Telescope + Instrumentation</a> taking place from the 16th to the 21st of June 2024 in Yokohama (Japan). </p>
 
-**You can find the SPIE 2024 publication <a href="[https://arxiv.org/pdf/2209.08120.pdf](https://arxiv.org/pdf/2410.17636)" style="text-decoration:underline;color:slateblue">here</a>** (arXiv version).
+**You can find the SPIE 2024 publication <a href="https://arxiv.org/pdf/2410.17636.pdf" style="text-decoration:underline;color:slateblue">here</a>** (arXiv version).
 
 All participants to the Exoplanet Imaging Data Challenge Phase 2 are co-authors.
