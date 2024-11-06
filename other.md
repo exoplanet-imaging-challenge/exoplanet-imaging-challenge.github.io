@@ -58,6 +58,10 @@ In 2024, the consortium put in place a data challenge directed to the MUSE users
 
 <a href="https://www.eso.org/sci/meetings/2024/muse24/muse-data-challenge.html" style="text-decoration:underline;color:slateblue">MUSE Data Challenge</a>
 
+### SKA Data Challenges ###
+<p style='text-align: justify;'> The Square Kilometer Array Observatory (<a href='https://www.skao.int/en' style="text-decoration:underline;color:slateblue">SKAO</a>), is an international radio telescope project currently under construction in Australia (for the low-frequency) and South Africa (for the mid-frequency), constituted if receiving stations extending over a few thousands of kilometers baselines to provide the highest-resolution images in the field of radioastronomy. Since 2019, the SKAO science team organizes a data challenge in 4 phases, constituted of both real data from currently operating radio facilities and of simulated SKA data, in order to prepare the commissionning of the instruments and optimize the exploitation of its produces data:  </p>
+<a href="https://www.skao.int/en/science-users/160/data-challenges style="text-decoration:underline;color:slateblue">SKA Data Challenges</a>
+
 
 ### Precursor high-contrast imaging data challenge ###
 In 2012, a group of researcher from the HCI community gathered to organize a <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c5a8255881e2f986860b4802d61e579ed0ea73f1" style="text-decoration:underline;color:slateblue">similar initiative</a> with simulated data of GPI and SPHERE.
