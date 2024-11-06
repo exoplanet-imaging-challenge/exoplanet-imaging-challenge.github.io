@@ -60,7 +60,8 @@ In 2024, the consortium put in place a data challenge directed to the MUSE users
 
 ### SKA Data Challenges ###
 <p style='text-align: justify;'> The Square Kilometer Array Observatory (<a href='https://www.skao.int/en' style="text-decoration:underline;color:slateblue">SKAO</a>), is an international radio telescope project currently under construction in Australia (for the low-frequency) and South Africa (for the mid-frequency), constituted if receiving stations extending over a few thousands of kilometers baselines to provide the highest-resolution images in the field of radioastronomy. Since 2019, the SKAO science team organizes a data challenge in 4 phases, constituted of both real data from currently operating radio facilities and of simulated SKA data, in order to prepare the commissionning of the instruments and optimize the exploitation of its produces data:  </p>
-<a href="https://www.skao.int/en/science-users/160/data-challenges style="text-decoration:underline;color:slateblue">SKA Data Challenges</a>
+
+<a href="https://www.skao.int/en/science-users/160/data-challenges" style="text-decoration:underline;color:slateblue">SKA Data Challenges</a>
 
 
 ### Precursor high-contrast imaging data challenge ###
