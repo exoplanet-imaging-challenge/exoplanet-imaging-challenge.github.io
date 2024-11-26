@@ -40,6 +40,8 @@ navbar-links:
     - Results: "publi2" #publication et poster
     - Toolkits: "tool2"
     - F.A.Q: "faq2"
+  Phase#3:
+    - Objectives: "context3" #description et motivation, includes subchallenges
   Bibliography:
     - 3' videos: "video"
     - Algorithms: "biblio"
