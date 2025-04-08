@@ -20,8 +20,10 @@ title: Bibliography HCI post-processing
 
 ### High-contrast imaging general reviews ###
 
+* <i> High-Contrast Imaging: Hide and Seek with Exoplanets</i>: <a href="https://arxiv.org/pdf/2501.07976" style="text-decoration:underline;color:slateblue">Claudi & Mesa, 2025</a>
+* <i> Direct imaging of exoplanets</i>: <a href="https://arxiv.org/pdf/2404.05797" style="text-decoration:underline;color:slateblue">Zurlo, 2024</a>
 * <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: <a href="https://arxiv.org/pdf/2205.05696.pdf" style="text-decoration:underline;color:slateblue">Currie et al., 2023</a>
-* <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: <a href="https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf" style="text-decoration:underline;color:slateblue">Follette et al., 2023</a>
+* <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: <a href="https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf" style="text-decoration:underline;color:slateblue">Follette, 2023</a>
 * <i> Peering through SPHERE Images: A Glance at Contrast Limitations</i>: <a href="https://www.eso.org/sci/publications/messenger/archive/no.176-jun19/messenger-no176-25-31.pdf" style="text-decoration:underline;color:slateblue">Cantalloube et al., 2019</a>
  
 
