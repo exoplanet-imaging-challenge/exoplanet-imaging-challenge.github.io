@@ -73,6 +73,7 @@ title: Bibliography HCI post-processing
 * REXPACO: <a href="https://arxiv.org/pdf/2104.09672.pdf" style="text-decoration:underline;color:slateblue">Flasseur et al., 2021</a>
 * IADI: <a href="https://www.aanda.org/articles/aa/pdf/2022/12/aa42820-21.pdf" style="text-decoration:underline;color:slateblue">Stapper & Ginksi, 2022</a>
 * MUSTARD: <a href="https://arxiv.org/pdf/2309.14827.pdf" style="text-decoration:underline;color:slateblue">Juillard et al., 2023</a>
+* DI-NMF: <a href="https://arxiv.org/pdf/2310.08589.pdf" style="text-decoration:underline;color:slateblue" >Ren et al., 2023</a>
 
 ### Detection limits & performance assessement ###
 * <i>Confidence level and Sensitivity limits in HCI</i>: <a href="https://browse.arxiv.org/pdf/0709.3548.pdf" style="text-decoration:underline;color:slateblue">Marois et al., 2007</a>
