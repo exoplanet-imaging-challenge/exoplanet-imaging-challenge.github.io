@@ -24,8 +24,9 @@ title: Bibliography HCI post-processing
 * <i> Direct imaging of exoplanets</i>: <a href="https://arxiv.org/pdf/2404.05797" style="text-decoration:underline;color:slateblue">Zurlo, 2024</a>
 * <i> Direct Imaging and Spectroscopy of Extrasolar Planets</i>: <a href="https://arxiv.org/pdf/2205.05696.pdf" style="text-decoration:underline;color:slateblue">Currie et al., 2023</a>
 * <i> An Introduction to High Contrast Differential Imaging of Exoplanets and Disks</i>: <a href="https://iopscience.iop.org/article/10.1088/1538-3873/aceb31/pdf" style="text-decoration:underline;color:slateblue">Follette, 2023</a>
+* <i> Imaging exoplanets with coronagraphic instruments</i>: <a href="https://comptes-rendus.academie-sciences.fr/physique/item/10.5802/crphys.133.pdf" style="text-decoration:underline;color:slateblue">Galicher & Mazoyer, 2023</a>
 * <i> Peering through SPHERE Images: A Glance at Contrast Limitations</i>: <a href="https://www.eso.org/sci/publications/messenger/archive/no.176-jun19/messenger-no176-25-31.pdf" style="text-decoration:underline;color:slateblue">Cantalloube et al., 2019</a>
- 
+
 
 ### Post-processing techniques dedicated to high-contrast imaging ###
 <p style='text-align: justify;'>The paper presented below correspond to data processing based on Angular Differential Imaging (ADI). The concept of ADI applied to high-contrast imaging has been introduced by <a href='https://iopscience.iop.org/article/10.1086/500401/pdf' style="text-decoration:underline;color:slateblue">Marois et al., 2006</a>.</p>
