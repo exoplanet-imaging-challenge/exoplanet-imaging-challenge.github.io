@@ -60,6 +60,5 @@ If you have any questions about the data challenge or encounter any issue, pleas
 * Elena Muolo (Unige, Switzerland)
 * Nitya Pandey (University of Chile, Chile)
 * Sébastien Piérard (ULiege, Belgium)
-* Sophia Stasevic (CRAL, France)
 * Claudia Toci (Sevilla University, Spain)
 * Marc Van Droogenbroeck (ULiege, Belgium)
