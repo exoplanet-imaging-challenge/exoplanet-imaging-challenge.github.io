@@ -28,6 +28,9 @@ This <a href='https://exoplanets.nasa.gov/exep/technology/starshade/' style="tex
 The platform used to distribute and store the data is the <a href='https://www.jmmc.fr/english/tools/data-bases/oidb/' style="text-decoration:underline;color:slateblue">Optical interferometry Database</a> (OiDB), itself a community service from the <a href='https://www.jmmc.fr/' style="text-decoration:underline;color:slateblue">Jean-Marie Mariotti Center</a> (JMMC) gathering numerous ressources about astronomical interferometry in the visible/infrared domain. 
 We invite interested participants to subscribe to the Optical Long Baseline Interferometry News (OLBIN) mailing-list to receive news of the on-going contest.</p>
 
+
+<a href="https://www.juliendrevon.ch/#spie2026" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2026</a>
+<br>
 <a href="https://www.hq.eso.org/sci/libraries/SPIE2018/10701-103.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2018</a>
 <br>
 <a href="http://fmillour.com/wp-content/uploads/2022/06/SPIE_Beauty_manuscript-1.pdf" style="text-decoration:underline;color:slateblue">Interferometry Beauty Contest 2016</a>
